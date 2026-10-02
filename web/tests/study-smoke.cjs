@@ -34,9 +34,11 @@ context.globalThis = context;
 vm.createContext(context);
 
 [
-  "vendor/ts-fsrs-5.4.2.umd.js", "supabase-config.js", "data/tests.js", "data/errors.js", "data/weak-topics.js",
-  "data/theory.js", "data/vocabulary.js", "data/quiz.js", "data/study.js", "study-engine.js", "cloud-sync.js", "app.js"
+  "vendor/ts-fsrs-5.4.2.umd.js", "data/tests.js", "data/errors.js", "data/weak-topics.js",
+  "data/theory.js", "data/vocabulary.js", "data/quiz.js", "data/study.js", "study-engine.js"
 ].forEach(file => vm.runInContext(fs.readFileSync(path.join(webRoot, file), "utf8"), context, { filename: file }));
+context.part5SupabaseConfig = { url: "", publishableKey: "", recordId: "primary" };
+["cloud-sync.js", "app.js"].forEach(file => vm.runInContext(fs.readFileSync(path.join(webRoot, file), "utf8"), context, { filename: file }));
 
 const data = context.part5Data;
 assert.strictEqual(data.flashcards.length, 50);
