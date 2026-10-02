@@ -1,0 +1,13 @@
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local dependencies, logs and temporary output
+node_modules/
+*.log
+qa-*.png
+.tmp/
+dist/
+

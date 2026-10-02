@@ -1,0 +1,19 @@
+{
+  "name": "TOEIC Part 5 · Sổ tay tự học",
+  "short_name": "TOEIC P5",
+  "description": "Kho kiến thức, sổ lỗi và tiến trình ôn TOEIC Part 5 cá nhân.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#17283d",
+  "icons": [
+    {
+      "src": "icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "toeic-part5-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web tự học TOEIC Part 5 hoạt động offline và lưu tiến trình trên thiết bị.",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node web/tests/data-integrity.cjs && node web/tests/study-smoke.cjs",
+    "check": "node --check web/app.js && node --check web/study-engine.js && node --check web/sw.js && npm run test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

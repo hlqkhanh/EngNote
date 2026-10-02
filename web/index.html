@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hệ thống ôn tập TOEIC Part 5 theo lỗi sai cá nhân">
+  <meta name="theme-color" content="#17283d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
+  <title>TOEIC Part 5 · Sổ tay tự học</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" data-page="mistakes" aria-label="Trang phân tích lỗi">
+        <span class="brand-icon">P5</span>
+        <span><b>Error Book</b><small>TOEIC · Personal review</small></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Nội dung ôn tập">
+        <button class="nav-link is-active" data-page="mistakes">
+          <span class="nav-icon">01</span><span><b>Sổ tay điểm yếu</b><small id="mistakeNavMeta">Đang tải dữ liệu…</small></span>
+        </button>
+        <button class="nav-link" data-page="theory">
+          <span class="nav-icon">02</span><span><b>Lý thuyết đầy đủ</b><small>Kiến thức từ mọi câu</small></span>
+        </button>
+        <button class="nav-link" data-page="vocabulary">
+          <span class="nav-icon">03</span><span><b>Từ vựng</b><small>Collocation cần nhớ</small></span>
+        </button>
+        <button class="nav-link" data-page="practice">
+          <span class="nav-icon">04</span><span><b>Luyện nhanh</b><small>Kiểm tra lại lỗi cũ</small></span>
+        </button>
+        <button class="nav-link" data-page="progress">
+          <span class="nav-icon">05</span><span><b>Tiến trình</b><small>Ôn tập · sao lưu dữ liệu</small></span>
+        </button>
+      </nav>
+
+      <section class="side-summary" aria-label="Tiến độ ôn tập">
+        <div><span>Đã nắm chắc</span><strong id="masteredText">0 / 0</strong></div>
+        <div class="meter"><span id="masteredBar"></span></div>
+        <p>Chỉ đánh dấu sau khi bạn tự giải thích được quy tắc.</p>
+      </section>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <button class="menu-btn" id="menuBtn" aria-label="Mở menu">☰</button>
+        <div class="breadcrumb"><span>TOEIC Part 5</span><b id="pageName">Sổ tay điểm yếu</b></div>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <span class="sr-only">Tìm kiếm</span>
+          <input id="searchInput" type="search" placeholder="Tìm: ahead of, câu 101, giới từ...">
+          <kbd>Ctrl K</kbd>
+        </label>
+        <button class="install-btn is-hidden" id="installBtn" type="button">Cài ứng dụng</button>
+      </header>
+
+      <main id="app" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <input class="sr-only" id="studyImportInput" type="file" accept="application/json,.json" aria-label="Chọn file sao lưu tiến độ học">
+  <script src="vendor/ts-fsrs-5.4.2.umd.js"></script>
+  <script src="data/tests.js"></script>
+  <script src="data/errors.js"></script>
+  <script src="data/weak-topics.js"></script>
+  <script src="data/theory.js"></script>
+  <script src="data/vocabulary.js"></script>
+  <script src="data/quiz.js"></script>
+  <script src="data/study.js"></script>
+  <script src="study-engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

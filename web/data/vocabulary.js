@@ -1,0 +1,73 @@
+window.part5Data = window.part5Data || {};
+
+window.part5Data.vocabGroups = [
+  { title: "Công việc & hành chính", items: [
+    ["employee satisfaction survey", "khảo sát mức độ hài lòng của nhân viên", "comment on the results"],
+    ["supplier order", "đơn hàng nhà cung cấp", "review supplier orders"],
+    ["revised vendor agreement", "thỏa thuận nhà cung cấp đã sửa đổi", "outline new terms"],
+    ["distribute weekly shifts", "phân bổ ca làm hằng tuần", "distribute efficiently"],
+    ["senior operator", "nhân viên vận hành cấp cao", "operator on duty"],
+    ["productive habits", "thói quen hiệu quả", "develop productive habits"],
+    ["professional references", "người giới thiệu nghề nghiệp", "provide three references"],
+    ["decide on a vendor", "quyết định chọn nhà cung cấp", "decide on a final vendor"],
+    ["status update", "bản cập nhật tình trạng/tiến độ", "receive a status update"],
+    ["oversee the opening", "giám sát việc khai trương", "oversee the opening of a branch"],
+    ["product line", "dòng/danh mục sản phẩm", "vary a product line"],
+    ["seek ways to reduce", "tìm cách giảm", "seek new ways to reduce waste"],
+    ["calculate remaining inventory", "tính lượng tồn kho còn lại", "automatically calculate inventory"],
+    ["increase productivity", "tăng năng suất", "increase the productivity of systems"],
+    ["role in obtaining", "vai trò trong việc đạt được", "a role in obtaining a contract"],
+    ["cooperative agreement", "thỏa thuận hợp tác", "begin a cooperative agreement"],
+    ["parking restrictions", "quy định/hạn chế đỗ xe", "new parking restrictions"],
+    ["commercial supplier", "nhà cung cấp thương mại", "a nearby commercial supplier"]
+  ]},
+  { title: "Dịch vụ & sự kiện", items: [
+    ["submit a checkout request", "gửi yêu cầu trả phòng", "submit directly through an app"],
+    ["guided tour", "chuyến tham quan có hướng dẫn", "exchange a pass for a tour"],
+    ["confirm attendance", "xác nhận tham dự", "confirm attendance before class"],
+    ["complimentary shuttle", "xe đưa đón miễn phí", "operate throughout the fair"],
+    ["first-time member", "thành viên lần đầu", "useful to first-time members"],
+    ["recreational amenities", "tiện nghi giải trí", "a selection of amenities"],
+    ["customer loyalty program", "chương trình khách hàng thân thiết", "launch a loyalty program"],
+    ["after which", "sau đó/sau sự việc ấy", "clause, after which + S + V"],
+    ["the final shop", "cửa hàng cuối cùng còn lại", "the final antique shop"],
+    ["the spread of viruses", "sự phát tán virus", "stop the spread of computer viruses"],
+    ["absorb water", "hấp thụ nước", "rain gardens absorb water"],
+    ["wish to sell", "muốn bán", "residents who wish to sell"],
+    ["diagnostic fee", "phí kiểm tra/chẩn đoán", "pay a diagnostic fee"]
+  ]},
+  { title: "Thời hạn & quy trình", items: [
+    ["posted due date", "hạn đã được niêm yết", "ahead of the due date"],
+    ["parking permit expires", "giấy phép đỗ xe hết hạn", "expire at midnight"],
+    ["under review", "đang được xem xét", "the permit is under review"],
+    ["parts and labor costs", "chi phí phụ tùng và nhân công", "an estimate of costs"],
+    ["within five business days", "trong vòng năm ngày làm việc", "process a refund within five days"],
+    ["reductions in costs", "sự giảm chi phí", "noticeable reductions in costs"],
+    ["role in a division", "vai trò trong một bộ phận", "a supervisory role in sales"],
+    ["with any certainty", "một cách chắc chắn", "cannot predict with certainty"],
+    ["give approval so that", "phê duyệt để", "give approval so that work can proceed"],
+    ["despite the high cost", "bất chấp chi phí cao", "purchase despite the high cost"],
+    ["fixed-price assurance", "sự bảo đảm giá cố định", "offer a fixed-price assurance"],
+    ["rather than", "thay vì", "daily rather than weekly"]
+  ]},
+  { title: "Collocation cần thuộc", items: [
+    ["drag on for months", "kéo dài lê thê nhiều tháng", "finally reopen"],
+    ["automatic reminder", "lời nhắc tự động", "receive reminders"],
+    ["positive review", "đánh giá tích cực", "note positive reviews"],
+    ["safety guidelines", "hướng dẫn an toàn", "clearly explain guidelines"],
+    ["set garments aside", "để riêng quần áo", "set aside for pickup"],
+    ["sharp decline", "sự sụt giảm mạnh", "declines in a sector"],
+    ["seasonal demand", "nhu cầu theo mùa", "demand is strongly seasonal"],
+    ["surprisingly compact", "nhỏ gọn đáng ngạc nhiên", "a surprisingly compact exterior"],
+    ["seldom wait long", "hiếm khi phải chờ lâu", "guests seldom wait long"],
+    ["many years leading organizations", "nhiều năm lãnh đạo tổ chức", "her many years leading organizations"],
+    ["carefully consider", "xem xét cẩn thận", "carefully consider each applicant"],
+    ["precisely locate", "định vị chính xác", "precisely locate minerals"],
+    ["financially responsible", "hợp lý về mặt tài chính", "be financially responsible"],
+    ["actively solicit feedback", "chủ động thu thập phản hồi", "solicit feedback from customers"],
+    ["compensate for a lack", "bù đắp sự thiếu hụt", "compensate for little experience"],
+    ["neither got the job", "không ai trong hai được nhận", "neither + singular verb"],
+    ["study diligently", "học chăm chỉ", "study diligently at school"],
+    ["with great dedication", "với sự tận tâm lớn", "work with great dedication"]
+  ]}
+];
