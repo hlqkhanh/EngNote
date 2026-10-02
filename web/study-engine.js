@@ -98,6 +98,7 @@
 
   function saveProgress() {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)); } catch {}
+    window.part5NotifyChange?.();
   }
 
   function sourceMatches(item, selectedTestIds) {

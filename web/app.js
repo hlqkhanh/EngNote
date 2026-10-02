@@ -31,7 +31,10 @@ function readMastered() {
       .filter(id => errors.some(error => error.id === id));
   } catch { return []; }
 }
-function saveMastered(set) { try { localStorage.setItem("part5-mastered", JSON.stringify([...set])); } catch {} }
+function saveMastered(set) {
+  try { localStorage.setItem("part5-mastered", JSON.stringify([...set])); } catch {}
+  window.part5NotifyChange?.();
+}
 
 function readTestFilter() {
   const all = testCatalog.map(test => test.id);
@@ -41,7 +44,10 @@ function readTestFilter() {
     return new Set(valid.length ? valid : all);
   } catch { return new Set(all); }
 }
-function saveTestFilter(set) { try { localStorage.setItem("part5-test-filter", JSON.stringify([...set])); } catch {} }
+function saveTestFilter(set) {
+  try { localStorage.setItem("part5-test-filter", JSON.stringify([...set])); } catch {}
+  window.part5NotifyChange?.();
+}
 
 const initialTestFilter = readTestFilter();
 const state = {
@@ -384,6 +390,22 @@ function progressForTopic(topic) {
   return { ...stats, attempts: attempts.length, correct, errors: scopedErrors.length, mastered };
 }
 
+function cloudStatusMarkup() {
+  const cloud = window.part5CloudSync;
+  const status = cloud?.getStatus() || { state: "local", label: "Đang lưu trên thiết bị", detail: "Supabase chưa sẵn sàng." };
+  return `<div class="save-status cloud-${esc(status.state)}" id="cloudSyncStatus"><span class="save-dot" aria-hidden="true"></span><div><strong>${esc(status.label)}</strong><small>${esc(status.detail)}</small></div><button class="secondary-btn" type="button" data-cloud-sync ${cloud?.configured ? "" : "disabled"}>Đồng bộ ngay</button></div>`;
+}
+
+function updateCloudStatus(status) {
+  const box = document.getElementById("cloudSyncStatus");
+  if (!box) return;
+  box.className = `save-status cloud-${status.state}`;
+  const label = box.querySelector("strong");
+  const detail = box.querySelector("small");
+  if (label) label.textContent = status.label;
+  if (detail) detail.textContent = status.detail;
+}
+
 function renderProgress() {
   const rows = weakTopics
     .map(topic => ({ topic, stats: progressForTopic(topic) }))
@@ -399,8 +421,8 @@ function renderProgress() {
   }), { cards: 0, learned: 0, due: 0, attempts: 0, correct: 0, errors: 0, mastered: 0 });
   const accuracy = totals.attempts ? Math.round(totals.correct / totals.attempts * 100) : 0;
   const mastery = totals.errors ? Math.round(totals.mastered / totals.errors * 100) : 0;
-  return `${heading("Tiến trình học", "Mọi hoạt động học được lưu ngay trên thiết bị.", "Theo dõi flashcard, quiz và các lỗi đã nắm chắc. Hãy xuất bản sao lưu khi đổi máy hoặc trình duyệt.")}
-    <div class="save-status"><span class="save-dot" aria-hidden="true"></span><div><strong>Tự động lưu đang bật</strong><small>FSRS, lịch sử quiz, bộ lọc và trạng thái nắm chắc được lưu trong trình duyệt này.</small></div></div>
+  return `${heading("Tiến trình học", "Tự động lưu và đồng bộ giữa các thiết bị.", "Theo dõi flashcard, quiz và các lỗi đã nắm chắc. localStorage vẫn giữ một bản dự phòng khi mất mạng.")}
+    ${cloudStatusMarkup()}
     <section class="progress-overview">
       <article><span>Flashcard đã học</span><strong>${totals.learned}/${totals.cards}</strong><small>${totals.due} thẻ đang đến hạn</small></article>
       <article><span>Quiz đã trả lời</span><strong>${totals.attempts}</strong><small>${accuracy}% chính xác</small></article>
@@ -445,14 +467,18 @@ function toast(text) {
   toast.timer = setTimeout(() => el.classList.remove("show"), 1800);
 }
 
-function exportStudyBackup() {
-  const backup = {
+function makeStudySnapshot() {
+  return {
     schemaVersion: 1,
     exportedAt: new Date().toISOString(),
     study: studyEngine.getProgress(),
     mastered: [...state.mastered],
     testFilter: [...state.appliedTests]
   };
+}
+
+function exportStudyBackup() {
+  const backup = makeStudySnapshot();
   const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
@@ -474,19 +500,24 @@ function validateBackup(backup) {
     && Array.isArray(backup.testFilter) && backup.testFilter.length > 0 && backup.testFilter.every(id => testIds.has(id));
 }
 
+function applyStudySnapshot(backup) {
+  if (!validateBackup(backup)) throw new Error("Dữ liệu tiến độ không đúng schema hoặc chứa ID không hợp lệ.");
+  studyEngine.replaceProgress(backup.study);
+  state.mastered = new Set(backup.mastered);
+  state.appliedTests = new Set(backup.testFilter);
+  state.draftTests = new Set(backup.testFilter);
+  saveMastered(state.mastered);
+  saveTestFilter(state.appliedTests);
+  state.studyMode = "home";
+  render();
+}
+
 async function importStudyBackup(file) {
   try {
     const backup = JSON.parse(await file.text());
     if (!validateBackup(backup)) throw new Error("File không đúng schema hoặc chứa ID không hợp lệ.");
     if (!window.confirm("Nhập bản sao lưu sẽ thay thế toàn bộ tiến độ hiện tại. Tiếp tục?")) return;
-    studyEngine.replaceProgress(backup.study);
-    state.mastered = new Set(backup.mastered);
-    state.appliedTests = new Set(backup.testFilter);
-    state.draftTests = new Set(backup.testFilter);
-    saveMastered(state.mastered);
-    saveTestFilter(state.appliedTests);
-    state.studyMode = "home";
-    render();
+    applyStudySnapshot(backup);
     toast("Đã khôi phục tiến độ từ bản sao lưu.");
   } catch (error) {
     toast(`Không thể nhập: ${error.message}`);
@@ -547,6 +578,10 @@ app.addEventListener("click", event => {
   }
   if (event.target.closest("[data-study-export]")) return exportStudyBackup();
   if (event.target.closest("[data-study-import]")) return document.getElementById("studyImportInput").click();
+  if (event.target.closest("[data-cloud-sync]")) {
+    window.part5CloudSync?.syncNow().then(ok => toast(ok ? "Đồng bộ Supabase hoàn tất." : "Chưa thể đồng bộ; dữ liệu vẫn an toàn trên thiết bị."));
+    return;
+  }
 
   const testAll = event.target.closest("[data-test-all]");
   if (testAll) {
@@ -615,6 +650,11 @@ document.getElementById("studyImportInput").addEventListener("change", event => 
 });
 
 render();
+window.part5CloudSync?.init({
+  getSnapshot: makeStudySnapshot,
+  applySnapshot: async snapshot => applyStudySnapshot(snapshot),
+  onStatus: updateCloudStatus
+});
 
 let installPrompt = null;
 const installButton = document.getElementById("installBtn");

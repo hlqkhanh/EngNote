@@ -1,10 +1,12 @@
-const CACHE_NAME = "toeic-part5-v1";
+const CACHE_NAME = "toeic-part5-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./study-engine.js",
+  "./cloud-sync.js",
+  "./supabase-config.js",
   "./manifest.webmanifest",
   "./icons/app-icon.svg",
   "./vendor/ts-fsrs-5.4.2.umd.js",

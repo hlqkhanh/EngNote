@@ -34,8 +34,8 @@ context.globalThis = context;
 vm.createContext(context);
 
 [
-  "vendor/ts-fsrs-5.4.2.umd.js", "data/tests.js", "data/errors.js", "data/weak-topics.js",
-  "data/theory.js", "data/vocabulary.js", "data/quiz.js", "data/study.js", "study-engine.js", "app.js"
+  "vendor/ts-fsrs-5.4.2.umd.js", "supabase-config.js", "data/tests.js", "data/errors.js", "data/weak-topics.js",
+  "data/theory.js", "data/vocabulary.js", "data/quiz.js", "data/study.js", "study-engine.js", "cloud-sync.js", "app.js"
 ].forEach(file => vm.runInContext(fs.readFileSync(path.join(webRoot, file), "utf8"), context, { filename: file }));
 
 const data = context.part5Data;
@@ -47,7 +47,8 @@ data.weakTopics.forEach(topic => assert.strictEqual(data.topicQuizzes.filter(ite
 assert.match(elements.app.innerHTML, /data-study-topic="weak-prepositions"/);
 
 vm.runInContext('navigate("progress")', context);
-assert.match(elements.app.innerHTML, /Tự động lưu đang bật/);
+assert.match(elements.app.innerHTML, /Đang lưu trên thiết bị/);
+assert.match(elements.app.innerHTML, /data-cloud-sync/);
 assert.match(elements.app.innerHTML, /Tiến trình theo chủ đề/);
 assert.match(elements.app.innerHTML, /Xuất JSON/);
 

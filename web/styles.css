@@ -322,6 +322,20 @@ mark { padding: 1px 3px; color: inherit; background: #ffe596; }
 .save-status strong, .save-status small { display: block; }
 .save-status strong { color: #164c38; font-size: 14px; }
 .save-status small { margin-top: 2px; color: #39715c; font-size: 12px; line-height: 1.5; }
+.save-status > div { min-width: 0; flex: 1; }
+.save-status .secondary-btn { flex: 0 0 auto; }
+.save-status .secondary-btn:disabled { opacity: .5; cursor: not-allowed; }
+.save-status.cloud-local, .save-status.cloud-pending { border-color: #ead19b; background: var(--amber-100); }
+.save-status.cloud-local .save-dot, .save-status.cloud-pending .save-dot { background: var(--amber-700); box-shadow: 0 0 0 5px rgba(156,100,12,.12); }
+.save-status.cloud-local strong, .save-status.cloud-pending strong { color: #714a0e; }
+.save-status.cloud-local small, .save-status.cloud-pending small { color: #80642f; }
+.save-status.cloud-syncing { border-color: #bdd3e7; background: var(--blue-100); }
+.save-status.cloud-syncing .save-dot { background: var(--blue-700); box-shadow: 0 0 0 5px rgba(35,91,147,.12); animation: sync-pulse 1s infinite alternate; }
+.save-status.cloud-error { border-color: #e7bbb6; background: var(--red-100); }
+.save-status.cloud-error .save-dot { background: var(--red-700); box-shadow: 0 0 0 5px rgba(182,61,54,.12); }
+.save-status.cloud-error strong { color: #7e2a26; }
+.save-status.cloud-error small { color: #8b514d; }
+@keyframes sync-pulse { to { opacity: .35; } }
 .progress-overview { margin-bottom: 22px; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; }
 .progress-overview article { padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: #fff; box-shadow: var(--shadow); }
 .progress-overview span, .progress-overview strong, .progress-overview small { display: block; }
@@ -453,6 +467,8 @@ mark { padding: 1px 3px; color: inherit; background: #ffe596; }
   .progress-topics { padding: 16px; }
   .progress-topics > header { align-items: stretch; flex-direction: column; }
   .study-backup { align-items: stretch; flex-direction: column; }
+  .save-status { align-items: stretch; flex-wrap: wrap; }
+  .save-status .secondary-btn { width: 100%; }
   .study-backup-actions, .rating-grid { grid-template-columns: repeat(2,minmax(0,1fr)); display: grid; }
   .flashcard { min-height: 350px; padding: 24px 18px; }
 }
