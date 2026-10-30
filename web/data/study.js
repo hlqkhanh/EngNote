@@ -149,3 +149,98 @@ window.part5Data = window.part5Data || {};
     quiz("weak-pronouns", 10, ["c1t1"], "Which expression means 'những người đang tìm việc' ?", ["them seeking jobs", "their seeking jobs", "those seeking jobs", "theirs seeking jobs"], 2, "Those + V-ing thay cho those who are + V-ing.")
   ];
 })();
+
+// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+window.part5Data.flashcards.push(...[
+  {
+    "id": "weak-wordclass-practice20261030-111",
+    "topicId": "weak-wordclass",
+    "sourceTestIds": [
+      "practice20261030"
+    ],
+    "front": "acceptable sau rate ... as — quy tắc nào cần nhớ?",
+    "back": {
+      "answer": "rate + object + as + adjective",
+      "explanation": "rate something as acceptable = đánh giá là chấp nhận được; accepting = cởi mở/khoan dung.",
+      "example": "A majority of the city's residents rated its transportation app as acceptable.",
+      "trap": "acceptability là danh từ chỉ tính chấp nhận được. acceptance là danh từ chỉ sự chấp nhận. accepting là tính từ mang nghĩa cởi mở/khoan dung, sai nghĩa."
+    },
+    "tags": [
+      "Từ loại",
+      "câu 111"
+    ]
+  },
+  {
+    "id": "weak-context-practice20261030-113",
+    "topicId": "weak-context",
+    "sourceTestIds": [
+      "practice20261030"
+    ],
+    "front": "a financially profitable quarter — quy tắc nào cần nhớ?",
+    "back": {
+      "answer": "financially + adjective + noun",
+      "explanation": "profitable = có lãi; financially bổ nghĩa cho tính từ profitable.",
+      "example": "Frankie's Boutique had a financially profitable quarter after taking measures to reduce costs.",
+      "trap": "plain = đơn giản/bình thường, không diễn tả kết quả tài chính. full = đầy/đủ, không mô tả lợi nhuận. additional = thêm vào, không phù hợp kết quả của giảm chi phí."
+    },
+    "tags": [
+      "Ngữ cảnh",
+      "câu 113"
+    ]
+  },
+  {
+    "id": "weak-context-practice20261030-121",
+    "topicId": "weak-context",
+    "sourceTestIds": [
+      "practice20261030"
+    ],
+    "front": "former director khác formed/formal — quy tắc nào cần nhớ?",
+    "back": {
+      "answer": "former + job title",
+      "explanation": "former = cựu/nguyên; formed = được hình thành; formal = trang trọng/chính thức.",
+      "example": "Ms. Yamada, former director of the Midlands Chamber of Commerce, was recently appointed to the state trade commission.",
+      "trap": "formed là V3 của form, không có nghĩa cựu. formalize là động từ chính thức hóa, không phù hợp vị trí. formality là danh từ nghi thức/thủ tục, sai nghĩa; danh từ có thể bổ nghĩa danh từ ở cấu trúc khác."
+    },
+    "tags": [
+      "Ngữ cảnh",
+      "câu 121"
+    ]
+  },
+  {
+    "id": "weak-wordclass-practice20261030-127",
+    "topicId": "weak-wordclass",
+    "sourceTestIds": [
+      "practice20261030"
+    ],
+    "front": "hold auditions và danh từ đếm được — quy tắc nào cần nhớ?",
+    "back": {
+      "answer": "hold auditions / hold an audition",
+      "explanation": "audition đếm được: số ít cần từ hạn định; auditions số nhiều đứng được không có mạo từ.",
+      "example": "Opal City's Community Theater is holding auditions for its spring production during the first week of December.",
+      "trap": "to audition chỉ mục đích, không làm tân ngữ chỉ sự kiện sau holding ở đây. auditioned là dạng quá khứ/phân từ, không phải danh từ sự kiện. audition số ít cần an hoặc từ hạn định; hold an audition mới đúng."
+    },
+    "tags": [
+      "Từ loại",
+      "câu 127"
+    ]
+  },
+  {
+    "id": "weak-context-practice20261030-128",
+    "topicId": "weak-context",
+    "sourceTestIds": [
+      "practice20261030"
+    ],
+    "front": "so hastily that ... — quy tắc nào cần nhớ?",
+    "back": {
+      "answer": "so + adverb + that + clause",
+      "explanation": "hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp.",
+      "example": "Mr. Kane said he packed so hastily this morning that he forgot to bring a suit and tie for tomorrow's dinner.",
+      "trap": "enormously chỉ mức độ rất lớn, không hợp packed trong ngữ cảnh này. briefly chỉ thời lượng ngắn, không diễn tả rõ sự vội vàng gây bỏ sót. mysteriously = bí ẩn/khó giải thích, không phù hợp quan hệ nguyên nhân."
+    },
+    "tags": [
+      "Ngữ cảnh",
+      "câu 128"
+    ]
+  }
+]);
+window.part5Data.topicQuizzes.find(item => item.id === "weak-wordclass-quiz-07").sourceTestIds.push("practice20261030");

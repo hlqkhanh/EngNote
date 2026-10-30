@@ -121,7 +121,7 @@ function renderMistakes() {
   return `${heading("Sổ tay điểm yếu", "Học lý thuyết trước, chữa lỗi sau.", "Mỗi chương bắt đầu bằng kiến thức tổng quát và bảng cách dùng. Sau khi đọc ví dụ, mở mục cuối chương để xem lại những câu bạn đã làm sai.")}
     <div class="notice"><strong>Cách dùng sổ tay:</strong> đọc phần lý thuyết và tự đặt một ví dụ mới trước. Chỉ sau đó mới mở “Các câu đã làm sai” để kiểm tra cách áp dụng.</div>
     ${renderTestFilter()}
-    <section class="weak-summary"><div class="weak-stat"><span>Chủ đề yếu</span><strong>${topics.length} chủ đề</strong></div><div class="weak-stat"><span>Câu sai đang xem</span><strong>${filteredErrors.length} câu</strong></div><div class="weak-stat"><span>Ưu tiên cao nhất</span><strong>${priority ? `${priority.topic.title} · ${priority.count} câu` : "—"}</strong></div></section>
+    <section class="weak-summary"><div class="weak-stat"><span>Câu đã xử lý</span><strong>${testCatalog.filter(test => state.appliedTests.has(test.id)).reduce((sum, test) => sum + test.questionCount, 0)} câu</strong></div><div class="weak-stat"><span>Chủ đề yếu</span><strong>${topics.length} chủ đề</strong></div><div class="weak-stat"><span>Câu sai đang xem</span><strong>${filteredErrors.length} câu</strong></div><div class="weak-stat"><span>Ưu tiên cao nhất</span><strong>${priority ? `${priority.topic.title} · ${priority.count} câu` : "—"}</strong></div></section>
     ${topics.length ? topics.map((topic,index) => renderWeakTopic(topic,index)).join("") : '<div class="empty">Không tìm thấy chủ đề phù hợp.</div>'}`;
 }
 
@@ -219,7 +219,7 @@ function renderLesson(l) {
 function renderVocabulary() {
   const q = state.query.toLowerCase();
   const groups = vocabGroups.map(g => ({...g, items: g.items.filter(item => !q || item.join(" ").toLowerCase().includes(q) || g.title.toLowerCase().includes(q))})).filter(g => g.items.length);
-  return `${heading("Từ vựng & collocation", "Học theo cụm để chọn đáp án nhanh hơn.", "Mỗi cụm có nghĩa tiếng Việt và mẫu kết hợp tự nhiên. Đây là những cụm đã thực sự xuất hiện trong 90 câu đã xử lý.")}
+  return `${heading("Từ vựng & collocation", "Học theo cụm để chọn đáp án nhanh hơn.", "Mỗi cụm có nghĩa tiếng Việt và mẫu kết hợp tự nhiên. Đây là những cụm từ và cấu trúc đã học trong các bài luyện đã xử lý.")}
     <div class="vocab-groups">${groups.length ? groups.map(g => `<section class="vocab-section"><header class="vocab-heading"><h2>${g.title}</h2><span>${g.items.length} cụm</span></header><table class="vocab-table"><thead><tr><th>Cụm từ</th><th>Nghĩa</th><th>Cách kết hợp</th></tr></thead><tbody>${g.items.map(i => `<tr><td>${highlight(i[0])}</td><td>${highlight(i[1])}</td><td><code>${highlight(i[2])}</code></td></tr>`).join("")}</tbody></table></section>`).join("") : '<div class="empty">Không tìm thấy từ vựng phù hợp.</div>'}</div>`;
 }
 

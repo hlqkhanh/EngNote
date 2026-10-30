@@ -9,13 +9,16 @@ File này chỉ tổng hợp những chủ đề đã xuất hiện trong các c
 | `part5_practise/part5_Collection1_Test 2.md` | 101–130 | 30 | 11 |
 | `part5_practise/part5_Collection1_Test1.md` | 101–130 | 30 | 9 |
 | `part5_practise/part5_parroto_toiec2026_test1.md` | 101–130 | 30 | 15 |
-| **Tổng** |  | **90** | **35** |
+| `part5_practise/part5_practice_2026-10-30.md` | 101–130 | 30 | 5 |
+| **Tổng** |  | **120** | **40** |
+
+Có **80 câu đúng/không được đánh dấu sai**; nhóm này không đồng nghĩa đã thành thạo.
 
 | Chủ đề yếu | Số câu sai | Câu |
 |---|---:|---|
 | Giới từ và cụm giới từ | 12 | Test 2: 101, 102, 105, 109, 110, 121, 126, 129; Test 1: 126, 127; Parroto 2026 Test 1: 101, 117 |
-| Chọn từ theo ngữ cảnh | 13 | Test 2: 106, 119; Test 1: 104, 110; Parroto 2026 Test 1: 102, 103, 111, 113, 114, 115, 119, 125, 129 |
-| Từ loại và họ từ | 3 | Test 2: 124; Test 1: 114; Parroto 2026 Test 1: 112 |
+| Chọn từ theo ngữ cảnh | 16 | Test 2: 106, 119; Test 1: 104, 110; Parroto 2026 Test 1: 102, 103, 111, 113, 114, 115, 119, 125, 129; Bài 30/10/2026: 113, 121, 128 |
+| Từ loại và họ từ | 5 | Test 2: 124; Test 1: 114; Parroto 2026 Test 1: 112; Bài 30/10/2026: 111, 127 |
 | To V và V-ing | 1 | Parroto 2026 Test 1: 122 |
 | Hòa hợp chủ ngữ–động từ | 1 | Test 1: 109 |
 | Mệnh đề | 4 | Test 1: 111, 113; Parroto 2026 Test 1: 118, 128 |
@@ -205,6 +208,9 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 | `compensate` | bù đắp | `compensate for a lack/loss` |
 | `diligently` | chăm chỉ, chuyên cần | `study/work diligently` |
 | `commercial` | thuộc thương mại | `commercial supplier` |
+| `profitable` | có lãi | a financially profitable quarter — reduce costs → lợi nhuận; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 113` |
+| `former` | cựu/nguyên | former director — khác formed, formal và formality; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 121` |
+| `hastily` | vội vàng | pack hastily — so hastily that ... forgot ...; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 128` |
 
 ### Ví dụ mẫu
 
@@ -213,8 +219,12 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - `The inspector thoroughly checked the equipment.`
 - `The technician gave us an estimate of the repair costs.`
 
+- `a financially profitable quarter (câu 113)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
+- `a former director (câu 121)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
+- `pack so hastily that he forgets his suit (câu 128)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
+
 <details>
-<summary><strong>Xem 13 câu đã làm sai về chọn từ</strong></summary>
+<summary><strong>Xem 16 câu đã làm sai về chọn từ</strong></summary>
 
 ### Câu 106 — `finally`
 
@@ -332,6 +342,51 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **Quy tắc chốt:** xác định loại hàng/dịch vụ và chức năng của danh từ trước khi chọn tính từ.
 - **Lý thuyết liên quan:** [PART5_THEORY.md — mục 3.5](PART5_THEORY.md#35-nhận-diện-từ-loại-qua-vị-trí).
 
+### Bài 30/10/2026 — Câu 113: `profitable`
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#113`.
+- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 113.
+- **Đề:** Frankie's Boutique had a financially ------- quarter after taking measures to reduce costs.
+- **Đáp án đúng:** B. **Loại lỗi:** Từ vựng.
+- **Điểm cần ôn:** Điểm cần ôn: profitable = có lãi; financially bổ nghĩa cho tính từ profitable. Không có dữ liệu về phương án người học đã chọn.
+- **Manh mối:** reduce costs → cải thiện lợi nhuận của quý.
+- **A. plain:** plain = đơn giản/bình thường, không diễn tả kết quả tài chính.
+- **B. profitable:** Đúng: profitable = có lãi, phù hợp reduce costs.
+- **C. full:** full = đầy/đủ, không mô tả lợi nhuận.
+- **D. additional:** additional = thêm vào, không phù hợp kết quả của giảm chi phí.
+- **Quy tắc chốt:** profitable = có lãi; financially bổ nghĩa cho tính từ profitable.
+- **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
+
+### Bài 30/10/2026 — Câu 121: `former`
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#121`.
+- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 121.
+- **Đề:** Ms. Yamada, ------- director of the Midlands Chamber of Commerce, was recently appointed to the state trade commission.
+- **Đáp án đúng:** B. **Loại lỗi:** Từ vựng.
+- **Điểm cần ôn:** Điểm cần ôn: former = cựu/nguyên; formed = được hình thành; formal = trang trọng/chính thức. Không có dữ liệu về phương án người học đã chọn.
+- **Manh mối:** director là chức danh; former chỉ người trước đây giữ chức vụ.
+- **A. formed:** formed là V3 của form, không có nghĩa cựu.
+- **B. former:** Đúng: former director = nguyên giám đốc.
+- **C. formalize:** formalize là động từ chính thức hóa, không phù hợp vị trí.
+- **D. formality:** formality là danh từ nghi thức/thủ tục, sai nghĩa; danh từ có thể bổ nghĩa danh từ ở cấu trúc khác.
+- **Quy tắc chốt:** former = cựu/nguyên; formed = được hình thành; formal = trang trọng/chính thức.
+- **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
+
+### Bài 30/10/2026 — Câu 128: `hastily`
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#128`.
+- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 128.
+- **Đề:** Mr. Kane said he packed so ------- this morning that he forgot to bring a suit and tie for tomorrow's dinner.
+- **Đáp án đúng:** C. **Loại lỗi:** Từ vựng.
+- **Điểm cần ôn:** Điểm cần ôn: hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp. Không có dữ liệu về phương án người học đã chọn.
+- **Manh mối:** forgot to bring a suit and tie → đóng hành lý vội nên bỏ sót đồ.
+- **A. enormously:** enormously chỉ mức độ rất lớn, không hợp packed trong ngữ cảnh này.
+- **B. briefly:** briefly chỉ thời lượng ngắn, không diễn tả rõ sự vội vàng gây bỏ sót.
+- **C. hastily:** Đúng: hastily giải thích việc quên đồ.
+- **D. mysteriously:** mysteriously = bí ẩn/khó giải thích, không phù hợp quan hệ nguyên nhân.
+- **Quy tắc chốt:** hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp.
+- **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
+
 </details>
 
 ## 3. Từ loại và họ từ
@@ -389,6 +444,29 @@ Quy trình chọn từ loại:
 | `-ive`, `-al`, `-able` | tính từ | `innovative`, `operational`, `operable` |
 | `-ly` | trạng từ | `directly`, `efficiently` |
 
+**Họ accept** — nguồn `part5_practise/part5_practice_2026-10-30.md`, câu 111.
+
+| Từ | Từ loại | Nghĩa | Cách dùng |
+|---|---|---|---|
+| accept | động từ | chấp nhận | accept an offer |
+| acceptance / acceptability | danh từ | sự chấp nhận / tính chấp nhận được | acceptance of terms / product acceptability |
+| — | danh từ chỉ người | không có dạng thông dụng cần học trong TOEIC | không tự tạo accepter |
+| accepted | tính từ -ed | được chấp nhận | an accepted practice |
+| accepting | tính từ -ing | cởi mở/khoan dung | be accepting of differences |
+| acceptable | tính từ dẫn xuất | chấp nhận được | rate an app as acceptable |
+| acceptably | trạng từ | ở mức chấp nhận được | perform acceptably |
+
+**Họ audition** — nguồn `part5_practise/part5_practice_2026-10-30.md`, câu 127.
+
+| Từ | Từ loại | Nghĩa | Cách dùng |
+|---|---|---|---|
+| audition | động từ | thử vai/thử giọng | audition for a role |
+| audition | danh từ đếm được | buổi thử vai | hold an audition / hold auditions |
+| — | danh từ chỉ người | dạng dẫn xuất không thông dụng; dùng candidate/performer theo ngữ cảnh | không tự tạo từ |
+| auditioned | V3, không phải tính từ độc lập thông dụng | đã thử vai/được thử giọng | The candidates were auditioned. |
+| auditioning | V-ing, không phải tính từ độc lập thông dụng | đang thử vai | performers auditioning for a role |
+| — | trạng từ | không có dạng thông dụng | — |
+
 ### Ví dụ mẫu
 
 - `The operator operates the machine.`
@@ -400,8 +478,11 @@ Quy trình chọn từ loại:
 - `It was a surprising result.`
 - `The refrigerator has a surprisingly compact exterior.`
 
+- `rate an app as acceptable (câu 111)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
+- `hold auditions / hold an audition (câu 127)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
+
 <details>
-<summary><strong>Xem 3 câu đã làm sai về từ loại</strong></summary>
+<summary><strong>Xem 5 câu đã làm sai về từ loại</strong></summary>
 
 ### Câu 124 — `operator`
 
@@ -431,6 +512,36 @@ Quy trình chọn từ loại:
 - **Phân tích lựa chọn:** `financially` là trạng từ đúng chức năng; `finance` là danh từ/động từ; `financial statements` là cụm danh từ số nhiều; `financing` là danh từ hoặc phân từ, không trực tiếp bổ nghĩa `responsible`.
 - **Quy tắc chốt:** `adverb + adjective` → `financially responsible`; phân biệt với `financial responsibility` (`adjective + noun`).
 - **Lý thuyết liên quan:** [PART5_THEORY.md — mục 3.3](PART5_THEORY.md#33-trạng-từ).
+
+### Bài 30/10/2026 — Câu 111: `acceptable`
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#111`.
+- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 111.
+- **Đề:** A majority of the city's residents rated its transportation app as -------.
+- **Đáp án đúng:** B. **Loại lỗi:** Từ loại.
+- **Điểm cần ôn:** Điểm cần ôn: rate something as acceptable = đánh giá là chấp nhận được; accepting = cởi mở/khoan dung. Không có dữ liệu về phương án người học đã chọn.
+- **Manh mối:** rated its transportation app as ... mô tả chất lượng ứng dụng.
+- **A. acceptability:** acceptability là danh từ chỉ tính chấp nhận được.
+- **B. acceptable:** Đúng: tính từ mô tả chất lượng ứng dụng.
+- **C. acceptance:** acceptance là danh từ chỉ sự chấp nhận.
+- **D. accepting:** accepting là tính từ mang nghĩa cởi mở/khoan dung, sai nghĩa.
+- **Quy tắc chốt:** rate something as acceptable = đánh giá là chấp nhận được; accepting = cởi mở/khoan dung.
+- **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
+
+### Bài 30/10/2026 — Câu 127: `auditions`
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#127`.
+- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 127.
+- **Đề:** Opal City's Community Theater is holding ------- for its spring production during the first week of December.
+- **Đáp án đúng:** C. **Loại lỗi:** Từ loại.
+- **Điểm cần ôn:** Điểm cần ôn: audition đếm được: số ít cần từ hạn định; auditions số nhiều đứng được không có mạo từ. Không có dữ liệu về phương án người học đã chọn.
+- **Manh mối:** holding cần tân ngữ; không có a/an trước chỗ trống.
+- **A. to audition:** to audition chỉ mục đích, không làm tân ngữ chỉ sự kiện sau holding ở đây.
+- **B. auditioned:** auditioned là dạng quá khứ/phân từ, không phải danh từ sự kiện.
+- **C. auditions:** Đúng: auditions là tân ngữ số nhiều, không cần mạo từ.
+- **D. audition:** audition số ít cần an hoặc từ hạn định; hold an audition mới đúng.
+- **Quy tắc chốt:** audition đếm được: số ít cần từ hạn định; auditions số nhiều đứng được không có mạo từ.
+- **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
 
 </details>
 

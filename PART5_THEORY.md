@@ -4,6 +4,9 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 
 ## 1. Thì và dạng động từ
 
+- **`am/is/are + V-ing + future time`**: Hiện tại tiếp diễn diễn tả sắp xếp tương lai đã lên kế hoạch. Dấu hiệu: `Dr. Cheung is representing the hospital next weekend.`. Bẫy: next weekend không bắt buộc dùng will; represent thiếu -s với chủ ngữ số ít. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 112.
+- **`had + V3 ... before + past event`**: Quá khứ hoàn thành nhấn mạnh việc sửa lịch xảy ra trước khi khóa học bắt đầu. Dấu hiệu: `Long before training began, she had revised the schedule.`. Bẫy: Không phải mọi câu có before đều bắt buộc quá khứ hoàn thành; trong các lựa chọn, C phù hợp trình tự và thể chủ động. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 129.
+
 ### 1.1. Động từ chính trong câu
 
 **Lý thuyết**
@@ -48,7 +51,7 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 
 **Lý thuyết**
 
-- Sau `when`, `as soon as`, `once`, `before`, `after`, `until`, dùng hiện tại đơn để chỉ tương lai; không dùng `will` trong mệnh đề thời gian.
+- Sau `when`, `as soon as`, `once`, `before`, `after`, `until`, dùng hiện tại đơn hoặc hiện tại hoàn thành (nhấn mạnh hoàn tất) để chỉ tương lai; không dùng `will` trong mệnh đề thời gian.
 - Mẫu: `As soon as/Once + S + V(s/es), S + will + V`.
 
 **Bẫy thường gặp**
@@ -59,6 +62,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 **Ví dụ từ bài luyện**
 
 - Câu 123: `As soon as the order arrives, the front desk will text the customer.` Đáp án **B**.
+
+- **`will + V + once + S + have/has V3`**: Mệnh đề thời gian tương lai dùng hiện tại đơn hoặc hiện tại hoàn thành để nhấn mạnh hoàn tất. Dấu hiệu: `He will return once the interns have arrived.`. Bẫy: once không luôn có nghĩa ngay lập tức; nghĩa cốt lõi ở đây là sau khi/một khi điều kiện thời gian hoàn tất. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 130.
 
 ### 1.5. Động từ nguyên mẫu sau động từ và cấu trúc chỉ mục đích
 
@@ -115,6 +120,9 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - `despite the high cost`; sau `despite` là cụm danh từ. Đáp án **D** (xem mục 10.6, câu 121).
 - `seven days a week rather than only on weekdays`; `rather than` nêu phương án/ý đối lập. Đáp án **D** (xem mục 10.6, câu 128).
 
+- **`while + S + V`**: while có nghĩa mặc dù khi nối hai ý tương phản. Dấu hiệu: `While the hotel has no restaurant, dining options are nearby.`. Bẫy: unless nêu điều kiện; without nhận noun/V-ing. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 124.
+- **`despite + noun/V-ing`**: despite đi với cụm danh từ chỉ trở ngại. Dấu hiệu: `Despite a slight decline in revenue, expansion continues.`. Bẫy: aside cần from ở cụm aside from; không dùng despite + mệnh đề trực tiếp. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 125.
+
 ### 2.3. `preposition + which` nối với mệnh đề trước
 
 **Lý thuyết**
@@ -147,6 +155,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 
 - `will leave ... and will oversee ...`. Đáp án **C** (xem mục 10.6, câu 107).
 - `gave his approval so that the project can move forward`. Đáp án **D** (xem mục 10.6, câu 118).
+
+- **`so + adjective/adverb + that + clause`**: Cấu trúc chỉ mức độ dẫn đến kết quả; hastily = vội vàng. Dấu hiệu: `He packed so hastily that he forgot his suit.`. Bẫy: briefly chỉ thời lượng ngắn; hastily giải thích việc bỏ sót đồ. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 128.
 
 ## 3. Từ loại và cấu tạo từ
 
@@ -197,6 +207,9 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - Câu 122: `had been clearly explained`. Đáp án **A**.
 - Câu 130: `clearly useful`. Đáp án **D**.
 
+- **`nearly + verb; cause somebody to V`**: nearly = suýt/gần như; near = gần về vị trí/thời gian. Dấu hiệu: `Traffic nearly caused her to miss her flight.`. Bẫy: near cũng có thể là trạng từ nhưng không thay nearly mang nghĩa almost; lựa chọn C thực tế là approaches. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 107.
+- **`will probably + V; take place`**: probably diễn tả xác suất; merger = sự sáp nhập. Dấu hiệu: `The merger will probably take place next year.`. Bẫy: regularly chỉ lặp lại; originally chỉ ban đầu. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 108.
+
 ### 3.4. Họ từ
 
 **Lý thuyết**
@@ -216,6 +229,34 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 | `surprise` | `surprise` | — | `surprised`, `surprising` | `surprisingly` |
 
 **Ví dụ từ bài luyện**: câu 115, 117, 120 và 124.
+
+- **`supply / supplier / supplies`**: supplier = nhà cung cấp; supply = nguồn cung/việc cung cấp; supplies = vật tư. Dấu hiệu: `chosen as the supplier of holiday cards`. Bẫy: Danh từ chỉ tổ chức khác danh từ chỉ hàng hóa hay hành động. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 114.
+- **`promote + activity/event`**: promote = quảng bá hoạt động/sự kiện bằng bản tin. Dấu hiệu: `promote activities through a monthly newsletter`. Bẫy: Cùng promote ở câu 104 nhưng khác nghĩa thăng chức. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 123.
+
+**Họ `accept`** — nguồn `part5_practise/part5_practice_2026-10-30.md`, câu 111.
+
+| Từ | Từ loại | Nghĩa | Cách dùng |
+|---|---|---|---|
+| accept | động từ | chấp nhận | accept an offer |
+| acceptance / acceptability | danh từ | sự chấp nhận / tính chấp nhận được | acceptance of terms / product acceptability |
+| — | danh từ chỉ người | không có dạng thông dụng cần học trong TOEIC | không tự tạo accepter |
+| accepted | tính từ -ed | được chấp nhận | an accepted practice |
+| accepting | tính từ -ing | cởi mở/khoan dung | be accepting of differences |
+| acceptable | tính từ dẫn xuất | chấp nhận được | rate an app as acceptable |
+| acceptably | trạng từ | ở mức chấp nhận được | perform acceptably |
+
+**Họ `audition`** — nguồn `part5_practise/part5_practice_2026-10-30.md`, câu 127.
+
+| Từ | Từ loại | Nghĩa | Cách dùng |
+|---|---|---|---|
+| audition | động từ | thử vai/thử giọng | audition for a role |
+| audition | danh từ đếm được | buổi thử vai | hold an audition / hold auditions |
+| — | danh từ chỉ người | dạng dẫn xuất không thông dụng; dùng candidate/performer theo ngữ cảnh | không tự tạo từ |
+| auditioned | V3, không phải tính từ độc lập thông dụng | đã thử vai/được thử giọng | The candidates were auditioned. |
+| auditioning | V-ing, không phải tính từ độc lập thông dụng | đang thử vai | performers auditioning for a role |
+| — | trạng từ | không có dạng thông dụng | — |
+
+`former` là tính từ độc lập, không gộp với họ `form/formalize`.
 
 ### 3.5. Nhận diện từ loại qua vị trí
 
@@ -241,6 +282,14 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - `parking restrictions have ...`. Đáp án **C** (xem mục 10.6, câu 124).
 - `commercial supplier`. Đáp án **D** (xem mục 10.6, câu 129).
 - `diagnostic fee`. Đáp án **B** (xem mục 10.6, câu 130).
+
+- **`be available online`**: available = có sẵn/có thể truy cập. Dấu hiệu: `materials are available online`. Bẫy: intended thường cần to V/for; comparable nói khả năng so sánh. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 102.
+- **`a + adjective + singular count noun`**: conduct a review = tiến hành đánh giá; a yêu cầu danh từ đếm được số ít. Dấu hiệu: `A full-scale review will be conducted.`. Bẫy: reviewer chỉ người; reviews không đi với a. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 103.
+- **`contact a technician; need repairs`**: Chọn danh từ chỉ người sửa máy, không phải sự thay thế hay gia hạn. Dấu hiệu: `contact a technician if machines need repairs`. Bẫy: replacement/renewal/structure không chỉ chuyên viên sửa chữa. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 106.
+- **`rate + object + as + adjective`**: acceptable mô tả chất lượng; accepting mô tả thái độ cởi mở. Dấu hiệu: `rated the app as acceptable`. Bẫy: Sau as không luôn là danh từ; phải xét cấu trúc cả cụm. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 111.
+- **`adverb + adjective + noun`**: financially profitable = có lãi về tài chính sau khi giảm chi phí. Dấu hiệu: `a financially profitable quarter`. Bẫy: profit/profitability là danh từ; profitable là tính từ. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 113.
+- **`former + position`**: former = cựu/nguyên; former director là cụm đồng vị của Ms. Yamada. Dấu hiệu: `Ms. Yamada, former director, was appointed ...`. Bẫy: former không phải một dạng của formalize; không học chung thành một họ. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 121.
+- **`hold auditions / hold an audition`**: Tân ngữ đếm được số ít cần từ hạn định; auditions số nhiều không cần a/an. Dấu hiệu: `The theater is holding auditions for its spring production.`. Bẫy: Không chọn số nhiều chỉ vì thường gặp hơn: audition thiếu an mới là lỗi quyết định. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 127.
 
 ## 4. Đại từ
 
@@ -292,6 +341,9 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - `as a result of her many years ...`. Đáp án **B** (xem mục 10.6, câu 104).
 - Hai ứng viên được nêu, nhưng `neither got the job`. Đáp án **B** (xem mục 10.6, câu 120).
 
+- **`her + noun`**: Trước youth cần tính từ sở hữu her; hers đứng độc lập. Dấu hiệu: `Despite her youth`. Bẫy: she là chủ ngữ; herself là phản thân. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 101.
+- **`various + plural noun`**: various = nhiều loại khác nhau; monthly basis = theo tháng. Dấu hiệu: `various beautiful guest rooms`. Bẫy: among/throughout không làm từ hạn định ở vị trí này. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 109.
+
 ## 5. Giới từ
 
 ### 5.1. Giới từ chỉ thời gian
@@ -307,6 +359,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 
 - Câu 101: `ahead of the posted due date`. Đáp án **C**.
 - Câu 129: `throughout the three-day craft fair`. Đáp án **D**.
+
+- **`have/has + V3 + over the past + duration`**: over the past ten years chỉ khoảng kéo dài tới hiện tại; undergo changes = trải qua thay đổi. Dấu hiệu: `has undergone changes over the past ten years`. Bẫy: since nhận mốc bắt đầu, không nhận the past ten years. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 126.
 
 ### 5.2. Giới từ chỉ hướng và đường đi
 
@@ -357,6 +411,10 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - `on behalf of` = đại diện cho; `in favor of` = ủng hộ.
 - `aside from` = ngoài ra/ngoại trừ, không mang nghĩa đại diện.
 
+- **`at + intersection/location`**: at Gordon Avenue and Hutch Street được hiểu là tại giao lộ hai phố. Dấu hiệu: `located at Gordon Avenue and Hutch Street`. Bẫy: Cách diễn đạt đầy đủ: at the intersection of A and B. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 110.
+- **`in response to + noun/V-ing`**: in response to = để đáp lại/phản ứng trước. Dấu hiệu: `an action plan in response to budget cuts`. Bẫy: in effect = có hiệu lực/trên thực tế, không thay in response to. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 119.
+- **`up to + number`**: up to = tối đa, không vượt quá; simultaneously = đồng thời. Dấu hiệu: `open up to five files simultaneously`. Bẫy: far from không diễn tả giới hạn tối đa; as for chuyển chủ đề. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 122.
+
 ### 5.5. `role in + noun/V-ing`
 
 **Lý thuyết**
@@ -390,6 +448,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 
 ## 7. So sánh
 
+- **`be more + adjective + than`**: Sau are more cần tính từ productive; those thay employees. Dấu hiệu: `more productive than those who take no breaks`. Bẫy: production = sản xuất; productivity = năng suất; productively là trạng từ. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 105.
+
 ### 7.1. So sánh nhất với tính từ dài
 
 **Lý thuyết**
@@ -416,6 +476,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - `cash registers` số nhiều đi với `calculate`. Đáp án **A** (xem mục 10.6, câu 110).
 - `parking restrictions` số nhiều đi với `have been met`. Đáp án **C** (xem mục 10.6, câu 124).
 
+- **`plural people + struggle`**: people số nhiều đi với struggle; suggest that ở đây tường thuật kết quả nghiên cứu. Dấu hiệu: `More people struggle with night driving.`. Bẫy: Không phải suggest đề nghị dùng giả định; struggling/to struggle không tự làm vị ngữ. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 118.
+
 ## 9. Câu bị động
 
 **Lý thuyết**
@@ -430,6 +492,10 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - Câu 108: Ms. Corwin thực hiện việc xem xét → `will review`, không dùng `is reviewed`.
 - Câu 117: sensor `is widely considered` its most innovative feature.
 - Câu 122: guidelines `had been clearly explained`.
+
+- **`have/has been promoted to + position`**: Bị động hiện tại hoàn thành: được thăng chức. Dấu hiệu: `has been promoted to president`. Bẫy: Phân biệt promote sản phẩm (quảng bá) với promote nhân viên (thăng chức). Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 104.
+- **`be specifically designed to V`**: specifically bổ nghĩa hành động thiết kế trong cấu trúc bị động be designed. Dấu hiệu: `The app is specifically designed to provide insights.`. Bẫy: Không cần quy designed thành tính từ mới giải được vị trí trạng từ. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 117.
+- **`have/has + adverb + been shown to V`**: consistently = nhất quán/qua nhiều lần; bị động hiện tại hoàn thành. Dấu hiệu: `have consistently been shown to improve skills`. Bẫy: Không suy ra hiệu quả xảy ra liên tục mọi lúc; đó là kết quả được ghi nhận nhất quán. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 120.
 
 ## 10. Từ vựng và collocation
 
@@ -560,6 +626,9 @@ Các cụm dưới đây được đặt trong cấu trúc ngữ pháp tương �
 - Danh từ được thay thế phải hợp nghĩa với đại từ quan hệ: `professional references who can speak ...` cho thấy `references` là người giới thiệu.
 - Nguồn: Test 1, câu 106–107.
 
+- **`organization + that + singular verb`**: organization là tổ chức; that tracks bổ nghĩa organization số ít. Dấu hiệu: `the only organization that tracks deer populations`. Bẫy: official ở đây chỉ cá nhân; leadership không định danh viện nghiên cứu. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 115.
+- **`person + who + verb`**: who làm chủ ngữ attended của mệnh đề quan hệ. Dấu hiệu: `committee members who attended the meeting`. Bẫy: they không nối mệnh đề; when không làm chủ ngữ cho attended. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 116.
+
 ### 11.4. Hiện tại hoàn thành với `since`
 
 - `since + mốc quá khứ` kết hợp tự nhiên với hiện tại hoàn thành để diễn tả sự việc từ quá khứ đến hiện tại.
@@ -623,3 +692,8 @@ Các cụm dưới đây được đặt trong cấu trúc ngữ pháp tương �
 | `part5_practise/part5_Collection1_Test 2.md` | 101–130 | 30 |
 | `part5_practise/part5_Collection1_Test1.md` | 101–130 | 30 |
 | `part5_practise/part5_parroto_toiec2026_test1.md` | 101–130 | 30 |
+| `part5_practise/part5_practice_2026-10-30.md` | 101–130 | 30 |
+
+Bài 30/10/2026: **5 câu sai**, **25 câu đúng/không được đánh dấu sai**; tổng tích lũy **120 câu**, **40 câu sai**, **80 câu đúng/không được đánh dấu sai**.
+
+Lưu ý hiệu đính nguồn: câu 107 giải thích nhầm lựa chọn C thành nears (thực tế approaches); near vẫn có thể là trạng từ nhưng không mang nghĩa almost ở đây. Câu 117 là cấu trúc bị động be designed; câu 127 cần loại danh từ số ít thiếu mạo từ. Câu 130 once không mặc định diễn tả ngay lập tức.

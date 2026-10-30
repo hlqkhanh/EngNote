@@ -195,3 +195,184 @@ window.part5Data.weakKnowledgeSources = {
     }
   }
 };
+
+// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+(() => {
+  {
+    const topic = window.part5Data.weakTopics.find(item => item.id === "weak-context");
+    topic.subtitle = "Đọc quan hệ toàn câu · 16 câu sai";
+    topic.errorIds.push(...[
+  "practice20261030-113",
+  "practice20261030-121",
+  "practice20261030-128"
+]);
+    topic.rows.push(...[
+  [
+    "profitable",
+    "có lãi",
+    "a financially profitable quarter",
+    "reduce costs → lợi nhuận"
+  ],
+  [
+    "former",
+    "cựu/nguyên",
+    "former director",
+    "khác formed, formal và formality"
+  ],
+  [
+    "hastily",
+    "vội vàng",
+    "pack hastily",
+    "so hastily that ... forgot ..."
+  ]
+]);
+    topic.examples.push(...[
+  "Frankie's Boutique had a financially profitable quarter after taking measures to reduce costs.",
+  "Ms. Yamada, former director of the Midlands Chamber of Commerce, was recently appointed to the state trade commission.",
+  "Mr. Kane said he packed so hastily this morning that he forgot to bring a suit and tie for tomorrow's dinner."
+]);
+    Object.assign(window.part5Data.weakKnowledgeSources["weak-context"].rows, {
+  "profitable": [
+    "practice20261030"
+  ],
+  "former": [
+    "practice20261030"
+  ],
+  "hastily": [
+    "practice20261030"
+  ]
+});
+    Object.assign(window.part5Data.weakKnowledgeSources["weak-context"].examples, {
+  "Frankie's Boutique had a financially profitable quarter after taking measures to reduce costs.": [
+    "practice20261030"
+  ],
+  "Ms. Yamada, former director of the Midlands Chamber of Commerce, was recently appointed to the state trade commission.": [
+    "practice20261030"
+  ],
+  "Mr. Kane said he packed so hastily this morning that he forgot to bring a suit and tie for tomorrow's dinner.": [
+    "practice20261030"
+  ]
+});
+  }
+  {
+    const topic = window.part5Data.weakTopics.find(item => item.id === "weak-wordclass");
+    topic.subtitle = "Đúng từ loại vẫn có thể sai nghĩa · 5 câu sai";
+    topic.errorIds.push(...[
+  "practice20261030-111",
+  "practice20261030-127"
+]);
+    topic.rows.push(...[
+  [
+    "accept",
+    "accept",
+    "động từ",
+    "chấp nhận",
+    "accept an offer"
+  ],
+  [
+    "accept",
+    "acceptance / acceptability",
+    "danh từ",
+    "sự chấp nhận / tính chấp nhận được",
+    "acceptance of terms / product acceptability"
+  ],
+  [
+    "accept",
+    "—",
+    "danh từ chỉ người",
+    "không có dạng thông dụng cần học trong TOEIC",
+    "không tự tạo accepter"
+  ],
+  [
+    "accept",
+    "accepted",
+    "tính từ -ed",
+    "được chấp nhận",
+    "an accepted practice"
+  ],
+  [
+    "accept",
+    "accepting",
+    "tính từ -ing",
+    "cởi mở/khoan dung",
+    "be accepting of differences"
+  ],
+  [
+    "accept",
+    "acceptable",
+    "tính từ dẫn xuất",
+    "chấp nhận được",
+    "rate an app as acceptable"
+  ],
+  [
+    "accept",
+    "acceptably",
+    "trạng từ",
+    "ở mức chấp nhận được",
+    "perform acceptably"
+  ],
+  [
+    "audition",
+    "audition",
+    "động từ",
+    "thử vai/thử giọng",
+    "audition for a role"
+  ],
+  [
+    "audition",
+    "audition",
+    "danh từ đếm được",
+    "buổi thử vai",
+    "hold an audition / hold auditions"
+  ],
+  [
+    "audition",
+    "—",
+    "danh từ chỉ người",
+    "dạng dẫn xuất không thông dụng; dùng candidate/performer theo ngữ cảnh",
+    "không tự tạo từ"
+  ],
+  [
+    "audition",
+    "auditioned",
+    "V3, không phải tính từ độc lập thông dụng",
+    "đã thử vai/được thử giọng",
+    "The candidates were auditioned."
+  ],
+  [
+    "audition",
+    "auditioning",
+    "V-ing, không phải tính từ độc lập thông dụng",
+    "đang thử vai",
+    "performers auditioning for a role"
+  ],
+  [
+    "audition",
+    "—",
+    "trạng từ",
+    "không có dạng thông dụng",
+    "—"
+  ]
+]);
+    topic.examples.push(...[
+  "A majority of the city's residents rated its transportation app as acceptable.",
+  "Opal City's Community Theater is holding auditions for its spring production during the first week of December."
+]);
+    Object.assign(window.part5Data.weakKnowledgeSources["weak-wordclass"].rows, {
+  "accept": [
+    "practice20261030"
+  ],
+  "audition": [
+    "practice20261030"
+  ]
+});
+    Object.assign(window.part5Data.weakKnowledgeSources["weak-wordclass"].examples, {
+  "A majority of the city's residents rated its transportation app as acceptable.": [
+    "practice20261030"
+  ],
+  "Opal City's Community Theater is holding auditions for its spring production during the first week of December.": [
+    "practice20261030"
+  ]
+});
+  }
+})();

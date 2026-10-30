@@ -36,3 +36,62 @@ window.part5Data.quiz = [
   ,["Lunch is served daily _____ only on weekdays.", ["up to", "as though", "each time", "rather than"], 3, "Rather than đặt hai lựa chọn đối lập."]
   ,["The lumber comes from a nearby _____ supplier.", ["financial", "promotional", "chemical", "commercial"], 3, "Commercial supplier phù hợp nguồn cung hàng hóa cho cửa hàng."]
 ];
+
+// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+window.part5Data.quiz.push(...[
+  [
+    "A majority of the city's residents rated its transportation app as -------.",
+    [
+      "acceptability",
+      "acceptable",
+      "acceptance",
+      "accepting"
+    ],
+    1,
+    "rate something as acceptable = đánh giá là chấp nhận được; accepting = cởi mở/khoan dung."
+  ],
+  [
+    "Frankie's Boutique had a financially ------- quarter after taking measures to reduce costs.",
+    [
+      "plain",
+      "profitable",
+      "full",
+      "additional"
+    ],
+    1,
+    "profitable = có lãi; financially bổ nghĩa cho tính từ profitable."
+  ],
+  [
+    "Ms. Yamada, ------- director of the Midlands Chamber of Commerce, was recently appointed to the state trade commission.",
+    [
+      "formed",
+      "former",
+      "formalize",
+      "formality"
+    ],
+    1,
+    "former = cựu/nguyên; formed = được hình thành; formal = trang trọng/chính thức."
+  ],
+  [
+    "Opal City's Community Theater is holding ------- for its spring production during the first week of December.",
+    [
+      "to audition",
+      "auditioned",
+      "auditions",
+      "audition"
+    ],
+    2,
+    "audition đếm được: số ít cần từ hạn định; auditions số nhiều đứng được không có mạo từ."
+  ],
+  [
+    "Mr. Kane said he packed so ------- this morning that he forgot to bring a suit and tie for tomorrow's dinner.",
+    [
+      "enormously",
+      "briefly",
+      "hastily",
+      "mysteriously"
+    ],
+    2,
+    "hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp."
+  ]
+]);

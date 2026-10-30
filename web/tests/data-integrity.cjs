@@ -13,6 +13,22 @@ vm.createContext(context);
 });
 
 const data = context.part5Data;
+// Compare the published error catalog to every original source, including
+// explicit Sai labels without a separate answer marker.
+const repositoryRoot = path.resolve(webRoot, "..");
+let processedCount = 0;
+data.testCatalog.forEach(test => {
+  const sourceText = fs.readFileSync(path.join(repositoryRoot, test.source), "utf8");
+  const questions = [...sourceText.matchAll(/^(?:Câu\s+)?(1\d{2})\s*\r?\n([\s\S]*?)(?=^(?:Câu\s+)?1\d{2}\s*\r?\n|$(?![\s\S]))/gm)];
+  assert.strictEqual(questions.length, test.questionCount, `${test.id}: sai tổng câu nguồn`);
+  processedCount += questions.length;
+  const wrongNumbers = questions.filter(match => /(?:^|\n)\s*Sai\s*(?:\r?\n|$)|Đáp án đúng\s*:\s*[A-D]|Incorrect\s*[—–-]\s*Answer\s*:\s*[A-D]/i.test(match[2])).map(match => +match[1]).sort();
+  const webNumbers = data.errors.filter(error => error.id.startsWith(`${test.id}-`)).map(error => error.q).sort();
+  assert.deepStrictEqual(Array.from(webNumbers), wrongNumbers, `${test.id}: câu sai web lệch nguồn`);
+});
+const markdown = fs.readFileSync(path.join(repositoryRoot, "PART5.md"), "utf8");
+assert.strictEqual([...markdown.matchAll(/^### .*?Câu \d+/gm)].length, data.errors.length, "Số câu sai Markdown lệch web");
+assert(markdown.includes(`**${processedCount}**`), "Tổng số câu Markdown lệch nguồn");
 const testIds = new Set(data.testCatalog.map(item => item.id));
 const topicIds = new Set(data.weakTopics.map(item => item.id));
 const errorIds = data.errors.map(item => item.id);

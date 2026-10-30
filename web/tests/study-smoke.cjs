@@ -41,8 +41,8 @@ context.part5SupabaseConfig = { url: "", publishableKey: "", recordId: "primary"
 ["cloud-sync.js", "app.js"].forEach(file => vm.runInContext(fs.readFileSync(path.join(webRoot, file), "utf8"), context, { filename: file }));
 
 const data = context.part5Data;
-assert.strictEqual(data.flashcards.length, 50);
-assert.strictEqual(data.topicQuizzes.length, 70);
+assert(data.flashcards.length >= 50, "Không được mất các flashcard đã có");
+assert.strictEqual(data.topicQuizzes.length, data.weakTopics.length * 10);
 assert.strictEqual(new Set(data.flashcards.map(item => item.id)).size, data.flashcards.length);
 assert.strictEqual(new Set(data.topicQuizzes.map(item => item.id)).size, data.topicQuizzes.length);
 data.weakTopics.forEach(topic => assert.strictEqual(data.topicQuizzes.filter(item => item.topicId === topic.id).length, 10));
@@ -83,5 +83,41 @@ context.__backup = backup;
 assert.strictEqual(vm.runInContext("validateBackup(__backup)", context), true);
 context.__backup.schemaVersion = 99;
 assert.strictEqual(vm.runInContext("validateBackup(__backup)", context), false);
+
+// The new source must filter errors, family rows, examples and study cards together.
+vm.runInContext('state.appliedTests = new Set(["practice20261030"]); navigate("mistakes")', context);
+assert.match(elements.app.innerHTML, /120|30 câu/);
+assert.match(elements.app.innerHTML, /5 câu/);
+assert.match(elements.app.innerHTML, /rowspan="7"/);
+assert.match(elements.app.innerHTML, /auditions/);
+assert.doesNotMatch(elements.app.innerHTML, /data-master="c1t/);
+assert.doesNotMatch(elements.app.innerHTML, /data-master="parroto1/);
+vm.runInContext('state.query = "hastily"; render()', context);
+assert.match(elements.app.innerHTML, /practice20261030-128/);
+assert.doesNotMatch(elements.app.innerHTML, /data-master="practice20261030-111"/);
+vm.runInContext('state.query = ""; state.mastered.add("practice20261030-128"); saveMastered(state.mastered); render()', context);
+assert.match(elements.app.innerHTML, /data-master="practice20261030-128">✓ Đã nắm chắc/);
+vm.runInContext('openStudy("weak-wordclass"); startFlashSession()', context);
+const newQueue = vm.runInContext('state.flashQueue.slice()', context);
+assert(newQueue.length > 0 && newQueue.length <= 5);
+newQueue.forEach(id => assert(data.flashcards.find(card => card.id === id).sourceTestIds.includes("practice20261030")));
+
+// Reload the engine from localStorage and verify the exact FSRS schedule/log.
+const savedSchedule = context.part5StudyEngine.getProgress();
+vm.runInContext(fs.readFileSync(path.join(webRoot, "study-engine.js"), "utf8"), context);
+assert.deepStrictEqual(context.part5StudyEngine.getProgress(), savedSchedule);
+const invalidSchedule = JSON.parse(JSON.stringify(savedSchedule));
+Object.values(invalidSchedule.cards)[0].due = "invalid-date";
+assert.strictEqual(context.part5StudyEngine.validateProgress(invalidSchedule), false);
+assert.throws(() => context.part5StudyEngine.replaceProgress(invalidSchedule));
+context.part5StudyEngine.replaceProgress(savedSchedule);
+assert.deepStrictEqual(context.part5StudyEngine.getProgress(), savedSchedule);
+
+vm.runInContext('navigate("theory")', context);
+assert.match(elements.app.innerHTML, /had revised/);
+vm.runInContext('navigate("vocabulary")', context);
+assert.match(elements.app.innerHTML, /auditions/);
+vm.runInContext('navigate("practice")', context);
+assert.match(elements.app.innerHTML, /quiz/);
 
 console.log("study-smoke: ok");

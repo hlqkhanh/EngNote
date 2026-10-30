@@ -347,3 +347,197 @@ window.part5Data.errors = [
     diagnosis: "Các đáp án đều là tính từ; cần chọn theo chức năng nhà cung cấp và mặt hàng lumber.", clue: "store inventory + lumber + supplier", rule: "Sau khi xác định vị trí tính từ, kiểm tra lĩnh vực và collocation với danh từ.", formula: "commercial + supplier / activity / use", repeat: false
   }
 ];
+
+// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+window.part5Data.errors.push(...[
+  {
+    "id": "practice20261030-111",
+    "test": "Bài luyện 30/10/2026",
+    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "q": 111,
+    "answer": "B",
+    "type": "Từ loại",
+    "topic": "acceptable sau rate ... as",
+    "title": "acceptable sau rate ... as",
+    "question": "A majority of the city's residents rated its transportation app as -------.",
+    "options": [
+      [
+        "A",
+        "acceptability",
+        "acceptability là danh từ chỉ tính chấp nhận được."
+      ],
+      [
+        "B",
+        "acceptable",
+        "Đúng: tính từ mô tả chất lượng ứng dụng."
+      ],
+      [
+        "C",
+        "acceptance",
+        "acceptance là danh từ chỉ sự chấp nhận."
+      ],
+      [
+        "D",
+        "accepting",
+        "accepting là tính từ mang nghĩa cởi mở/khoan dung, sai nghĩa."
+      ]
+    ],
+    "diagnosis": "Điểm cần ôn: rate something as acceptable = đánh giá là chấp nhận được; accepting = cởi mở/khoan dung. Không có dữ liệu về phương án người học đã chọn.",
+    "clue": "rated its transportation app as ... mô tả chất lượng ứng dụng.",
+    "rule": "rate something as acceptable = đánh giá là chấp nhận được; accepting = cởi mở/khoan dung.",
+    "formula": "rate + object + as + adjective",
+    "repeat": false
+  },
+  {
+    "id": "practice20261030-113",
+    "test": "Bài luyện 30/10/2026",
+    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "q": 113,
+    "answer": "B",
+    "type": "Từ vựng",
+    "topic": "a financially profitable quarter",
+    "title": "a financially profitable quarter",
+    "question": "Frankie's Boutique had a financially ------- quarter after taking measures to reduce costs.",
+    "options": [
+      [
+        "A",
+        "plain",
+        "plain = đơn giản/bình thường, không diễn tả kết quả tài chính."
+      ],
+      [
+        "B",
+        "profitable",
+        "Đúng: profitable = có lãi, phù hợp reduce costs."
+      ],
+      [
+        "C",
+        "full",
+        "full = đầy/đủ, không mô tả lợi nhuận."
+      ],
+      [
+        "D",
+        "additional",
+        "additional = thêm vào, không phù hợp kết quả của giảm chi phí."
+      ]
+    ],
+    "diagnosis": "Điểm cần ôn: profitable = có lãi; financially bổ nghĩa cho tính từ profitable. Không có dữ liệu về phương án người học đã chọn.",
+    "clue": "reduce costs → cải thiện lợi nhuận của quý.",
+    "rule": "profitable = có lãi; financially bổ nghĩa cho tính từ profitable.",
+    "formula": "financially + adjective + noun",
+    "repeat": false
+  },
+  {
+    "id": "practice20261030-121",
+    "test": "Bài luyện 30/10/2026",
+    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "q": 121,
+    "answer": "B",
+    "type": "Từ vựng",
+    "topic": "former director khác formed/formal",
+    "title": "former director khác formed/formal",
+    "question": "Ms. Yamada, ------- director of the Midlands Chamber of Commerce, was recently appointed to the state trade commission.",
+    "options": [
+      [
+        "A",
+        "formed",
+        "formed là V3 của form, không có nghĩa cựu."
+      ],
+      [
+        "B",
+        "former",
+        "Đúng: former director = nguyên giám đốc."
+      ],
+      [
+        "C",
+        "formalize",
+        "formalize là động từ chính thức hóa, không phù hợp vị trí."
+      ],
+      [
+        "D",
+        "formality",
+        "formality là danh từ nghi thức/thủ tục, sai nghĩa; danh từ có thể bổ nghĩa danh từ ở cấu trúc khác."
+      ]
+    ],
+    "diagnosis": "Điểm cần ôn: former = cựu/nguyên; formed = được hình thành; formal = trang trọng/chính thức. Không có dữ liệu về phương án người học đã chọn.",
+    "clue": "director là chức danh; former chỉ người trước đây giữ chức vụ.",
+    "rule": "former = cựu/nguyên; formed = được hình thành; formal = trang trọng/chính thức.",
+    "formula": "former + job title",
+    "repeat": false
+  },
+  {
+    "id": "practice20261030-127",
+    "test": "Bài luyện 30/10/2026",
+    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "q": 127,
+    "answer": "C",
+    "type": "Từ loại",
+    "topic": "hold auditions và danh từ đếm được",
+    "title": "hold auditions và danh từ đếm được",
+    "question": "Opal City's Community Theater is holding ------- for its spring production during the first week of December.",
+    "options": [
+      [
+        "A",
+        "to audition",
+        "to audition chỉ mục đích, không làm tân ngữ chỉ sự kiện sau holding ở đây."
+      ],
+      [
+        "B",
+        "auditioned",
+        "auditioned là dạng quá khứ/phân từ, không phải danh từ sự kiện."
+      ],
+      [
+        "C",
+        "auditions",
+        "Đúng: auditions là tân ngữ số nhiều, không cần mạo từ."
+      ],
+      [
+        "D",
+        "audition",
+        "audition số ít cần an hoặc từ hạn định; hold an audition mới đúng."
+      ]
+    ],
+    "diagnosis": "Điểm cần ôn: audition đếm được: số ít cần từ hạn định; auditions số nhiều đứng được không có mạo từ. Không có dữ liệu về phương án người học đã chọn.",
+    "clue": "holding cần tân ngữ; không có a/an trước chỗ trống.",
+    "rule": "audition đếm được: số ít cần từ hạn định; auditions số nhiều đứng được không có mạo từ.",
+    "formula": "hold auditions / hold an audition",
+    "repeat": false
+  },
+  {
+    "id": "practice20261030-128",
+    "test": "Bài luyện 30/10/2026",
+    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "q": 128,
+    "answer": "C",
+    "type": "Từ vựng",
+    "topic": "so hastily that ...",
+    "title": "so hastily that ...",
+    "question": "Mr. Kane said he packed so ------- this morning that he forgot to bring a suit and tie for tomorrow's dinner.",
+    "options": [
+      [
+        "A",
+        "enormously",
+        "enormously chỉ mức độ rất lớn, không hợp packed trong ngữ cảnh này."
+      ],
+      [
+        "B",
+        "briefly",
+        "briefly chỉ thời lượng ngắn, không diễn tả rõ sự vội vàng gây bỏ sót."
+      ],
+      [
+        "C",
+        "hastily",
+        "Đúng: hastily giải thích việc quên đồ."
+      ],
+      [
+        "D",
+        "mysteriously",
+        "mysteriously = bí ẩn/khó giải thích, không phù hợp quan hệ nguyên nhân."
+      ]
+    ],
+    "diagnosis": "Điểm cần ôn: hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp. Không có dữ liệu về phương án người học đã chọn.",
+    "clue": "forgot to bring a suit and tie → đóng hành lý vội nên bỏ sót đồ.",
+    "rule": "hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp.",
+    "formula": "so + adverb + that + clause",
+    "repeat": false
+  }
+]);
