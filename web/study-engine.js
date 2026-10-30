@@ -5,11 +5,12 @@
   const VERSION = 1;
   const PACKAGE_VERSION = "5.4.2";
   const REQUEST_RETENTION = 0.9;
+  const MAX_INTERVAL_DAYS = 14;
   const MAX_NEW_PER_SESSION = 5;
   const RATINGS = [1, 2, 3, 4];
   const params = {
     request_retention: REQUEST_RETENTION,
-    maximum_interval: 3650,
+    maximum_interval: MAX_INTERVAL_DAYS,
     enable_fuzz: true,
     enable_short_term: true,
     learning_steps: ["1m", "10m"],
@@ -33,8 +34,24 @@
   const validDate = value => value != null && Number.isFinite(new Date(value).getTime());
   const finiteNumber = value => typeof value === "number" && Number.isFinite(value);
 
+  // Apply the same limit to saved schedules and imported/cloud backups.
+  // Keep memory estimates and review history; only shorten the next appointment.
+  function limitSchedules(candidate) {
+    let changed = false;
+    Object.values(candidate.cards).forEach(card => {
+      if (!validDate(card.last_review)) return;
+      const latestDue = new Date(card.last_review).getTime() + MAX_INTERVAL_DAYS * 86400000;
+      if (new Date(card.due).getTime() > latestDue) {
+        card.due = new Date(latestDue).toISOString();
+        card.scheduled_days = Math.min(card.scheduled_days, MAX_INTERVAL_DAYS);
+        changed = true;
+      }
+    });
+    return changed;
+  }
+
   function serializeCard(card) {
-    return {
+    const serialized = {
       due: new Date(card.due).toISOString(),
       stability: card.stability,
       difficulty: card.difficulty,
@@ -46,6 +63,10 @@
       state: card.state,
       last_review: card.last_review ? new Date(card.last_review).toISOString() : null
     };
+    // FSRS may separate Hard/Good/Easy intervals beyond maximum_interval to
+    // preserve their order. Enforce our study cadence on the final outcome too.
+    limitSchedules({ cards: { card: serialized } });
+    return serialized;
   }
 
   function serializeLog(cardId, log) {
@@ -88,7 +109,11 @@
   function loadProgress() {
     try {
       const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-      return validateProgress(parsed) ? parsed : emptyProgress();
+      if (!validateProgress(parsed)) return emptyProgress();
+      if (limitSchedules(parsed)) {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed)); } catch {}
+      }
+      return parsed;
     } catch {
       return emptyProgress();
     }
@@ -179,6 +204,7 @@
   function replaceProgress(candidate) {
     if (!validateProgress(candidate)) throw new Error("Dữ liệu tiến độ học không đúng định dạng hoặc không tương thích.");
     progress = JSON.parse(JSON.stringify(candidate));
+    limitSchedules(progress);
     saveProgress();
   }
 
@@ -186,6 +212,7 @@
     VERSION,
     PACKAGE_VERSION,
     REQUEST_RETENTION,
+    MAX_INTERVAL_DAYS,
     MAX_NEW_PER_SESSION,
     Rating: window.FSRS.Rating,
     State: window.FSRS.State,

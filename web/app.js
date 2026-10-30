@@ -341,7 +341,7 @@ function renderFlashcards(topic) {
       <div class="flash-label">Mặt trước · Tự nhớ trước khi lật</div><h2>${esc(card.front)}</h2>
       ${state.flashRevealed ? `<div class="flash-back"><div><span>Đáp án</span><strong>${esc(card.back.answer)}</strong></div><p>${esc(card.back.explanation)}</p><div class="flash-example"><b>Ví dụ:</b> ${esc(card.back.example)}</div><div class="flash-trap"><b>Bẫy:</b> ${esc(card.back.trap)}</div></div>` : `<button class="flip-btn" type="button" data-flip-card>Hiện đáp án <kbd>Space</kbd></button>`}
     </article>
-    ${state.flashRevealed ? `<div class="rating-help">Bạn nhớ thẻ này ở mức nào?</div><div class="rating-grid">${labels.map(([rating, label, css]) => `<button class="rating-btn ${css}" type="button" data-rate-card="${rating}"><kbd>${rating}</kbd><b>${label}</b><span>${esc(durationLabel(previews[rating].due))}</span></button>`).join("")}</div>` : ""}
+    ${state.flashRevealed ? `<div class="rating-help">Bạn nhớ thẻ này ở mức nào? · Lần ôn tiếp theo tối đa ${studyEngine.MAX_INTERVAL_DAYS} ngày</div><div class="rating-grid">${labels.map(([rating, label, css]) => `<button class="rating-btn ${css}" type="button" data-rate-card="${rating}"><kbd>${rating}</kbd><b>${label}</b><span>${esc(durationLabel(previews[rating].due))}</span></button>`).join("")}</div>` : ""}
   </section>`;
 }
 
@@ -423,6 +423,7 @@ function renderProgress() {
   const mastery = totals.errors ? Math.round(totals.mastered / totals.errors * 100) : 0;
   return `${heading("Tiến trình học", "Tự động lưu và đồng bộ giữa các thiết bị.", "Theo dõi flashcard, quiz và các lỗi đã nắm chắc. localStorage vẫn giữ một bản dự phòng khi mất mạng.")}
     ${cloudStatusMarkup()}
+    <div class="notice">Khoảng cách ôn flashcard tối đa <strong>${studyEngine.MAX_INTERVAL_DAYS} ngày</strong> tính từ lần ôn gần nhất. Các lịch cũ dài hơn đã được rút ngắn; lịch sử học vẫn được giữ lại.</div>
     <section class="progress-overview">
       <article><span>Flashcard đã học</span><strong>${totals.learned}/${totals.cards}</strong><small>${totals.due} thẻ đang đến hạn</small></article>
       <article><span>Quiz đã trả lời</span><strong>${totals.attempts}</strong><small>${accuracy}% chính xác</small></article>

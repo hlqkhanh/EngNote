@@ -120,4 +120,41 @@ assert.match(elements.app.innerHTML, /auditions/);
 vm.runInContext('navigate("practice")', context);
 assert.match(elements.app.innerHTML, /quiz/);
 
+// Mature cards must stay within the chosen two-week cadence, including backups
+// created before the limit was introduced. The import must not mutate its input.
+const engine = context.part5StudyEngine;
+const mature = JSON.parse(JSON.stringify(savedSchedule));
+const matureId = Object.keys(mature.cards)[0];
+const reviewedAt = new Date("2026-09-01T12:00:00Z");
+const twoWeeks = 14 * 86400000;
+Object.assign(mature.cards[matureId], {
+  last_review: reviewedAt.toISOString(), due: "2026-11-01T12:00:00Z",
+  scheduled_days: 61, state: 2, stability: 500, reps: 20
+});
+engine.replaceProgress(mature);
+const limited = engine.getProgress();
+assert.strictEqual(new Date(limited.cards[matureId].due).getTime(), reviewedAt.getTime() + twoWeeks);
+assert.strictEqual(limited.cards[matureId].scheduled_days, 14);
+assert.strictEqual(limited.cards[matureId].stability, 500);
+assert.strictEqual(limited.cards[matureId].reps, 20);
+assert.deepStrictEqual(limited.reviewLogs, mature.reviewLogs);
+assert.strictEqual(mature.cards[matureId].scheduled_days, 61);
+assert(engine.createSession("weak-prepositions", new Set(["c1t2"]), new Date("2026-10-30T12:00:00Z")).includes(matureId));
+const reviewTime = new Date("2026-10-30T12:00:00Z");
+const previews = engine.preview(matureId, reviewTime);
+for (const rating of [1, 2, 3, 4]) {
+  assert(new Date(previews[rating].due).getTime() <= reviewTime.getTime() + twoWeeks, `Preview ${rating} exceeds 14 days`);
+  assert(new Date(previews[rating].due).getTime() > reviewTime.getTime());
+}
+engine.review(matureId, 4, reviewTime);
+assert(new Date(engine.getProgress().cards[matureId].due).getTime() <= reviewTime.getTime() + twoWeeks);
+
+// Existing on-device schedules migrate on startup, not only on JSON import.
+storage["part5-study-v1"] = JSON.stringify(mature);
+vm.runInContext(fs.readFileSync(path.join(webRoot, "study-engine.js"), "utf8"), context);
+assert.deepStrictEqual(context.part5StudyEngine.getProgress(), limited);
+assert.deepStrictEqual(JSON.parse(storage["part5-study-v1"]), JSON.parse(JSON.stringify(limited)));
+vm.runInContext('navigate("progress")', context);
+assert.match(elements.app.innerHTML, /tối đa <strong>14 ngày/);
+
 console.log("study-smoke: ok");
