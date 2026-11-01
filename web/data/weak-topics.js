@@ -196,7 +196,7 @@ window.part5Data.weakKnowledgeSources = {
   }
 };
 
-// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+// Bổ sung nguồn: part5_practise/part5_parroto_toiec2026_test3.md
 (() => {
   {
     const topic = window.part5Data.weakTopics.find(item => item.id === "weak-context");

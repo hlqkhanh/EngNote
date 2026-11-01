@@ -37,7 +37,7 @@ window.part5Data.quiz = [
   ,["The lumber comes from a nearby _____ supplier.", ["financial", "promotional", "chemical", "commercial"], 3, "Commercial supplier phù hợp nguồn cung hàng hóa cho cửa hàng."]
 ];
 
-// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+// Bổ sung nguồn: part5_practise/part5_parroto_toiec2026_test3.md
 window.part5Data.quiz.push(...[
   [
     "A majority of the city's residents rated its transportation app as -------.",

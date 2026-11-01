@@ -150,7 +150,7 @@ window.part5Data = window.part5Data || {};
   ];
 })();
 
-// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+// Bổ sung nguồn: part5_practise/part5_parroto_toiec2026_test3.md
 window.part5Data.flashcards.push(...[
   {
     "id": "weak-wordclass-practice20261030-111",
@@ -261,7 +261,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "Từ vựng",
-      "part5_practise/part5_practice_2026-11-01.md, câu 109"
+      "part5_practise/part5_Collection1_Test3.md, câu 109"
     ]
   },
   {
@@ -279,7 +279,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "Từ vựng",
-      "part5_practise/part5_practice_2026-11-01.md, câu 110"
+      "part5_practise/part5_Collection1_Test3.md, câu 110"
     ]
   },
   {
@@ -297,7 +297,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "Phân từ",
-      "part5_practise/part5_practice_2026-11-01.md, câu 114"
+      "part5_practise/part5_Collection1_Test3.md, câu 114"
     ]
   },
   {
@@ -315,7 +315,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "Phân từ",
-      "part5_practise/part5_practice_2026-11-01.md, câu 115"
+      "part5_practise/part5_Collection1_Test3.md, câu 115"
     ]
   },
   {
@@ -333,7 +333,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "Từ vựng",
-      "part5_practise/part5_practice_2026-11-01.md, câu 119"
+      "part5_practise/part5_Collection1_Test3.md, câu 119"
     ]
   },
   {
@@ -351,7 +351,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "So sánh",
-      "part5_practise/part5_practice_2026-11-01.md, câu 121"
+      "part5_practise/part5_Collection1_Test3.md, câu 121"
     ]
   },
   {
@@ -369,7 +369,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "Từ vựng",
-      "part5_practise/part5_practice_2026-11-01.md, câu 126"
+      "part5_practise/part5_Collection1_Test3.md, câu 126"
     ]
   },
   {
@@ -387,7 +387,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "Phân từ",
-      "part5_practise/part5_practice_2026-11-01.md, câu 128"
+      "part5_practise/part5_Collection1_Test3.md, câu 128"
     ]
   },
   {
@@ -405,8 +405,8 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "Phân từ",
-      "part5_practise/part5_practice_2026-11-01.md, câu 107",
-      "part5_practise/part5_practice_2026-11-01.md, câu 115"
+      "part5_practise/part5_Collection1_Test3.md, câu 107",
+      "part5_practise/part5_Collection1_Test3.md, câu 115"
     ]
   }
 ]);
@@ -990,7 +990,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "So sánh",
-      "part5_practise/part5_practice_2026-11-01.md, câu 121"
+      "part5_practise/part5_Collection1_Test3.md, câu 121"
     ]
   },
   {
@@ -1008,7 +1008,7 @@ window.part5Data.flashcards.push(...[
     },
     "tags": [
       "So sánh",
-      "part5_practise/part5_practice_2026-11-01.md, câu 121"
+      "part5_practise/part5_Collection1_Test3.md, câu 121"
     ]
   }
 ]);

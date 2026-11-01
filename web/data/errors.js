@@ -348,12 +348,12 @@ window.part5Data.errors = [
   }
 ];
 
-// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+// Bổ sung nguồn: part5_practise/part5_parroto_toiec2026_test3.md
 window.part5Data.errors.push(...[
   {
     "id": "practice20261030-111",
-    "test": "Bài luyện 30/10/2026",
-    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "test": "Parroto TOEIC 2026 · Test 3",
+    "source": "part5_practise/part5_parroto_toiec2026_test3.md",
     "q": 111,
     "answer": "B",
     "type": "Từ loại",
@@ -390,8 +390,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261030-113",
-    "test": "Bài luyện 30/10/2026",
-    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "test": "Parroto TOEIC 2026 · Test 3",
+    "source": "part5_practise/part5_parroto_toiec2026_test3.md",
     "q": 113,
     "answer": "B",
     "type": "Từ vựng",
@@ -428,8 +428,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261030-121",
-    "test": "Bài luyện 30/10/2026",
-    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "test": "Parroto TOEIC 2026 · Test 3",
+    "source": "part5_practise/part5_parroto_toiec2026_test3.md",
     "q": 121,
     "answer": "B",
     "type": "Từ vựng",
@@ -466,8 +466,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261030-127",
-    "test": "Bài luyện 30/10/2026",
-    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "test": "Parroto TOEIC 2026 · Test 3",
+    "source": "part5_practise/part5_parroto_toiec2026_test3.md",
     "q": 127,
     "answer": "C",
     "type": "Từ loại",
@@ -504,8 +504,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261030-128",
-    "test": "Bài luyện 30/10/2026",
-    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "test": "Parroto TOEIC 2026 · Test 3",
+    "source": "part5_practise/part5_parroto_toiec2026_test3.md",
     "q": 128,
     "answer": "C",
     "type": "Từ vựng",
@@ -545,8 +545,8 @@ window.part5Data.errors.push(...[
 window.part5Data.errors.push(...[
   {
     "id": "practice20261101-109",
-    "source": "part5_practise/part5_practice_2026-11-01.md",
-    "test": "Bài luyện 01/11/2026",
+    "source": "part5_practise/part5_Collection1_Test3.md",
+    "test": "TOEIC LR Collection 1 · Test 3",
     "q": 109,
     "answer": "A",
     "type": "Từ vựng",
@@ -583,8 +583,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261101-110",
-    "source": "part5_practise/part5_practice_2026-11-01.md",
-    "test": "Bài luyện 01/11/2026",
+    "source": "part5_practise/part5_Collection1_Test3.md",
+    "test": "TOEIC LR Collection 1 · Test 3",
     "q": 110,
     "answer": "C",
     "type": "Từ vựng",
@@ -621,8 +621,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261101-114",
-    "source": "part5_practise/part5_practice_2026-11-01.md",
-    "test": "Bài luyện 01/11/2026",
+    "source": "part5_practise/part5_Collection1_Test3.md",
+    "test": "TOEIC LR Collection 1 · Test 3",
     "q": 114,
     "answer": "C",
     "type": "Phân từ",
@@ -659,8 +659,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261101-115",
-    "source": "part5_practise/part5_practice_2026-11-01.md",
-    "test": "Bài luyện 01/11/2026",
+    "source": "part5_practise/part5_Collection1_Test3.md",
+    "test": "TOEIC LR Collection 1 · Test 3",
     "q": 115,
     "answer": "B",
     "type": "Phân từ",
@@ -697,8 +697,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261101-119",
-    "source": "part5_practise/part5_practice_2026-11-01.md",
-    "test": "Bài luyện 01/11/2026",
+    "source": "part5_practise/part5_Collection1_Test3.md",
+    "test": "TOEIC LR Collection 1 · Test 3",
     "q": 119,
     "answer": "B",
     "type": "Từ vựng",
@@ -735,8 +735,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261101-121",
-    "source": "part5_practise/part5_practice_2026-11-01.md",
-    "test": "Bài luyện 01/11/2026",
+    "source": "part5_practise/part5_Collection1_Test3.md",
+    "test": "TOEIC LR Collection 1 · Test 3",
     "q": 121,
     "answer": "A",
     "type": "So sánh",
@@ -773,8 +773,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261101-126",
-    "source": "part5_practise/part5_practice_2026-11-01.md",
-    "test": "Bài luyện 01/11/2026",
+    "source": "part5_practise/part5_Collection1_Test3.md",
+    "test": "TOEIC LR Collection 1 · Test 3",
     "q": 126,
     "answer": "A",
     "type": "Từ vựng",
@@ -811,8 +811,8 @@ window.part5Data.errors.push(...[
   },
   {
     "id": "practice20261101-128",
-    "source": "part5_practise/part5_practice_2026-11-01.md",
-    "test": "Bài luyện 01/11/2026",
+    "source": "part5_practise/part5_Collection1_Test3.md",
+    "test": "TOEIC LR Collection 1 · Test 3",
     "q": 128,
     "answer": "B",
     "type": "Phân từ",

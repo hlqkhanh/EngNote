@@ -4,7 +4,8 @@ const vm = require("vm");
 const assert = require("assert");
 
 const webRoot = path.resolve(__dirname, "..");
-const storage = {};
+// Reproduce a returning browser whose old "all tests" filter knew only 3 tests.
+const storage = { "part5-test-filter": JSON.stringify(["parroto1", "c1t1", "c1t2"]) };
 const listeners = {};
 const classList = () => ({ add() {}, remove() {}, toggle() {} });
 const element = id => ({
@@ -47,6 +48,12 @@ assert.strictEqual(new Set(data.flashcards.map(item => item.id)).size, data.flas
 assert.strictEqual(new Set(data.topicQuizzes.map(item => item.id)).size, data.topicQuizzes.length);
 data.weakTopics.forEach(topic => assert.strictEqual(data.topicQuizzes.filter(item => item.topicId === topic.id).length, 10));
 assert.match(elements.app.innerHTML, /data-study-topic="weak-prepositions"/);
+assert.match(elements.app.innerHTML, /Các câu đã làm sai \(20\)/);
+assert.match(elements.app.innerHTML, /data-master="practice20261101-109"/);
+assert.match(elements.app.innerHTML, /data-master="practice20261030-111"/);
+assert.match(elements.app.innerHTML, /TOEIC LR Collection 1 · Test 3/);
+assert.match(elements.app.innerHTML, /Parroto TOEIC 2026 · Test 3/);
+assert.strictEqual(JSON.parse(storage["part5-test-filter"]).length, data.testCatalog.length);
 
 vm.runInContext('navigate("progress")', context);
 assert.match(elements.app.innerHTML, /Đang lưu trên thiết bị/);
@@ -177,5 +184,21 @@ vm.runInContext('navigate("theory")', context);
 assert.match(elements.app.innerHTML, /will be reviewing/);
 vm.runInContext('navigate("vocabulary")', context);
 assert.match(elements.app.innerHTML, /timely manner/);
+
+// Explicit subsets stay scoped; previous "all" scopes expand as tests are added.
+context.__savedFilter = ["parroto1"];
+context.__knownCatalog = ["parroto1", "c1t1", "c1t2"];
+assert.strictEqual(vm.runInContext('normalizeTestFilter(__savedFilter, __knownCatalog).size', context), 1);
+context.__savedFilter = ["parroto1", "c1t1", "c1t2"];
+assert.strictEqual(vm.runInContext('normalizeTestFilter(__savedFilter, __knownCatalog).size', context), data.testCatalog.length);
+context.__knownCatalog = data.testCatalog.map(item => item.id);
+assert.strictEqual(vm.runInContext('normalizeTestFilter(__savedFilter, __knownCatalog).size', context), 3);
+const oldBackup = { schemaVersion: 1, exportedAt: new Date().toISOString(), study: context.part5StudyEngine.getProgress(), mastered: [], testFilter: ["parroto1", "c1t1", "c1t2"] };
+context.__oldBackup = oldBackup;
+vm.runInContext('applyStudySnapshot(__oldBackup); navigate("mistakes")', context);
+assert.match(elements.app.innerHTML, /Các câu đã làm sai \(20\)/);
+assert.match(elements.app.innerHTML, /data-master="practice20261101-110"/);
+context.__oldBackup.testCatalogIds = "invalid";
+assert.strictEqual(vm.runInContext('validateBackup(__oldBackup)', context), false);
 
 console.log("study-smoke: ok");

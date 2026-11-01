@@ -72,10 +72,10 @@ window.part5Data.vocabGroups = [
   ]}
 ];
 
-// Bổ sung nguồn: part5_practise/part5_practice_2026-10-30.md
+// Bổ sung nguồn: part5_practise/part5_parroto_toiec2026_test3.md
 window.part5Data.vocabGroups.push(...[
   {
-    "title": "Từ và cụm bổ sung · 30/10/2026",
+    "title": "Từ và cụm bổ sung · Parroto TOEIC 2026 Test 3",
     "sourceTestIds": [
       "practice20261030"
     ],
@@ -83,159 +83,159 @@ window.part5Data.vocabGroups.push(...[
       [
         "her + noun",
         "Trước youth cần tính từ sở hữu her; hers đứng độc lập.",
-        "Despite her youth — part5_practise/part5_practice_2026-10-30.md, câu 101"
+        "Despite her youth — part5_practise/part5_parroto_toiec2026_test3.md, câu 101"
       ],
       [
         "be available online",
         "available = có sẵn/có thể truy cập.",
-        "materials are available online — part5_practise/part5_practice_2026-10-30.md, câu 102"
+        "materials are available online — part5_practise/part5_parroto_toiec2026_test3.md, câu 102"
       ],
       [
         "a + adjective + singular count noun",
         "conduct a review = tiến hành đánh giá; a yêu cầu danh từ đếm được số ít.",
-        "A full-scale review will be conducted. — part5_practise/part5_practice_2026-10-30.md, câu 103"
+        "A full-scale review will be conducted. — part5_practise/part5_parroto_toiec2026_test3.md, câu 103"
       ],
       [
         "have/has been promoted to + position",
         "Bị động hiện tại hoàn thành: được thăng chức.",
-        "has been promoted to president — part5_practise/part5_practice_2026-10-30.md, câu 104"
+        "has been promoted to president — part5_practise/part5_parroto_toiec2026_test3.md, câu 104"
       ],
       [
         "be more + adjective + than",
         "Sau are more cần tính từ productive; those thay employees.",
-        "more productive than those who take no breaks — part5_practise/part5_practice_2026-10-30.md, câu 105"
+        "more productive than those who take no breaks — part5_practise/part5_parroto_toiec2026_test3.md, câu 105"
       ],
       [
         "contact a technician; need repairs",
         "Chọn danh từ chỉ người sửa máy, không phải sự thay thế hay gia hạn.",
-        "contact a technician if machines need repairs — part5_practise/part5_practice_2026-10-30.md, câu 106"
+        "contact a technician if machines need repairs — part5_practise/part5_parroto_toiec2026_test3.md, câu 106"
       ],
       [
         "nearly + verb; cause somebody to V",
         "nearly = suýt/gần như; near = gần về vị trí/thời gian.",
-        "Traffic nearly caused her to miss her flight. — part5_practise/part5_practice_2026-10-30.md, câu 107"
+        "Traffic nearly caused her to miss her flight. — part5_practise/part5_parroto_toiec2026_test3.md, câu 107"
       ],
       [
         "will probably + V; take place",
         "probably diễn tả xác suất; merger = sự sáp nhập.",
-        "The merger will probably take place next year. — part5_practise/part5_practice_2026-10-30.md, câu 108"
+        "The merger will probably take place next year. — part5_practise/part5_parroto_toiec2026_test3.md, câu 108"
       ],
       [
         "various + plural noun",
         "various = nhiều loại khác nhau; monthly basis = theo tháng.",
-        "various beautiful guest rooms — part5_practise/part5_practice_2026-10-30.md, câu 109"
+        "various beautiful guest rooms — part5_practise/part5_parroto_toiec2026_test3.md, câu 109"
       ],
       [
         "at + intersection/location",
         "at Gordon Avenue and Hutch Street được hiểu là tại giao lộ hai phố.",
-        "located at Gordon Avenue and Hutch Street — part5_practise/part5_practice_2026-10-30.md, câu 110"
+        "located at Gordon Avenue and Hutch Street — part5_practise/part5_parroto_toiec2026_test3.md, câu 110"
       ],
       [
         "rate + object + as + adjective",
         "acceptable mô tả chất lượng; accepting mô tả thái độ cởi mở.",
-        "rated the app as acceptable — part5_practise/part5_practice_2026-10-30.md, câu 111"
+        "rated the app as acceptable — part5_practise/part5_parroto_toiec2026_test3.md, câu 111"
       ],
       [
         "am/is/are + V-ing + future time",
         "Hiện tại tiếp diễn diễn tả sắp xếp tương lai đã lên kế hoạch.",
-        "Dr. Cheung is representing the hospital next weekend. — part5_practise/part5_practice_2026-10-30.md, câu 112"
+        "Dr. Cheung is representing the hospital next weekend. — part5_practise/part5_parroto_toiec2026_test3.md, câu 112"
       ],
       [
         "adverb + adjective + noun",
         "financially profitable = có lãi về tài chính sau khi giảm chi phí.",
-        "a financially profitable quarter — part5_practise/part5_practice_2026-10-30.md, câu 113"
+        "a financially profitable quarter — part5_practise/part5_parroto_toiec2026_test3.md, câu 113"
       ],
       [
         "supply / supplier / supplies",
         "supplier = nhà cung cấp; supply = nguồn cung/việc cung cấp; supplies = vật tư.",
-        "chosen as the supplier of holiday cards — part5_practise/part5_practice_2026-10-30.md, câu 114"
+        "chosen as the supplier of holiday cards — part5_practise/part5_parroto_toiec2026_test3.md, câu 114"
       ],
       [
         "organization + that + singular verb",
         "organization là tổ chức; that tracks bổ nghĩa organization số ít.",
-        "the only organization that tracks deer populations — part5_practise/part5_practice_2026-10-30.md, câu 115"
+        "the only organization that tracks deer populations — part5_practise/part5_parroto_toiec2026_test3.md, câu 115"
       ],
       [
         "person + who + verb",
         "who làm chủ ngữ attended của mệnh đề quan hệ.",
-        "committee members who attended the meeting — part5_practise/part5_practice_2026-10-30.md, câu 116"
+        "committee members who attended the meeting — part5_practise/part5_parroto_toiec2026_test3.md, câu 116"
       ],
       [
         "be specifically designed to V",
         "specifically bổ nghĩa hành động thiết kế trong cấu trúc bị động be designed.",
-        "The app is specifically designed to provide insights. — part5_practise/part5_practice_2026-10-30.md, câu 117"
+        "The app is specifically designed to provide insights. — part5_practise/part5_parroto_toiec2026_test3.md, câu 117"
       ],
       [
         "plural people + struggle",
         "people số nhiều đi với struggle; suggest that ở đây tường thuật kết quả nghiên cứu.",
-        "More people struggle with night driving. — part5_practise/part5_practice_2026-10-30.md, câu 118"
+        "More people struggle with night driving. — part5_practise/part5_parroto_toiec2026_test3.md, câu 118"
       ],
       [
         "in response to + noun/V-ing",
         "in response to = để đáp lại/phản ứng trước.",
-        "an action plan in response to budget cuts — part5_practise/part5_practice_2026-10-30.md, câu 119"
+        "an action plan in response to budget cuts — part5_practise/part5_parroto_toiec2026_test3.md, câu 119"
       ],
       [
         "have/has + adverb + been shown to V",
         "consistently = nhất quán/qua nhiều lần; bị động hiện tại hoàn thành.",
-        "have consistently been shown to improve skills — part5_practise/part5_practice_2026-10-30.md, câu 120"
+        "have consistently been shown to improve skills — part5_practise/part5_parroto_toiec2026_test3.md, câu 120"
       ],
       [
         "former + position",
         "former = cựu/nguyên; former director là cụm đồng vị của Ms. Yamada.",
-        "Ms. Yamada, former director, was appointed ... — part5_practise/part5_practice_2026-10-30.md, câu 121"
+        "Ms. Yamada, former director, was appointed ... — part5_practise/part5_parroto_toiec2026_test3.md, câu 121"
       ],
       [
         "up to + number",
         "up to = tối đa, không vượt quá; simultaneously = đồng thời.",
-        "open up to five files simultaneously — part5_practise/part5_practice_2026-10-30.md, câu 122"
+        "open up to five files simultaneously — part5_practise/part5_parroto_toiec2026_test3.md, câu 122"
       ],
       [
         "promote + activity/event",
         "promote = quảng bá hoạt động/sự kiện bằng bản tin.",
-        "promote activities through a monthly newsletter — part5_practise/part5_practice_2026-10-30.md, câu 123"
+        "promote activities through a monthly newsletter — part5_practise/part5_parroto_toiec2026_test3.md, câu 123"
       ],
       [
         "while + S + V",
         "while có nghĩa mặc dù khi nối hai ý tương phản.",
-        "While the hotel has no restaurant, dining options are nearby. — part5_practise/part5_practice_2026-10-30.md, câu 124"
+        "While the hotel has no restaurant, dining options are nearby. — part5_practise/part5_parroto_toiec2026_test3.md, câu 124"
       ],
       [
         "despite + noun/V-ing",
         "despite đi với cụm danh từ chỉ trở ngại.",
-        "Despite a slight decline in revenue, expansion continues. — part5_practise/part5_practice_2026-10-30.md, câu 125"
+        "Despite a slight decline in revenue, expansion continues. — part5_practise/part5_parroto_toiec2026_test3.md, câu 125"
       ],
       [
         "have/has + V3 + over the past + duration",
         "over the past ten years chỉ khoảng kéo dài tới hiện tại; undergo changes = trải qua thay đổi.",
-        "has undergone changes over the past ten years — part5_practise/part5_practice_2026-10-30.md, câu 126"
+        "has undergone changes over the past ten years — part5_practise/part5_parroto_toiec2026_test3.md, câu 126"
       ],
       [
         "hold auditions / hold an audition",
         "Tân ngữ đếm được số ít cần từ hạn định; auditions số nhiều không cần a/an.",
-        "The theater is holding auditions for its spring production. — part5_practise/part5_practice_2026-10-30.md, câu 127"
+        "The theater is holding auditions for its spring production. — part5_practise/part5_parroto_toiec2026_test3.md, câu 127"
       ],
       [
         "so + adjective/adverb + that + clause",
         "Cấu trúc chỉ mức độ dẫn đến kết quả; hastily = vội vàng.",
-        "He packed so hastily that he forgot his suit. — part5_practise/part5_practice_2026-10-30.md, câu 128"
+        "He packed so hastily that he forgot his suit. — part5_practise/part5_parroto_toiec2026_test3.md, câu 128"
       ],
       [
         "had + V3 ... before + past event",
         "Quá khứ hoàn thành nhấn mạnh việc sửa lịch xảy ra trước khi khóa học bắt đầu.",
-        "Long before training began, she had revised the schedule. — part5_practise/part5_practice_2026-10-30.md, câu 129"
+        "Long before training began, she had revised the schedule. — part5_practise/part5_parroto_toiec2026_test3.md, câu 129"
       ],
       [
         "will + V + once + S + have/has V3",
         "Mệnh đề thời gian tương lai dùng hiện tại đơn hoặc hiện tại hoàn thành để nhấn mạnh hoàn tất.",
-        "He will return once the interns have arrived. — part5_practise/part5_practice_2026-10-30.md, câu 130"
+        "He will return once the interns have arrived. — part5_practise/part5_parroto_toiec2026_test3.md, câu 130"
       ]
     ]
   }
 ]);
 
 window.part5Data.vocabGroups.push({
-  "title": "Cụm từ và cấu trúc · 01/11/2026",
+  "title": "Cụm từ và cấu trúc · TOEIC LR Collection 1 Test 3",
   "sourceTestIds": [
     "practice20261101"
   ],
@@ -243,152 +243,152 @@ window.part5Data.vocabGroups.push({
     [
       "feel + adjective; confident about",
       "Sau feel dùng tính từ; phản hồi encouraging dẫn tới confident about prospects.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 101"
+      "part5_practise/part5_Collection1_Test3.md, câu 101"
     ],
     [
       "thanks to + noun/V-ing",
       "thanks to chỉ nguyên nhân dẫn tới kết quả, ở đây là kết quả tích cực.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 102"
+      "part5_practise/part5_Collection1_Test3.md, câu 102"
     ],
     [
       "the + superlative + one",
       "one thay danh từ đếm được số ít; ones thay danh từ số nhiều.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 103"
+      "part5_practise/part5_Collection1_Test3.md, câu 103"
     ],
     [
       "during + event/period",
       "during their visit = trong thời gian chuyến thăm; while + S + V.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 104"
+      "part5_practise/part5_Collection1_Test3.md, câu 104"
     ],
     [
       "most + adverb + adjective + noun",
       "consistently bổ nghĩa profitable, profitable mô tả location; superlative most profitable.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 105"
+      "part5_practise/part5_Collection1_Test3.md, câu 105"
     ],
     [
       "will be + V-ing",
       "Tương lai tiếp diễn diễn tả việc sẽ diễn ra trong tuần tới: throughout the coming week.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 106"
+      "part5_practise/part5_Collection1_Test3.md, câu 106"
     ],
     [
       "recently + V3 + noun",
       "installed = đã được lắp; máy nhận hành động nên chọn V3.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 107"
+      "part5_practise/part5_Collection1_Test3.md, câu 107"
     ],
     [
       "rise automatically; as soon as + clause",
       "automatically = tự động; scanned ticket kích hoạt thanh chắn.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 108"
+      "part5_practise/part5_Collection1_Test3.md, câu 108"
     ],
     [
       "in a timely manner",
       "timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 109"
+      "part5_practise/part5_Collection1_Test3.md, câu 109"
     ],
     [
       "match something precisely",
       "precisely diễn tả độ chính xác của sự trùng khớp.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 110"
+      "part5_practise/part5_Collection1_Test3.md, câu 110"
     ],
     [
       "each other vs themselves",
       "each other = lẫn nhau, chỉ quan hệ qua lại; themselves = chính họ.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 111"
+      "part5_practise/part5_Collection1_Test3.md, câu 111"
     ],
     [
       "a wide range of + plural noun",
       "a wide range of rental vehicles = nhiều loại xe cho thuê.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 112"
+      "part5_practise/part5_Collection1_Test3.md, câu 112"
     ],
     [
       "possess N and N; experience (in) V-ing",
       "experience là danh từ không đếm được khi nói kinh nghiệm; hai tân ngữ song song.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 113"
+      "part5_practise/part5_Collection1_Test3.md, câu 113"
     ],
     [
       "noun + V-ing + object",
       "platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 114"
+      "part5_practise/part5_Collection1_Test3.md, câu 114"
     ],
     [
       "facility processing parcels",
       "Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 115"
+      "part5_practise/part5_Collection1_Test3.md, câu 115"
     ],
     [
       "durable surface; constant foot traffic",
       "durable = bền, chịu mài mòn; foot traffic = lượng người đi bộ qua lại.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 116"
+      "part5_practise/part5_Collection1_Test3.md, câu 116"
     ],
     [
       "be eligible for + noun",
       "eligible for the bonus = đủ điều kiện nhận thưởng.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 117"
+      "part5_practise/part5_Collection1_Test3.md, câu 117"
     ],
     [
       "make an announcement → an announcement is made",
       "Collocation make an announcement ở dạng bị động was made.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 118"
+      "part5_practise/part5_Collection1_Test3.md, câu 118"
     ],
     [
       "obstacles delay a launch",
       "obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 119"
+      "part5_practise/part5_Collection1_Test3.md, câu 119"
     ],
     [
       "the/its most + adjective + noun",
       "attractive mô tả feature; its thay the trước so sánh nhất.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 120"
+      "part5_practise/part5_Collection1_Test3.md, câu 120"
     ],
     [
       "make it far + comparative + for somebody + to V",
       "it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 121"
+      "part5_practise/part5_Collection1_Test3.md, câu 121"
     ],
     [
       "divide something into parts",
       "be divided into five chapters = được chia thành năm chương.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 122"
+      "part5_practise/part5_Collection1_Test3.md, câu 122"
     ],
     [
       "updated + noun",
       "updated list = danh sách đã được cập nhật, danh sách nhận tác động.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 123"
+      "part5_practise/part5_Collection1_Test3.md, câu 123"
     ],
     [
       "by phone / over the phone",
       "by phone chỉ phương thức, không có the; over the phone có the.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 124"
+      "part5_practise/part5_Collection1_Test3.md, câu 124"
     ],
     [
       "Unfortunately, + clause; owing to + noun",
       "Unfortunately là trạng từ đánh giá toàn câu; owing to chỉ nguyên nhân.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 125"
+      "part5_practise/part5_Collection1_Test3.md, câu 125"
     ],
     [
       "a considerable increase in + noun",
       "considerable = đáng kể về mức độ; a considerable increase in enrollments.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 126"
+      "part5_practise/part5_Collection1_Test3.md, câu 126"
     ],
     [
       "express confidence in + noun/V-ing",
       "confidence không đếm được khi chỉ sự tin tưởng; làm tân ngữ expressed.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 127"
+      "part5_practise/part5_Collection1_Test3.md, câu 127"
     ],
     [
       "the executive best qualified to V",
       "qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 128"
+      "part5_practise/part5_Collection1_Test3.md, câu 128"
     ],
     [
       "his + noun",
       "his đứng trước expectations là từ hạn định sở hữu.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 129"
+      "part5_practise/part5_Collection1_Test3.md, câu 129"
     ],
     [
       "the + noun + of",
       "reliability = độ tin cậy; reliability of the delivery schedule.",
-      "part5_practise/part5_practice_2026-11-01.md, câu 130"
+      "part5_practise/part5_Collection1_Test3.md, câu 130"
     ]
   ]
 });

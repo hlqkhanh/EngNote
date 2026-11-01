@@ -9,8 +9,8 @@ File này chỉ tổng hợp những chủ đề đã xuất hiện trong các c
 | `part5_practise/part5_Collection1_Test 2.md` | 101–130 | 30 | 11 |
 | `part5_practise/part5_Collection1_Test1.md` | 101–130 | 30 | 9 |
 | `part5_practise/part5_parroto_toiec2026_test1.md` | 101–130 | 30 | 15 |
-| `part5_practise/part5_practice_2026-10-30.md` | 101–130 | 30 | 5 |
-| `part5_practise/part5_practice_2026-11-01.md` | 101–130 | 30 | 8 |
+| `part5_practise/part5_parroto_toiec2026_test3.md` | 101–130 | 30 | 5 |
+| `part5_practise/part5_Collection1_Test3.md` | 101–130 | 30 | 8 |
 | **Tổng** |  | **150** | **48** |
 
 Có **102 câu đúng/không được đánh dấu sai**; nhóm này không đồng nghĩa đã thành thạo.
@@ -18,16 +18,16 @@ Có **102 câu đúng/không được đánh dấu sai**; nhóm này không đ�
 | Chủ đề yếu | Số câu sai | Câu |
 |---|---:|---|
 | Giới từ và cụm giới từ | 12 | Test 2: 101, 102, 105, 109, 110, 121, 126, 129; Test 1: 126, 127; Parroto 2026 Test 1: 101, 117 |
-| Chọn từ theo ngữ cảnh | 20 | Test 2: 106, 119; Test 1: 104, 110; Parroto 2026 Test 1: 102, 103, 111, 113, 114, 115, 119, 125, 129; Bài 30/10/2026: 113, 121, 128; Bài 01/11/2026: 109, 110, 119, 126 |
-| Từ loại và họ từ | 5 | Test 2: 124; Test 1: 114; Parroto 2026 Test 1: 112; Bài 30/10/2026: 111, 127 |
+| Chọn từ theo ngữ cảnh | 20 | Test 2: 106, 119; Test 1: 104, 110; Parroto 2026 Test 1: 102, 103, 111, 113, 114, 115, 119, 125, 129; Parroto TOEIC 2026 Test 3: 113, 121, 128; TOEIC LR Collection 1 Test 3: 109, 110, 119, 126 |
+| Từ loại và họ từ | 5 | Test 2: 124; Test 1: 114; Parroto 2026 Test 1: 112; Parroto TOEIC 2026 Test 3: 111, 127 |
 | To V và V-ing | 1 | Parroto 2026 Test 1: 122 |
 | Hòa hợp chủ ngữ–động từ | 1 | Test 1: 109 |
 | Mệnh đề | 4 | Test 1: 111, 113; Parroto 2026 Test 1: 118, 128 |
 | Đại từ | 1 | Test 1: 119 |
-| Phân từ | 3 | Bài 01/11/2026: 114, 115, 128 |
-| So sánh | 1 | Bài 01/11/2026: 121 |
+| Phân từ | 3 | TOEIC LR Collection 1 Test 3: 114, 115, 128 |
+| So sánh | 1 | TOEIC LR Collection 1 Test 3: 121 |
 
-Lỗi lặp lại cụ thể: **precisely — 2 lần sai**, nguồn Parroto 2026 Test 1 câu 111 và bài 01/11/2026 câu 110. Hai câu 114–115 cùng kiểm tra phân từ chủ động sau danh từ: **2 lần sai**.
+Lỗi lặp lại cụ thể: **precisely — 2 lần sai**, nguồn Parroto 2026 Test 1 câu 111 và TOEIC LR Collection 1 Test 3 câu 110. Hai câu 114–115 cùng kiểm tra phân từ chủ động sau danh từ: **2 lần sai**.
 
 ## 1. Giới từ và cụm giới từ
 
@@ -213,12 +213,12 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 | `compensate` | bù đắp | `compensate for a lack/loss` |
 | `diligently` | chăm chỉ, chuyên cần | `study/work diligently` |
 | `commercial` | thuộc thương mại | `commercial supplier` |
-| `profitable` | có lãi | a financially profitable quarter — reduce costs → lợi nhuận; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 113` |
-| `former` | cựu/nguyên | former director — khác formed, formal và formality; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 121` |
-| `hastily` | vội vàng | pack hastily — so hastily that ... forgot ...; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 128` |
-| `timely` | kịp thời | in a timely manner; -ly nhưng là tính từ; nguồn: part5_practise/part5_practice_2026-11-01.md, câu 109 |
-| `obstacles` | trở ngại | obstacles delay a launch; khác outcomes = kết quả; nguồn: part5_practise/part5_practice_2026-11-01.md, câu 119 |
-| `considerable` | đáng kể | a considerable increase; khác prolonged/durable; nguồn: part5_practise/part5_practice_2026-11-01.md, câu 126 |
+| `profitable` | có lãi | a financially profitable quarter — reduce costs → lợi nhuận; nguồn: `part5_practise/part5_parroto_toiec2026_test3.md, câu 113` |
+| `former` | cựu/nguyên | former director — khác formed, formal và formality; nguồn: `part5_practise/part5_parroto_toiec2026_test3.md, câu 121` |
+| `hastily` | vội vàng | pack hastily — so hastily that ... forgot ...; nguồn: `part5_practise/part5_parroto_toiec2026_test3.md, câu 128` |
+| `timely` | kịp thời | in a timely manner; -ly nhưng là tính từ; nguồn: part5_practise/part5_Collection1_Test3.md, câu 109 |
+| `obstacles` | trở ngại | obstacles delay a launch; khác outcomes = kết quả; nguồn: part5_practise/part5_Collection1_Test3.md, câu 119 |
+| `considerable` | đáng kể | a considerable increase; khác prolonged/durable; nguồn: part5_practise/part5_Collection1_Test3.md, câu 126 |
 
 ### Ví dụ mẫu
 
@@ -227,14 +227,14 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - `The inspector thoroughly checked the equipment.`
 - `The technician gave us an estimate of the repair costs.`
 
-- `a financially profitable quarter (câu 113)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
-- `a former director (câu 121)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
-- `pack so hastily that he forgets his suit (câu 128)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
+- `a financially profitable quarter (câu 113)` — nguồn `part5_practise/part5_parroto_toiec2026_test3.md`.
+- `a former director (câu 121)` — nguồn `part5_practise/part5_parroto_toiec2026_test3.md`.
+- `pack so hastily that he forgets his suit (câu 128)` — nguồn `part5_practise/part5_parroto_toiec2026_test3.md`.
 
-- `Hartwell Insurance recommends submitting your claims in a timely manner.` — part5_practise/part5_practice_2026-11-01.md, câu 109.
-- `After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples precisely.` — part5_practise/part5_practice_2026-11-01.md, câu 110.
-- `Project coordinator Miriam Solberg documented the obstacles that had delayed the campaign launch across several markets.` — part5_practise/part5_practice_2026-11-01.md, câu 119.
-- `The online learning platform recorded a considerable increase in enrollments last quarter after expanding its course catalog.` — part5_practise/part5_practice_2026-11-01.md, câu 126.
+- `Hartwell Insurance recommends submitting your claims in a timely manner.` — part5_practise/part5_Collection1_Test3.md, câu 109.
+- `After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples precisely.` — part5_practise/part5_Collection1_Test3.md, câu 110.
+- `Project coordinator Miriam Solberg documented the obstacles that had delayed the campaign launch across several markets.` — part5_practise/part5_Collection1_Test3.md, câu 119.
+- `The online learning platform recorded a considerable increase in enrollments last quarter after expanding its course catalog.` — part5_practise/part5_Collection1_Test3.md, câu 126.
 
 <details>
 <summary><strong>Xem 20 câu đã làm sai về chọn từ</strong></summary>
@@ -355,10 +355,10 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **Quy tắc chốt:** xác định loại hàng/dịch vụ và chức năng của danh từ trước khi chọn tính từ.
 - **Lý thuyết liên quan:** [PART5_THEORY.md — mục 3.5](PART5_THEORY.md#35-nhận-diện-từ-loại-qua-vị-trí).
 
-### Bài 30/10/2026 — Câu 113: `profitable`
+### Parroto TOEIC 2026 Test 3 — Câu 113: `profitable`
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#113`.
-- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 113.
+- **Khóa nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md#113`.
+- **Nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md`, câu 113.
 - **Đề:** Frankie's Boutique had a financially ------- quarter after taking measures to reduce costs.
 - **Đáp án đúng:** B. **Loại lỗi:** Từ vựng.
 - **Điểm cần ôn:** Điểm cần ôn: profitable = có lãi; financially bổ nghĩa cho tính từ profitable. Không có dữ liệu về phương án người học đã chọn.
@@ -370,10 +370,10 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **Quy tắc chốt:** profitable = có lãi; financially bổ nghĩa cho tính từ profitable.
 - **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
 
-### Bài 30/10/2026 — Câu 121: `former`
+### Parroto TOEIC 2026 Test 3 — Câu 121: `former`
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#121`.
-- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 121.
+- **Khóa nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md#121`.
+- **Nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md`, câu 121.
 - **Đề:** Ms. Yamada, ------- director of the Midlands Chamber of Commerce, was recently appointed to the state trade commission.
 - **Đáp án đúng:** B. **Loại lỗi:** Từ vựng.
 - **Điểm cần ôn:** Điểm cần ôn: former = cựu/nguyên; formed = được hình thành; formal = trang trọng/chính thức. Không có dữ liệu về phương án người học đã chọn.
@@ -385,10 +385,10 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **Quy tắc chốt:** former = cựu/nguyên; formed = được hình thành; formal = trang trọng/chính thức.
 - **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
 
-### Bài 30/10/2026 — Câu 128: `hastily`
+### Parroto TOEIC 2026 Test 3 — Câu 128: `hastily`
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#128`.
-- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 128.
+- **Khóa nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md#128`.
+- **Nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md`, câu 128.
 - **Đề:** Mr. Kane said he packed so ------- this morning that he forgot to bring a suit and tie for tomorrow's dinner.
 - **Đáp án đúng:** C. **Loại lỗi:** Từ vựng.
 - **Điểm cần ôn:** Điểm cần ôn: hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp. Không có dữ liệu về phương án người học đã chọn.
@@ -400,10 +400,10 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **Quy tắc chốt:** hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp.
 - **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
 
-### Bài 01/11/2026 — Câu 109: timely và in a timely manner
+### TOEIC LR Collection 1 Test 3 — Câu 109: timely và in a timely manner
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#109`.
-- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 109.
+- **Khóa nguồn:** `part5_practise/part5_Collection1_Test3.md#109`.
+- **Nguồn:** `part5_practise/part5_Collection1_Test3.md`, câu 109.
 - **Câu:** Hartwell Insurance recommends submitting your claims in a _____ manner.
 - **Đáp án đúng theo nguồn:** A. **Loại lỗi:** Từ vựng.
 - **Điểm cần ôn:** timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời.
@@ -415,10 +415,10 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **Quy tắc chốt:** timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời. Không phải từ nào kết thúc -ly cũng là trạng từ; current/gradual/momentary không mang nghĩa đúng hạn.
 - **Lý thuyết:** [Từ vựng](PART5_THEORY.md).
 
-### Bài 01/11/2026 — Câu 110: precisely — Lỗi lặp lại
+### TOEIC LR Collection 1 Test 3 — Câu 110: precisely — Lỗi lặp lại
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#110`.
-- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 110.
+- **Khóa nguồn:** `part5_practise/part5_Collection1_Test3.md#110`.
+- **Nguồn:** `part5_practise/part5_Collection1_Test3.md`, câu 110.
 - **Câu:** After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples _____.
 - **Đáp án đúng theo nguồn:** C. **Loại lỗi:** Từ vựng.
 - **Điểm cần ôn:** precisely diễn tả độ chính xác của sự trùng khớp.
@@ -430,10 +430,10 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **Quy tắc chốt:** precisely diễn tả độ chính xác của sự trùng khớp. frequently/occasionally chỉ tần suất, recently chỉ thời gian; không diễn tả độ khớp.
 - **Lý thuyết:** [Từ vựng](PART5_THEORY.md).
 
-### Bài 01/11/2026 — Câu 119: obstacles — trở ngại
+### TOEIC LR Collection 1 Test 3 — Câu 119: obstacles — trở ngại
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#119`.
-- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 119.
+- **Khóa nguồn:** `part5_practise/part5_Collection1_Test3.md#119`.
+- **Nguồn:** `part5_practise/part5_Collection1_Test3.md`, câu 119.
 - **Câu:** Project coordinator Miriam Solberg documented the ____ that had delayed the campaign launch across several markets.
 - **Đáp án đúng theo nguồn:** B. **Loại lỗi:** Từ vựng.
 - **Điểm cần ôn:** obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại.
@@ -445,10 +445,10 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **Quy tắc chốt:** obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại. forecasts dự báo, estimates ước tính, outcomes kết quả; không phù hợp nghĩa nguyên nhân cản trở.
 - **Lý thuyết:** [Từ vựng](PART5_THEORY.md).
 
-### Bài 01/11/2026 — Câu 126: considerable increase
+### TOEIC LR Collection 1 Test 3 — Câu 126: considerable increase
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#126`.
-- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 126.
+- **Khóa nguồn:** `part5_practise/part5_Collection1_Test3.md#126`.
+- **Nguồn:** `part5_practise/part5_Collection1_Test3.md`, câu 126.
 - **Câu:** The online learning platform recorded a _____ increase in enrollments last quarter after expanding its course catalog.
 - **Đáp án đúng theo nguồn:** A. **Loại lỗi:** Từ vựng.
 - **Điểm cần ôn:** considerable = đáng kể về mức độ; a considerable increase in enrollments.
@@ -517,7 +517,7 @@ Quy trình chọn từ loại:
 | `-ive`, `-al`, `-able` | tính từ | `innovative`, `operational`, `operable` |
 | `-ly` | trạng từ | `directly`, `efficiently` |
 
-**Họ accept** — nguồn `part5_practise/part5_practice_2026-10-30.md`, câu 111.
+**Họ accept** — nguồn `part5_practise/part5_parroto_toiec2026_test3.md`, câu 111.
 
 | Từ | Từ loại | Nghĩa | Cách dùng |
 |---|---|---|---|
@@ -529,7 +529,7 @@ Quy trình chọn từ loại:
 | acceptable | tính từ dẫn xuất | chấp nhận được | rate an app as acceptable |
 | acceptably | trạng từ | ở mức chấp nhận được | perform acceptably |
 
-**Họ audition** — nguồn `part5_practise/part5_practice_2026-10-30.md`, câu 127.
+**Họ audition** — nguồn `part5_practise/part5_parroto_toiec2026_test3.md`, câu 127.
 
 | Từ | Từ loại | Nghĩa | Cách dùng |
 |---|---|---|---|
@@ -551,8 +551,8 @@ Quy trình chọn từ loại:
 - `It was a surprising result.`
 - `The refrigerator has a surprisingly compact exterior.`
 
-- `rate an app as acceptable (câu 111)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
-- `hold auditions / hold an audition (câu 127)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
+- `rate an app as acceptable (câu 111)` — nguồn `part5_practise/part5_parroto_toiec2026_test3.md`.
+- `hold auditions / hold an audition (câu 127)` — nguồn `part5_practise/part5_parroto_toiec2026_test3.md`.
 
 <details>
 <summary><strong>Xem 5 câu đã làm sai về từ loại</strong></summary>
@@ -586,10 +586,10 @@ Quy trình chọn từ loại:
 - **Quy tắc chốt:** `adverb + adjective` → `financially responsible`; phân biệt với `financial responsibility` (`adjective + noun`).
 - **Lý thuyết liên quan:** [PART5_THEORY.md — mục 3.3](PART5_THEORY.md#33-trạng-từ).
 
-### Bài 30/10/2026 — Câu 111: `acceptable`
+### Parroto TOEIC 2026 Test 3 — Câu 111: `acceptable`
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#111`.
-- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 111.
+- **Khóa nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md#111`.
+- **Nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md`, câu 111.
 - **Đề:** A majority of the city's residents rated its transportation app as -------.
 - **Đáp án đúng:** B. **Loại lỗi:** Từ loại.
 - **Điểm cần ôn:** Điểm cần ôn: rate something as acceptable = đánh giá là chấp nhận được; accepting = cởi mở/khoan dung. Không có dữ liệu về phương án người học đã chọn.
@@ -601,10 +601,10 @@ Quy trình chọn từ loại:
 - **Quy tắc chốt:** rate something as acceptable = đánh giá là chấp nhận được; accepting = cởi mở/khoan dung.
 - **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
 
-### Bài 30/10/2026 — Câu 127: `auditions`
+### Parroto TOEIC 2026 Test 3 — Câu 127: `auditions`
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-10-30.md#127`.
-- **Nguồn:** `part5_practise/part5_practice_2026-10-30.md`, câu 127.
+- **Khóa nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md#127`.
+- **Nguồn:** `part5_practise/part5_parroto_toiec2026_test3.md`, câu 127.
 - **Đề:** Opal City's Community Theater is holding ------- for its spring production during the first week of December.
 - **Đáp án đúng:** C. **Loại lỗi:** Từ loại.
 - **Điểm cần ôn:** Điểm cần ôn: audition đếm được: số ít cần từ hạn định; auditions số nhiều đứng được không có mạo từ. Không có dữ liệu về phương án người học đã chọn.
@@ -795,7 +795,7 @@ Xác định vị ngữ chính trước khi chọn dạng động từ sau danh 
 | noun + V3 | quan hệ bị động | không chọn -ing chỉ vì đứng sau danh từ | machines installed last week |
 | qualified to + V | đủ năng lực làm gì | khác qualifying round | the executive best qualified to lead |
 
-Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 114, 115, 128.
+Nguồn: `part5_practise/part5_Collection1_Test3.md`, câu 114, 115, 128.
 
 ### Ví dụ mẫu
 
@@ -805,10 +805,10 @@ Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 114, 115, 128.
 <details>
 <summary>Các câu đã làm sai (3)</summary>
 
-### Bài 01/11/2026 — Câu 114: Mệnh đề quan hệ rút gọn chủ động
+### TOEIC LR Collection 1 Test 3 — Câu 114: Mệnh đề quan hệ rút gọn chủ động
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#114`.
-- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 114.
+- **Khóa nguồn:** `part5_practise/part5_Collection1_Test3.md#114`.
+- **Nguồn:** `part5_practise/part5_Collection1_Test3.md`, câu 114.
 - **Câu:** The platform _____ all incoming orders into a single dashboard has become essential to the company's daily operations.
 - **Đáp án đúng theo nguồn:** C. **Loại lỗi:** Phân từ.
 - **Điểm cần ôn:** platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính.
@@ -820,10 +820,10 @@ Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 114, 115, 128.
 - **Quy tắc chốt:** platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính. Đề chọn C. Tuy nhiên platform to consolidate orders cũng có cách hiểu mục đích/chức năng hợp ngữ pháp; B không sai tuyệt đối.
 - **Lý thuyết:** [Phân từ](PART5_THEORY.md#21-mệnh-đề-phân-từ-chủ-động).
 
-### Bài 01/11/2026 — Câu 115: Phân từ chủ động sau danh từ — Lỗi lặp lại
+### TOEIC LR Collection 1 Test 3 — Câu 115: Phân từ chủ động sau danh từ — Lỗi lặp lại
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#115`.
-- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 115.
+- **Khóa nguồn:** `part5_practise/part5_Collection1_Test3.md#115`.
+- **Nguồn:** `part5_practise/part5_Collection1_Test3.md`, câu 115.
 - **Câu:** To meet holiday demand, Delcourt Logistics operates a sorting facility ____ more than ten thousand parcels each night.
 - **Đáp án đúng theo nguồn:** B. **Loại lỗi:** Phân từ.
 - **Điểm cần ôn:** Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes.
@@ -835,10 +835,10 @@ Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 114, 115, 128.
 - **Quy tắc chốt:** Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes. processes/process không nối với danh từ khi thiếu that/which; processed sai quan hệ với parcels.
 - **Lý thuyết:** [Phân từ](PART5_THEORY.md#21-mệnh-đề-phân-từ-chủ-động).
 
-### Bài 01/11/2026 — Câu 128: best qualified to lead
+### TOEIC LR Collection 1 Test 3 — Câu 128: best qualified to lead
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#128`.
-- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 128.
+- **Khóa nguồn:** `part5_practise/part5_Collection1_Test3.md#128`.
+- **Nguồn:** `part5_practise/part5_Collection1_Test3.md`, câu 128.
 - **Câu:** After a thorough review, the board appointed the executive best _____ to lead the merger.
 - **Đáp án đúng theo nguồn:** B. **Loại lỗi:** Phân từ.
 - **Điểm cần ôn:** qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất.
@@ -867,7 +867,7 @@ So sánh hơn diễn tả mức độ khác biệt. Far, much và even có thể
 | far + comparative | hơn nhiều | không dùng far easy | far easier |
 | make it + adjective + for somebody + to V | làm việc gì trở nên thế nào | không thay bằng trạng từ | make it easier for shoppers to pay |
 
-Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 121.
+Nguồn: `part5_practise/part5_Collection1_Test3.md`, câu 121.
 
 ### Ví dụ mẫu
 
@@ -876,10 +876,10 @@ Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 121.
 <details>
 <summary>Các câu đã làm sai (1)</summary>
 
-### Bài 01/11/2026 — Câu 121: far + so sánh hơn
+### TOEIC LR Collection 1 Test 3 — Câu 121: far + so sánh hơn
 
-- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#121`.
-- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 121.
+- **Khóa nguồn:** `part5_practise/part5_Collection1_Test3.md#121`.
+- **Nguồn:** `part5_practise/part5_Collection1_Test3.md`, câu 121.
 - **Câu:** Fairlane Grocery's new self-checkout terminals make it far _____ for shoppers to complete their purchases.
 - **Đáp án đúng theo nguồn:** A. **Loại lỗi:** So sánh.
 - **Điểm cần ôn:** it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ.

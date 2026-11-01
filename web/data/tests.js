@@ -3,9 +3,9 @@ window.part5Data = window.part5Data || {};
 window.part5Data.testCatalog = [
   {
     "id": "practice20261030",
-    "label": "Bài luyện 30/10/2026",
+    "label": "Parroto TOEIC 2026 · Test 3",
     "date": "30/10/2026",
-    "source": "part5_practise/part5_practice_2026-10-30.md",
+    "source": "part5_practise/part5_parroto_toiec2026_test3.md",
     "questionCount": 30,
     "wrongCount": 5,
     "unmarkedCount": 25
@@ -35,9 +35,9 @@ window.part5Data.testCatalog = [
 
 window.part5Data.testCatalog.unshift({
   "id": "practice20261101",
-  "label": "Bài luyện 01/11/2026",
+  "label": "TOEIC LR Collection 1 · Test 3",
   "date": "01/11/2026",
-  "source": "part5_practise/part5_practice_2026-11-01.md",
+  "source": "part5_practise/part5_Collection1_Test3.md",
   "questionCount": 30,
   "wrongCount": 8,
   "unmarkedCount": 22

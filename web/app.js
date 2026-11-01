@@ -36,16 +36,35 @@ function saveMastered(set) {
   window.part5NotifyChange?.();
 }
 
-function readTestFilter() {
+function normalizeTestFilter(saved, knownCatalog) {
   const all = testCatalog.map(test => test.id);
+  const valid = Array.isArray(saved) ? saved.filter(id => all.includes(id)) : [];
+  // Before catalog tracking, "all tests" was saved as the three original IDs.
+  const legacyCatalog = ["parroto1", "c1t1", "c1t2"];
+  if (valid.includes("practice20261030")) legacyCatalog.push("practice20261030");
+  const previous = Array.isArray(knownCatalog) && knownCatalog.length
+    ? knownCatalog : legacyCatalog;
+  const wasAll = previous.every(id => valid.includes(id)) && valid.every(id => previous.includes(id));
+  return new Set(!valid.length || wasAll ? all : valid);
+}
+
+function readTestFilter() {
   try {
     const saved = JSON.parse(localStorage.getItem("part5-test-filter") || "null");
-    const valid = Array.isArray(saved) ? saved.filter(id => all.includes(id)) : [];
-    return new Set(valid.length ? valid : all);
-  } catch { return new Set(all); }
+    const known = JSON.parse(localStorage.getItem("part5-test-filter-catalog") || "null");
+    const selected = normalizeTestFilter(saved, known);
+    try {
+      localStorage.setItem("part5-test-filter", JSON.stringify([...selected]));
+      localStorage.setItem("part5-test-filter-catalog", JSON.stringify(testCatalog.map(test => test.id)));
+    } catch {}
+    return selected;
+  } catch { return new Set(testCatalog.map(test => test.id)); }
 }
 function saveTestFilter(set) {
-  try { localStorage.setItem("part5-test-filter", JSON.stringify([...set])); } catch {}
+  try {
+    localStorage.setItem("part5-test-filter", JSON.stringify([...set]));
+    localStorage.setItem("part5-test-filter-catalog", JSON.stringify(testCatalog.map(test => test.id)));
+  } catch {}
   window.part5NotifyChange?.();
 }
 
@@ -474,7 +493,8 @@ function makeStudySnapshot() {
     exportedAt: new Date().toISOString(),
     study: studyEngine.getProgress(),
     mastered: [...state.mastered],
-    testFilter: [...state.appliedTests]
+    testFilter: [...state.appliedTests],
+    testCatalogIds: testCatalog.map(test => test.id)
   };
 }
 
@@ -498,14 +518,17 @@ function validateBackup(backup) {
   return backup?.schemaVersion === 1 && Number.isFinite(new Date(backup.exportedAt).getTime())
     && studyEngine.validateProgress(backup.study)
     && Array.isArray(backup.mastered) && backup.mastered.every(id => errorIds.has(id))
-    && Array.isArray(backup.testFilter) && backup.testFilter.length > 0 && backup.testFilter.every(id => testIds.has(id));
+    && Array.isArray(backup.testFilter) && backup.testFilter.length > 0 && backup.testFilter.every(id => testIds.has(id))
+    && (backup.testCatalogIds === undefined || (Array.isArray(backup.testCatalogIds) && backup.testCatalogIds.length > 0
+      && new Set(backup.testCatalogIds).size === backup.testCatalogIds.length
+      && backup.testCatalogIds.every(id => testIds.has(id))));
 }
 
 function applyStudySnapshot(backup) {
   if (!validateBackup(backup)) throw new Error("Dữ liệu tiến độ không đúng schema hoặc chứa ID không hợp lệ.");
   studyEngine.replaceProgress(backup.study);
   state.mastered = new Set(backup.mastered);
-  state.appliedTests = new Set(backup.testFilter);
+  state.appliedTests = normalizeTestFilter(backup.testFilter, backup.testCatalogIds);
   state.draftTests = new Set(backup.testFilter);
   saveMastered(state.mastered);
   saveTestFilter(state.appliedTests);
