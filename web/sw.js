@@ -1,4 +1,4 @@
-const CACHE_NAME = "toeic-part5-v6";
+const CACHE_NAME = "toeic-part5-v7";
 const APP_SHELL = [
   "./",
   "./index.html",

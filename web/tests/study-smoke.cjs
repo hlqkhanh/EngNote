@@ -149,12 +149,27 @@ assert.strictEqual(mature.cards[matureId].scheduled_days, 61);
 assert(engine.createSession("weak-prepositions", new Set(["c1t2"]), new Date("2026-10-30T12:00:00Z")).includes(matureId));
 const reviewTime = new Date("2026-10-30T12:00:00Z");
 const previews = engine.preview(matureId, reviewTime);
+for (const [rating, days] of [[2, 3], [3, 7], [4, 14]]) {
+  assert.strictEqual(new Date(previews[rating].due).getTime() - reviewTime.getTime(), days * 86400000);
+  // Persisted schedules must match the displayed choices for mature cards.
+  engine.replaceProgress(mature);
+  engine.review(matureId, rating, reviewTime);
+  assert.strictEqual(engine.getProgress().cards[matureId].due, previews[rating].due);
+  assert.strictEqual(engine.getProgress().cards[matureId].scheduled_days, days);
+}
 for (const rating of [1, 2, 3, 4]) {
   assert(new Date(previews[rating].due).getTime() <= reviewTime.getTime() + twoWeeks, `Preview ${rating} exceeds 14 days`);
   assert(new Date(previews[rating].due).getTime() > reviewTime.getTime());
 }
 engine.review(matureId, 4, reviewTime);
 assert(new Date(engine.getProgress().cards[matureId].due).getTime() <= reviewTime.getTime() + twoWeeks);
+
+// New-card learning steps remain short; do not turn all ratings into fixed days.
+const freshId = data.flashcards.find(card => !mature.cards[card.id]).id;
+const freshPreview = engine.preview(freshId, reviewTime);
+assert(new Date(freshPreview[1].due) - reviewTime < 3600000);
+assert(new Date(freshPreview[3].due) - reviewTime < 3600000);
+assert(new Date(freshPreview[2].due) - reviewTime < 3 * 86400000);
 
 // Existing on-device schedules migrate on startup, not only on JSON import.
 storage["part5-study-v1"] = JSON.stringify(mature);

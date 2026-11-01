@@ -6,11 +6,13 @@
   const PACKAGE_VERSION = "5.4.2";
   const REQUEST_RETENTION = 0.9;
   const MAX_INTERVAL_DAYS = 14;
+  const RATING_INTERVAL_LIMITS = { 2: 3, 3: 7, 4: MAX_INTERVAL_DAYS };
   const MAX_NEW_PER_SESSION = 5;
   const RATINGS = [1, 2, 3, 4];
   const params = {
     request_retention: REQUEST_RETENTION,
-    maximum_interval: MAX_INTERVAL_DAYS,
+    // Let FSRS calculate distinct outcomes before applying our study limits.
+    maximum_interval: 3650,
     enable_fuzz: true,
     enable_short_term: true,
     learning_steps: ["1m", "10m"],
@@ -50,7 +52,7 @@
     return changed;
   }
 
-  function serializeCard(card) {
+  function serializeCard(card, rating) {
     const serialized = {
       due: new Date(card.due).toISOString(),
       stability: card.stability,
@@ -66,6 +68,14 @@
     // FSRS may separate Hard/Good/Easy intervals beyond maximum_interval to
     // preserve their order. Enforce our study cadence on the final outcome too.
     limitSchedules({ cards: { card: serialized } });
+    const ratingLimit = RATING_INTERVAL_LIMITS[rating];
+    if (ratingLimit && serialized.last_review) {
+      const latestDue = new Date(serialized.last_review).getTime() + ratingLimit * 86400000;
+      if (new Date(serialized.due).getTime() > latestDue) {
+        serialized.due = new Date(latestDue).toISOString();
+        serialized.scheduled_days = ratingLimit;
+      }
+    }
     return serialized;
   }
 
@@ -176,13 +186,13 @@
   function preview(cardId, now = new Date()) {
     if (!getCard(cardId)) throw new Error("Flashcard không tồn tại.");
     const outcomes = scheduler.repeat(currentFsrsCard(cardId, now), now);
-    return Object.fromEntries(RATINGS.map(rating => [rating, serializeCard(outcomes[rating].card)]));
+    return Object.fromEntries(RATINGS.map(rating => [rating, serializeCard(outcomes[rating].card, rating)]));
   }
 
   function review(cardId, rating, now = new Date()) {
     if (!getCard(cardId) || !RATINGS.includes(rating)) throw new Error("Dữ liệu đánh giá flashcard không hợp lệ.");
     const result = scheduler.next(currentFsrsCard(cardId, now), now, rating);
-    progress.cards[cardId] = serializeCard(result.card);
+    progress.cards[cardId] = serializeCard(result.card, rating);
     progress.reviewLogs.push(serializeLog(cardId, result.log));
     saveProgress();
     return progress.cards[cardId];
@@ -213,6 +223,7 @@
     PACKAGE_VERSION,
     REQUEST_RETENTION,
     MAX_INTERVAL_DAYS,
+    RATING_INTERVAL_LIMITS,
     MAX_NEW_PER_SESSION,
     Rating: window.FSRS.Rating,
     State: window.FSRS.State,
