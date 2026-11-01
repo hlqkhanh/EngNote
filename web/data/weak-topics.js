@@ -376,3 +376,183 @@ window.part5Data.weakKnowledgeSources = {
 });
   }
 })();
+
+window.part5Data.weakTopics.push(...[
+  {
+    "id": "weak-participles",
+    "title": "Phân từ",
+    "subtitle": "Quan hệ chủ động/bị động và bổ nghĩa danh từ",
+    "intro": "Xác định vị ngữ chính trước khi chọn dạng động từ sau danh từ. V-ing diễn tả danh từ thực hiện hành động; V3 thường diễn tả danh từ nhận tác động. Một số V3 như qualified được dùng như tính từ chỉ trạng thái.",
+    "steps": [
+      "Tìm động từ chính đã chia trong mệnh đề.",
+      "Xác định danh từ trước chỗ trống thực hiện hay nhận hành động.",
+      "Thử mở rộng thành that/who + verb và kiểm tra nghĩa."
+    ],
+    "columns": [
+      "Cấu trúc",
+      "Cách dùng",
+      "Bẫy",
+      "Ví dụ"
+    ],
+    "rows": [
+      [
+        "noun + V-ing + object",
+        "quan hệ chủ động",
+        "đã có vị ngữ chính",
+        "a facility processing parcels"
+      ],
+      [
+        "noun + V3",
+        "quan hệ bị động",
+        "không chọn -ing chỉ vì đứng sau danh từ",
+        "machines installed last week"
+      ],
+      [
+        "qualified to + V",
+        "đủ năng lực làm gì",
+        "khác qualifying round",
+        "the executive best qualified to lead"
+      ]
+    ],
+    "examples": [
+      "A facility processing parcels operates nightly.",
+      "The executive best qualified to lead was appointed."
+    ],
+    "errorIds": [
+      "practice20261101-114",
+      "practice20261101-115",
+      "practice20261101-128"
+    ]
+  },
+  {
+    "id": "weak-comparisons",
+    "title": "So sánh",
+    "subtitle": "So sánh hơn và từ nhấn mạnh",
+    "intro": "So sánh hơn diễn tả mức độ khác biệt. Far, much và even có thể đứng trước dạng so sánh hơn. Trong make it + adjective + for somebody + to V, it là tân ngữ giả, tính từ mô tả việc làm ở phần to V.",
+    "steps": [
+      "Xác định vị trí cần tính từ hay trạng từ.",
+      "Tìm dấu hiệu far/much/than để chọn so sánh hơn.",
+      "Giữ đúng mẫu make it + adjective + for somebody + to V."
+    ],
+    "columns": [
+      "Cấu trúc",
+      "Nghĩa",
+      "Bẫy",
+      "Ví dụ"
+    ],
+    "rows": [
+      [
+        "far + comparative",
+        "hơn nhiều",
+        "không dùng far easy",
+        "far easier"
+      ],
+      [
+        "make it + adjective + for somebody + to V",
+        "làm việc gì trở nên thế nào",
+        "không thay bằng trạng từ",
+        "make it easier for shoppers to pay"
+      ]
+    ],
+    "examples": [
+      "Self-checkout makes it far easier for shoppers to pay."
+    ],
+    "errorIds": [
+      "practice20261101-121"
+    ]
+  }
+]);
+(() => { const topic = window.part5Data.weakTopics.find(t => t.id === "weak-context"); topic.errorIds.push(...[
+  "practice20261101-109",
+  "practice20261101-110",
+  "practice20261101-119",
+  "practice20261101-126"
+]); topic.rows.push(...[
+  [
+    "timely",
+    "kịp thời",
+    "in a timely manner",
+    "-ly nhưng là tính từ"
+  ],
+  [
+    "obstacles",
+    "trở ngại",
+    "obstacles delay a launch",
+    "khác outcomes = kết quả"
+  ],
+  [
+    "considerable",
+    "đáng kể",
+    "a considerable increase",
+    "khác prolonged/durable"
+  ]
+]); topic.examples.push(...[
+  "Hartwell Insurance recommends submitting your claims in a timely manner.",
+  "After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples precisely.",
+  "Project coordinator Miriam Solberg documented the obstacles that had delayed the campaign launch across several markets.",
+  "The online learning platform recorded a considerable increase in enrollments last quarter after expanding its course catalog."
+]); topic.subtitle = "Đọc quan hệ toàn câu · 20 câu sai";
+Object.assign(window.part5Data.weakKnowledgeSources[topic.id].rows, {
+  "timely": [
+    "practice20261101"
+  ],
+  "obstacles": [
+    "practice20261101"
+  ],
+  "considerable": [
+    "practice20261101"
+  ],
+  "precisely": [
+    "parroto1",
+    "practice20261101"
+  ]
+});Object.assign(window.part5Data.weakKnowledgeSources[topic.id].examples,{
+  "Hartwell Insurance recommends submitting your claims in a timely manner.": [
+    "practice20261101"
+  ],
+  "After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples precisely.": [
+    "practice20261101"
+  ],
+  "Project coordinator Miriam Solberg documented the obstacles that had delayed the campaign launch across several markets.": [
+    "practice20261101"
+  ],
+  "The online learning platform recorded a considerable increase in enrollments last quarter after expanding its course catalog.": [
+    "practice20261101"
+  ]
+});})();
+window.part5Data.weakKnowledgeSources["weak-participles"] = {
+  "rows": {
+    "noun + V-ing + object": [
+      "practice20261101"
+    ],
+    "noun + V3": [
+      "practice20261101"
+    ],
+    "qualified to + V": [
+      "practice20261101"
+    ]
+  },
+  "examples": {
+    "A facility processing parcels operates nightly.": [
+      "practice20261101"
+    ],
+    "The executive best qualified to lead was appointed.": [
+      "practice20261101"
+    ]
+  }
+};
+window.part5Data.weakKnowledgeSources["weak-comparisons"] = {
+  "rows": {
+    "far + comparative": [
+      "practice20261101"
+    ],
+    "make it + adjective + for somebody + to V": [
+      "practice20261101"
+    ]
+  },
+  "examples": {
+    "Self-checkout makes it far easier for shoppers to pay.": [
+      "practice20261101"
+    ]
+  }
+};

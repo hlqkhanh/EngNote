@@ -157,4 +157,25 @@ assert.deepStrictEqual(JSON.parse(storage["part5-study-v1"]), JSON.parse(JSON.st
 vm.runInContext('navigate("progress")', context);
 assert.match(elements.app.innerHTML, /tối đa <strong>14 ngày/);
 
+// The November source introduces distinct participle/comparison notebooks.
+vm.runInContext('state.appliedTests = new Set(["practice20261101"]); state.query = ""; navigate("mistakes")', context);
+assert.match(elements.app.innerHTML, /data-study-topic="weak-participles"/);
+assert.match(elements.app.innerHTML, /data-study-topic="weak-comparisons"/);
+assert.match(elements.app.innerHTML, /8 câu/);
+assert.match(elements.app.innerHTML, /30 câu/);
+assert.doesNotMatch(elements.app.innerHTML, /data-master="practice20261030-/);
+assert.doesNotMatch(elements.app.innerHTML, /data-master="parroto1-/);
+vm.runInContext('state.query = "qualified"; render()', context);
+assert.match(elements.app.innerHTML, /practice20261101-128/);
+vm.runInContext('state.query = ""; openStudy("weak-participles"); startFlashSession()', context);
+assert.match(elements.app.innerHTML, /Hiện đáp án/);
+vm.runInContext('state.studyMode = "home"; startTopicQuiz()', context);
+assert.match(elements.app.innerHTML, /Câu 1\/10/);
+vm.runInContext('openStudy("weak-comparisons"); startTopicQuiz()', context);
+assert.match(elements.app.innerHTML, /Câu 1\/10/);
+vm.runInContext('navigate("theory")', context);
+assert.match(elements.app.innerHTML, /will be reviewing/);
+vm.runInContext('navigate("vocabulary")', context);
+assert.match(elements.app.innerHTML, /timely manner/);
+
 console.log("study-smoke: ok");

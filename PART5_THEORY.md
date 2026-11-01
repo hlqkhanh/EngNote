@@ -36,6 +36,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 
 - Câu 108: `Ms. Corwin will review all supplier orders ... next week.` Đáp án **C**.
 
+- **`will be + V-ing`**: Tương lai tiếp diễn diễn tả việc sẽ diễn ra trong tuần tới: throughout the coming week. Dấu hiệu: câu 106, `will be reviewing`. Bẫy: have reviewed là hiện tại hoàn thành chứ không phải quá khứ hoàn thành; have/were còn sai hòa hợp. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 106.
+
 ### 1.3. Hiện tại đơn chỉ lịch trình hoặc thời điểm ấn định
 
 **Lý thuyết**
@@ -101,6 +103,16 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 **Ví dụ từ bài luyện**
 
 - Câu 103: `Commenting on the results ..., Ms. Carraway assured staff ...` Đáp án **B**.
+
+- **`recently + V3 + noun`**: installed = đã được lắp; máy nhận hành động nên chọn V3. Dấu hiệu: câu 107, `installed`. Bẫy: install là nguyên mẫu, installs là dạng chia; installing mang quan hệ chủ động không hợp máy. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 107.
+
+- **`noun + V-ing + object`**: platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính. Dấu hiệu: câu 114, `consolidating`. Bẫy: Đề chọn C. Tuy nhiên platform to consolidate orders cũng có cách hiểu mục đích/chức năng hợp ngữ pháp; B không sai tuyệt đối. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 114.
+
+- **`facility processing parcels`**: Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes. Dấu hiệu: câu 115, `processing`. Bẫy: processes/process không nối với danh từ khi thiếu that/which; processed sai quan hệ với parcels. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 115.
+
+- **`updated + noun`**: updated list = danh sách đã được cập nhật, danh sách nhận tác động. Dấu hiệu: câu 123, `updated`. Bẫy: Danh từ vẫn có thể bổ nghĩa danh từ ở cấu trúc khác; ở đây ý nghĩa trạng thái đã cập nhật quyết định D. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 123.
+
+- **`the executive best qualified to V`**: qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất. Dấu hiệu: câu 128, `qualified`. Bẫy: qualifying thường nói tạo điều kiện/đủ điều kiện tham dự, ví dụ qualifying round; không thay qualified to lead. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 128.
 
 ### 2.2. Quan hệ tương phản
 
@@ -174,6 +186,12 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - Câu 119: `a detailed estimate` — sau mạo từ và tính từ cần danh từ. Đáp án **C**.
 - Câu 124: `The senior operator ... monitors ...` — cần danh từ chỉ người. Đáp án **B**.
 
+- **`possess N and N; experience (in) V-ing`**: experience là danh từ không đếm được khi nói kinh nghiệm; hai tân ngữ song song. Dấu hiệu: câu 113, `experience`. Bẫy: V-ing có thể làm danh từ nhưng experiencing working không diễn tả sở hữu kinh nghiệm ở đây. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 113.
+
+- **`express confidence in + noun/V-ing`**: confidence không đếm được khi chỉ sự tin tưởng; làm tân ngữ expressed. Dấu hiệu: câu 127, `confidence`. Bẫy: confidences là những điều tâm sự bí mật, không mang nghĩa sự tự tin trong câu. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 127.
+
+- **`the + noun + of`**: reliability = độ tin cậy; reliability of the delivery schedule. Dấu hiệu: câu 130, `reliability`. Bẫy: reliable tính từ, reliably trạng từ, relies động từ; rely on = dựa vào. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 130.
+
 ### 3.2. Tính từ
 
 **Lý thuyết**
@@ -187,6 +205,10 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - Câu 112: `positive reviews`. Đáp án **B**.
 - Câu 114: `a spacious layout`. Đáp án **B**.
 - Câu 117: `the most innovative feature`. Đáp án **D**.
+
+- **`feel + adjective; confident about`**: Sau feel dùng tính từ; phản hồi encouraging dẫn tới confident about prospects. Dấu hiệu: câu 101, `confident`. Bẫy: concerned/doubtful trái ngữ cảnh; eligible for = đủ điều kiện. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 101.
+
+- **`most + adverb + adjective + noun`**: consistently bổ nghĩa profitable, profitable mô tả location; superlative most profitable. Dấu hiệu: câu 105, `profitable`. Bẫy: Danh từ có thể bổ nghĩa danh từ, nhưng profit/profitability không phù hợp cấu trúc có most consistently. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 105.
 
 ### 3.3. Trạng từ
 
@@ -209,6 +231,12 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 
 - **`nearly + verb; cause somebody to V`**: nearly = suýt/gần như; near = gần về vị trí/thời gian. Dấu hiệu: `Traffic nearly caused her to miss her flight.`. Bẫy: near cũng có thể là trạng từ nhưng không thay nearly mang nghĩa almost; lựa chọn C thực tế là approaches. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 107.
 - **`will probably + V; take place`**: probably diễn tả xác suất; merger = sự sáp nhập. Dấu hiệu: `The merger will probably take place next year.`. Bẫy: regularly chỉ lặp lại; originally chỉ ban đầu. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 108.
+
+- **`rise automatically; as soon as + clause`**: automatically = tự động; scanned ticket kích hoạt thanh chắn. Dấu hiệu: câu 108, `automatically`. Bẫy: manually trái cơ chế tự động; eventually không nhấn mạnh phản ứng ngay khi quét. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 108.
+
+- **`match something precisely`**: precisely diễn tả độ chính xác của sự trùng khớp. Dấu hiệu: câu 110, `precisely`. Bẫy: frequently/occasionally chỉ tần suất, recently chỉ thời gian; không diễn tả độ khớp. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 110.
+
+- **`Unfortunately, + clause; owing to + noun`**: Unfortunately là trạng từ đánh giá toàn câu; owing to chỉ nguyên nhân. Dấu hiệu: câu 125, `Unfortunately`. Bẫy: considerably/enormously/severely chỉ mức độ, cần thành phần thích hợp để bổ nghĩa. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 125.
 
 ### 3.4. Họ từ
 
@@ -324,6 +352,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 | they | them | their | theirs | themselves |
 | it | it | its | its | itself |
 
+- **`each other vs themselves`**: each other = lẫn nhau, chỉ quan hệ qua lại; themselves = chính họ. Dấu hiệu: câu 111, `each other`. Bẫy: each other không bị giới hạn tuyệt đối chỉ hai người; ở đây hai chủ cửa hàng là dấu hiệu rõ. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 111.
+
 ### 4.3. Tính từ sở hữu và đại từ bất định `neither`
 
 **Lý thuyết**
@@ -344,6 +374,10 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - **`her + noun`**: Trước youth cần tính từ sở hữu her; hers đứng độc lập. Dấu hiệu: `Despite her youth`. Bẫy: she là chủ ngữ; herself là phản thân. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 101.
 - **`various + plural noun`**: various = nhiều loại khác nhau; monthly basis = theo tháng. Dấu hiệu: `various beautiful guest rooms`. Bẫy: among/throughout không làm từ hạn định ở vị trí này. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 109.
 
+- **`the + superlative + one`**: one thay danh từ đếm được số ít; ones thay danh từ số nhiều. Dấu hiệu: câu 103, `one`. Bẫy: those là số nhiều; each/some không tạo the largest ... ở đây. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 103.
+
+- **`his + noun`**: his đứng trước expectations là từ hạn định sở hữu. Dấu hiệu: câu 129, `his`. Bẫy: he chủ ngữ, him tân ngữ, himself phản thân; không dùng làm từ hạn định trước noun. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 129.
+
 ## 5. Giới từ
 
 ### 5.1. Giới từ chỉ thời gian
@@ -361,6 +395,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - Câu 129: `throughout the three-day craft fair`. Đáp án **D**.
 
 - **`have/has + V3 + over the past + duration`**: over the past ten years chỉ khoảng kéo dài tới hiện tại; undergo changes = trải qua thay đổi. Dấu hiệu: `has undergone changes over the past ten years`. Bẫy: since nhận mốc bắt đầu, không nhận the past ten years. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 126.
+
+- **`during + event/period`**: during their visit = trong thời gian chuyến thăm; while + S + V. Dấu hiệu: câu 104, `during`. Bẫy: during không tự khẳng định liên tục suốt toàn bộ; throughout nhấn mạnh toàn khoảng. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 104.
 
 ### 5.2. Giới từ chỉ hướng và đường đi
 
@@ -415,6 +451,12 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - **`in response to + noun/V-ing`**: in response to = để đáp lại/phản ứng trước. Dấu hiệu: `an action plan in response to budget cuts`. Bẫy: in effect = có hiệu lực/trên thực tế, không thay in response to. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 119.
 - **`up to + number`**: up to = tối đa, không vượt quá; simultaneously = đồng thời. Dấu hiệu: `open up to five files simultaneously`. Bẫy: far from không diễn tả giới hạn tối đa; as for chuyển chủ đề. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 122.
 
+- **`be eligible for + noun`**: eligible for the bonus = đủ điều kiện nhận thưởng. Dấu hiệu: câu 117, `eligible`. Bẫy: available/suitable/ready không truyền đạt chính xác tư cách đủ điều kiện. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 117.
+
+- **`divide something into parts`**: be divided into five chapters = được chia thành năm chương. Dấu hiệu: câu 122, `into`. Bẫy: divide among nói phân chia cho các bên; by có thể dùng trong phép chia nhưng không mang nghĩa chia thành chương. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 122.
+
+- **`by phone / over the phone`**: by phone chỉ phương thức, không có the; over the phone có the. Dấu hiệu: câu 124, `by`. Bẫy: on phone thiếu the; with phone không phải cụm chỉ phương thức thanh toán trong câu. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 124.
+
 ### 5.5. `role in + noun/V-ing`
 
 **Lý thuyết**
@@ -446,9 +488,13 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - `despite + cụm danh từ`. Đáp án **D** (xem mục 10.6, câu 121).
 - `rather than` diễn tả lựa chọn đối lập. Đáp án **D** (xem mục 10.6, câu 128).
 
+- **`thanks to + noun/V-ing`**: thanks to chỉ nguyên nhân dẫn tới kết quả, ở đây là kết quả tích cực. Dấu hiệu: câu 102, `thanks to`. Bẫy: even though cần mệnh đề; however là trạng từ nối, không phải liên từ phụ thuộc. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 102.
+
 ## 7. So sánh
 
 - **`be more + adjective + than`**: Sau are more cần tính từ productive; those thay employees. Dấu hiệu: `more productive than those who take no breaks`. Bẫy: production = sản xuất; productivity = năng suất; productively là trạng từ. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 105.
+
+- **`make it far + comparative + for somebody + to V`**: it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ. Dấu hiệu: câu 121, `easier`. Bẫy: far easier = dễ hơn nhiều; không dùng far easy; easily là trạng từ, ease là danh từ/động từ. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 121.
 
 ### 7.1. So sánh nhất với tính từ dài
 
@@ -460,6 +506,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 **Ví dụ từ bài luyện**
 
 - Câu 117: `its most innovative feature`. Đáp án **D**.
+
+- **`the/its most + adjective + noun`**: attractive mô tả feature; its thay the trước so sánh nhất. Dấu hiệu: câu 120, `attractive`. Bẫy: attracting có thể là phân từ nhưng không thay tính từ attractive mô tả đặc tính hấp dẫn ở đây. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 120.
 
 ## 8. Sự hòa hợp chủ ngữ–động từ
 
@@ -496,6 +544,8 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 - **`have/has been promoted to + position`**: Bị động hiện tại hoàn thành: được thăng chức. Dấu hiệu: `has been promoted to president`. Bẫy: Phân biệt promote sản phẩm (quảng bá) với promote nhân viên (thăng chức). Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 104.
 - **`be specifically designed to V`**: specifically bổ nghĩa hành động thiết kế trong cấu trúc bị động be designed. Dấu hiệu: `The app is specifically designed to provide insights.`. Bẫy: Không cần quy designed thành tính từ mới giải được vị trí trạng từ. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 117.
 - **`have/has + adverb + been shown to V`**: consistently = nhất quán/qua nhiều lần; bị động hiện tại hoàn thành. Dấu hiệu: `have consistently been shown to improve skills`. Bẫy: Không suy ra hiệu quả xảy ra liên tục mọi lúc; đó là kết quả được ghi nhận nhất quán. Nguồn: `part5_practise/part5_practice_2026-10-30.md`, câu 120.
+
+- **`make an announcement → an announcement is made`**: Collocation make an announcement ở dạng bị động was made. Dấu hiệu: câu 118, `made`. Bẫy: speak sai dạng; tell không kết hợp tự nhiên với announcement; không suy rộng rằng tell luôn cần tân ngữ người. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 118.
 
 ## 10. Từ vựng và collocation
 
@@ -550,6 +600,10 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 | `innovative feature` | tính năng đổi mới/sáng tạo | 117 |
 | `sharp decline` | sự sụt giảm mạnh | 126 |
 
+- **`in a timely manner`**: timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời. Dấu hiệu: câu 109, `timely`. Bẫy: Không phải từ nào kết thúc -ly cũng là trạng từ; current/gradual/momentary không mang nghĩa đúng hạn. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 109.
+
+- **`a wide range of + plural noun`**: a wide range of rental vehicles = nhiều loại xe cho thuê. Dấu hiệu: câu 112, `range`. Bẫy: amount thường đi với danh từ không đếm được; portion nhấn phần của tổng thể. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 112.
+
 ### 10.5. Từ dễ nhầm
 
 | Từ/cụm | Nghĩa và cách dùng |
@@ -566,6 +620,12 @@ File này là kho lý thuyết tích lũy từ toàn bộ bài Part 5 đã xử 
 | `presence` | sự hiện diện nói chung |
 | `appearance` | sự xuất hiện hoặc vẻ bề ngoài |
 | `arrival` | sự đến nơi |
+
+- **`durable surface; constant foot traffic`**: durable = bền, chịu mài mòn; foot traffic = lượng người đi bộ qua lại. Dấu hiệu: câu 116, `durable`. Bẫy: decorative trang trí, reflective phản chiếu, adjustable điều chỉnh được. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 116.
+
+- **`obstacles delay a launch`**: obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại. Dấu hiệu: câu 119, `obstacles`. Bẫy: forecasts dự báo, estimates ước tính, outcomes kết quả; không phù hợp nghĩa nguyên nhân cản trở. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 119.
+
+- **`a considerable increase in + noun`**: considerable = đáng kể về mức độ; a considerable increase in enrollments. Dấu hiệu: câu 126, `considerable`. Bẫy: prolonged kéo dài thời gian; durable bền; plenty không làm tính từ trực tiếp ở đây, học plenty of + noun. Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 126.
 
 ### 10.6. Cụm từ và cách dùng từ từ bài Parroto TOEIC 2026 Test 1
 
@@ -693,7 +753,10 @@ Các cụm dưới đây được đặt trong cấu trúc ngữ pháp tương �
 | `part5_practise/part5_Collection1_Test1.md` | 101–130 | 30 |
 | `part5_practise/part5_parroto_toiec2026_test1.md` | 101–130 | 30 |
 | `part5_practise/part5_practice_2026-10-30.md` | 101–130 | 30 |
+| `part5_practise/part5_practice_2026-11-01.md` | 101–130 | 30 |
 
-Bài 30/10/2026: **5 câu sai**, **25 câu đúng/không được đánh dấu sai**; tổng tích lũy **120 câu**, **40 câu sai**, **80 câu đúng/không được đánh dấu sai**.
+Bài 30/10/2026: **5 câu sai**, **25 câu đúng/không được đánh dấu sai**; tại thời điểm đó có **120 câu**, **40 câu sai**, **80 câu đúng/không được đánh dấu sai**.
 
 Lưu ý hiệu đính nguồn: câu 107 giải thích nhầm lựa chọn C thành nears (thực tế approaches); near vẫn có thể là trạng từ nhưng không mang nghĩa almost ở đây. Câu 117 là cấu trúc bị động be designed; câu 127 cần loại danh từ số ít thiếu mạo từ. Câu 130 once không mặc định diễn tả ngay lập tức.
+
+Tổng tích lũy sau bài 01/11/2026: **150 câu**, **48 câu sai**, **102 câu đúng/không được đánh dấu sai**. Câu 114 giữ đáp án C theo nguồn nhưng B có cách hiểu chỉ mục đích; không dùng câu này để kết luận người học không hiểu mọi cấu trúc to V.

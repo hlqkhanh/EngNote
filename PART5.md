@@ -10,19 +10,24 @@ File này chỉ tổng hợp những chủ đề đã xuất hiện trong các c
 | `part5_practise/part5_Collection1_Test1.md` | 101–130 | 30 | 9 |
 | `part5_practise/part5_parroto_toiec2026_test1.md` | 101–130 | 30 | 15 |
 | `part5_practise/part5_practice_2026-10-30.md` | 101–130 | 30 | 5 |
-| **Tổng** |  | **120** | **40** |
+| `part5_practise/part5_practice_2026-11-01.md` | 101–130 | 30 | 8 |
+| **Tổng** |  | **150** | **48** |
 
-Có **80 câu đúng/không được đánh dấu sai**; nhóm này không đồng nghĩa đã thành thạo.
+Có **102 câu đúng/không được đánh dấu sai**; nhóm này không đồng nghĩa đã thành thạo.
 
 | Chủ đề yếu | Số câu sai | Câu |
 |---|---:|---|
 | Giới từ và cụm giới từ | 12 | Test 2: 101, 102, 105, 109, 110, 121, 126, 129; Test 1: 126, 127; Parroto 2026 Test 1: 101, 117 |
-| Chọn từ theo ngữ cảnh | 16 | Test 2: 106, 119; Test 1: 104, 110; Parroto 2026 Test 1: 102, 103, 111, 113, 114, 115, 119, 125, 129; Bài 30/10/2026: 113, 121, 128 |
+| Chọn từ theo ngữ cảnh | 20 | Test 2: 106, 119; Test 1: 104, 110; Parroto 2026 Test 1: 102, 103, 111, 113, 114, 115, 119, 125, 129; Bài 30/10/2026: 113, 121, 128; Bài 01/11/2026: 109, 110, 119, 126 |
 | Từ loại và họ từ | 5 | Test 2: 124; Test 1: 114; Parroto 2026 Test 1: 112; Bài 30/10/2026: 111, 127 |
 | To V và V-ing | 1 | Parroto 2026 Test 1: 122 |
 | Hòa hợp chủ ngữ–động từ | 1 | Test 1: 109 |
 | Mệnh đề | 4 | Test 1: 111, 113; Parroto 2026 Test 1: 118, 128 |
 | Đại từ | 1 | Test 1: 119 |
+| Phân từ | 3 | Bài 01/11/2026: 114, 115, 128 |
+| So sánh | 1 | Bài 01/11/2026: 121 |
+
+Lỗi lặp lại cụ thể: **precisely — 2 lần sai**, nguồn Parroto 2026 Test 1 câu 111 và bài 01/11/2026 câu 110. Hai câu 114–115 cùng kiểm tra phân từ chủ động sau danh từ: **2 lần sai**.
 
 ## 1. Giới từ và cụm giới từ
 
@@ -211,6 +216,9 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 | `profitable` | có lãi | a financially profitable quarter — reduce costs → lợi nhuận; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 113` |
 | `former` | cựu/nguyên | former director — khác formed, formal và formality; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 121` |
 | `hastily` | vội vàng | pack hastily — so hastily that ... forgot ...; nguồn: `part5_practise/part5_practice_2026-10-30.md, câu 128` |
+| `timely` | kịp thời | in a timely manner; -ly nhưng là tính từ; nguồn: part5_practise/part5_practice_2026-11-01.md, câu 109 |
+| `obstacles` | trở ngại | obstacles delay a launch; khác outcomes = kết quả; nguồn: part5_practise/part5_practice_2026-11-01.md, câu 119 |
+| `considerable` | đáng kể | a considerable increase; khác prolonged/durable; nguồn: part5_practise/part5_practice_2026-11-01.md, câu 126 |
 
 ### Ví dụ mẫu
 
@@ -223,8 +231,13 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - `a former director (câu 121)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
 - `pack so hastily that he forgets his suit (câu 128)` — nguồn `part5_practise/part5_practice_2026-10-30.md`.
 
+- `Hartwell Insurance recommends submitting your claims in a timely manner.` — part5_practise/part5_practice_2026-11-01.md, câu 109.
+- `After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples precisely.` — part5_practise/part5_practice_2026-11-01.md, câu 110.
+- `Project coordinator Miriam Solberg documented the obstacles that had delayed the campaign launch across several markets.` — part5_practise/part5_practice_2026-11-01.md, câu 119.
+- `The online learning platform recorded a considerable increase in enrollments last quarter after expanding its course catalog.` — part5_practise/part5_practice_2026-11-01.md, câu 126.
+
 <details>
-<summary><strong>Xem 16 câu đã làm sai về chọn từ</strong></summary>
+<summary><strong>Xem 20 câu đã làm sai về chọn từ</strong></summary>
 
 ### Câu 106 — `finally`
 
@@ -386,6 +399,66 @@ Khi các đáp án cùng từ loại, cấu trúc ngữ pháp không đủ để
 - **D. mysteriously:** mysteriously = bí ẩn/khó giải thích, không phù hợp quan hệ nguyên nhân.
 - **Quy tắc chốt:** hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp.
 - **Lý thuyết:** [Mục 3 — Từ loại và cấu tạo từ](PART5_THEORY.md#3-từ-loại-và-cấu-tạo-từ).
+
+### Bài 01/11/2026 — Câu 109: timely và in a timely manner
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#109`.
+- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 109.
+- **Câu:** Hartwell Insurance recommends submitting your claims in a _____ manner.
+- **Đáp án đúng theo nguồn:** A. **Loại lỗi:** Từ vựng.
+- **Điểm cần ôn:** timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời.
+- **Manh mối:** 10.4.
+- **A. timely:** Đúng: timely = kịp thời, hợp nộp hồ sơ.
+- **B. current:** current = hiện tại, không mang nghĩa đúng hạn.
+- **C. gradual:** gradual = dần dần, không mô tả nộp đúng hạn.
+- **D. momentary:** momentary = thoáng qua, không hợp manner ở đây.
+- **Quy tắc chốt:** timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời. Không phải từ nào kết thúc -ly cũng là trạng từ; current/gradual/momentary không mang nghĩa đúng hạn.
+- **Lý thuyết:** [Từ vựng](PART5_THEORY.md).
+
+### Bài 01/11/2026 — Câu 110: precisely — Lỗi lặp lại
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#110`.
+- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 110.
+- **Câu:** After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples _____.
+- **Đáp án đúng theo nguồn:** C. **Loại lỗi:** Từ vựng.
+- **Điểm cần ôn:** precisely diễn tả độ chính xác của sự trùng khớp.
+- **Manh mối:** 3.3.
+- **A. frequently:** frequently chỉ tần suất.
+- **B. recently:** recently chỉ thời gian gần đây.
+- **C. precisely:** Đúng: precisely = chính xác, bổ nghĩa matched.
+- **D. occasionally:** occasionally chỉ tần suất thỉnh thoảng.
+- **Quy tắc chốt:** precisely diễn tả độ chính xác của sự trùng khớp. frequently/occasionally chỉ tần suất, recently chỉ thời gian; không diễn tả độ khớp.
+- **Lý thuyết:** [Từ vựng](PART5_THEORY.md).
+
+### Bài 01/11/2026 — Câu 119: obstacles — trở ngại
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#119`.
+- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 119.
+- **Câu:** Project coordinator Miriam Solberg documented the ____ that had delayed the campaign launch across several markets.
+- **Đáp án đúng theo nguồn:** B. **Loại lỗi:** Từ vựng.
+- **Điểm cần ôn:** obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại.
+- **Manh mối:** 10.5.
+- **A. forecasts:** forecasts = dự báo, không phải từ chỉ cản trở.
+- **B. obstacles:** Đúng: obstacles gây delayed launch.
+- **C. estimates:** estimates = ước tính, không phù hợp cản trở.
+- **D. outcomes:** outcomes = kết quả, không hợp nghĩa nguyên nhân cản trở.
+- **Quy tắc chốt:** obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại. forecasts dự báo, estimates ước tính, outcomes kết quả; không phù hợp nghĩa nguyên nhân cản trở.
+- **Lý thuyết:** [Từ vựng](PART5_THEORY.md).
+
+### Bài 01/11/2026 — Câu 126: considerable increase
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#126`.
+- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 126.
+- **Câu:** The online learning platform recorded a _____ increase in enrollments last quarter after expanding its course catalog.
+- **Đáp án đúng theo nguồn:** A. **Loại lỗi:** Từ vựng.
+- **Điểm cần ôn:** considerable = đáng kể về mức độ; a considerable increase in enrollments.
+- **Manh mối:** 10.5.
+- **A. considerable:** Đúng: considerable = đáng kể về lượng/mức độ.
+- **B. prolonged:** prolonged nhấn kéo dài thời gian, không nói mức tăng lớn.
+- **C. durable:** durable mô tả độ bền, không phải mức tăng.
+- **D. plenty:** plenty không đứng như tính từ trước increase; dùng plenty of khi phù hợp.
+- **Quy tắc chốt:** considerable = đáng kể về mức độ; a considerable increase in enrollments. prolonged kéo dài thời gian; durable bền; plenty không làm tính từ trực tiếp ở đây, học plenty of + noun.
+- **Lý thuyết:** [Từ vựng](PART5_THEORY.md).
 
 </details>
 
@@ -703,6 +776,120 @@ Chọn đại từ theo chức năng trong câu: chủ ngữ, tân ngữ, sở h
 - Sau giới từ `for` cần một đại từ làm tân ngữ; `seeking ...` bổ nghĩa cho nhóm người đó.
 - `those seeking` là dạng rút gọn của `those who are seeking`.
 - `which` là đại từ quan hệ chỉ vật; `whose` chỉ sở hữu; `either` mang nghĩa một trong hai.
+
+</details>
+
+## 8. Phân từ
+
+### Lý thuyết tổng quát
+
+Xác định vị ngữ chính trước khi chọn dạng động từ sau danh từ. V-ing diễn tả danh từ thực hiện hành động; V3 thường diễn tả danh từ nhận tác động. Một số V3 như qualified được dùng như tính từ chỉ trạng thái.
+
+1. Tìm động từ chính đã chia trong mệnh đề.
+2. Xác định danh từ trước chỗ trống thực hiện hay nhận hành động.
+3. Thử mở rộng thành that/who + verb và kiểm tra nghĩa.
+
+| Cấu trúc | Cách dùng | Bẫy | Ví dụ |
+|---|---|---|---|
+| noun + V-ing + object | quan hệ chủ động | đã có vị ngữ chính | a facility processing parcels |
+| noun + V3 | quan hệ bị động | không chọn -ing chỉ vì đứng sau danh từ | machines installed last week |
+| qualified to + V | đủ năng lực làm gì | khác qualifying round | the executive best qualified to lead |
+
+Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 114, 115, 128.
+
+### Ví dụ mẫu
+
+- `A facility processing parcels operates nightly.`
+- `The executive best qualified to lead was appointed.`
+
+<details>
+<summary>Các câu đã làm sai (3)</summary>
+
+### Bài 01/11/2026 — Câu 114: Mệnh đề quan hệ rút gọn chủ động
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#114`.
+- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 114.
+- **Câu:** The platform _____ all incoming orders into a single dashboard has become essential to the company's daily operations.
+- **Đáp án đúng theo nguồn:** C. **Loại lỗi:** Phân từ.
+- **Điểm cần ôn:** platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính.
+- **Manh mối:** 2.1.
+- **A. consolidates:** consolidates cần that/which để mở mệnh đề.
+- **B. to consolidate:** to consolidate có thể chỉ mục đích, tạo cách hiểu khác hợp ngữ pháp; đề chưa loại B chặt chẽ.
+- **C. consolidating:** Đáp án của đề: consolidating = that consolidates.
+- **D. consolidation:** consolidation là danh từ, không nhận trực tiếp orders theo cấu trúc này.
+- **Quy tắc chốt:** platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính. Đề chọn C. Tuy nhiên platform to consolidate orders cũng có cách hiểu mục đích/chức năng hợp ngữ pháp; B không sai tuyệt đối.
+- **Lý thuyết:** [Phân từ](PART5_THEORY.md#21-mệnh-đề-phân-từ-chủ-động).
+
+### Bài 01/11/2026 — Câu 115: Phân từ chủ động sau danh từ — Lỗi lặp lại
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#115`.
+- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 115.
+- **Câu:** To meet holiday demand, Delcourt Logistics operates a sorting facility ____ more than ten thousand parcels each night.
+- **Đáp án đúng theo nguồn:** B. **Loại lỗi:** Phân từ.
+- **Điểm cần ôn:** Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes.
+- **Manh mối:** 2.1.
+- **A. processes:** processes cần that/which trước nó.
+- **B. processing:** Đúng: processing = that processes.
+- **C. processed:** processed không diễn tả facility thực hiện xử lý parcels.
+- **D. process:** process không nối được hai vị ngữ trong câu.
+- **Quy tắc chốt:** Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes. processes/process không nối với danh từ khi thiếu that/which; processed sai quan hệ với parcels.
+- **Lý thuyết:** [Phân từ](PART5_THEORY.md#21-mệnh-đề-phân-từ-chủ-động).
+
+### Bài 01/11/2026 — Câu 128: best qualified to lead
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#128`.
+- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 128.
+- **Câu:** After a thorough review, the board appointed the executive best _____ to lead the merger.
+- **Đáp án đúng theo nguồn:** B. **Loại lỗi:** Phân từ.
+- **Điểm cần ôn:** qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất.
+- **Manh mối:** 2.1.
+- **A. qualifying:** qualifying không mang nghĩa có đủ năng lực nhất ở đây.
+- **B. qualified:** Đúng: qualified to lead = có đủ năng lực lãnh đạo.
+- **C. qualify:** qualify là nguyên mẫu, không phù hợp best ... to lead.
+- **D. qualification:** qualification là danh từ, không đứng trong cấu trúc best ... to lead.
+- **Quy tắc chốt:** qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất. qualifying thường nói tạo điều kiện/đủ điều kiện tham dự, ví dụ qualifying round; không thay qualified to lead.
+- **Lý thuyết:** [Phân từ](PART5_THEORY.md#21-mệnh-đề-phân-từ-chủ-động).
+
+</details>
+
+## 9. So sánh
+
+### Lý thuyết tổng quát
+
+So sánh hơn diễn tả mức độ khác biệt. Far, much và even có thể đứng trước dạng so sánh hơn. Trong make it + adjective + for somebody + to V, it là tân ngữ giả, tính từ mô tả việc làm ở phần to V.
+
+1. Xác định vị trí cần tính từ hay trạng từ.
+2. Tìm dấu hiệu far/much/than để chọn so sánh hơn.
+3. Giữ đúng mẫu make it + adjective + for somebody + to V.
+
+| Cấu trúc | Nghĩa | Bẫy | Ví dụ |
+|---|---|---|---|
+| far + comparative | hơn nhiều | không dùng far easy | far easier |
+| make it + adjective + for somebody + to V | làm việc gì trở nên thế nào | không thay bằng trạng từ | make it easier for shoppers to pay |
+
+Nguồn: `part5_practise/part5_practice_2026-11-01.md`, câu 121.
+
+### Ví dụ mẫu
+
+- `Self-checkout makes it far easier for shoppers to pay.`
+
+<details>
+<summary>Các câu đã làm sai (1)</summary>
+
+### Bài 01/11/2026 — Câu 121: far + so sánh hơn
+
+- **Khóa nguồn:** `part5_practise/part5_practice_2026-11-01.md#121`.
+- **Nguồn:** `part5_practise/part5_practice_2026-11-01.md`, câu 121.
+- **Câu:** Fairlane Grocery's new self-checkout terminals make it far _____ for shoppers to complete their purchases.
+- **Đáp án đúng theo nguồn:** A. **Loại lỗi:** So sánh.
+- **Điểm cần ôn:** it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ.
+- **Manh mối:** 7.
+- **A. easier:** Đúng: far easier = dễ hơn nhiều.
+- **B. easily:** easily là trạng từ, không làm bổ ngữ tính từ của it.
+- **C. easy:** easy đúng từ loại nhưng thiếu so sánh hơn sau far.
+- **D. ease:** ease là danh từ/động từ, không làm bổ ngữ tính từ ở đây.
+- **Quy tắc chốt:** it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ. far easier = dễ hơn nhiều; không dùng far easy; easily là trạng từ, ease là danh từ/động từ.
+- **Lý thuyết:** [So sánh](PART5_THEORY.md#7-so-sánh).
 
 </details>
 

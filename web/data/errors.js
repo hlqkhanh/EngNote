@@ -541,3 +541,353 @@ window.part5Data.errors.push(...[
     "repeat": false
   }
 ]);
+
+window.part5Data.errors.push(...[
+  {
+    "id": "practice20261101-109",
+    "source": "part5_practise/part5_practice_2026-11-01.md",
+    "test": "Bài luyện 01/11/2026",
+    "q": 109,
+    "answer": "A",
+    "type": "Từ vựng",
+    "topic": "timely và in a timely manner",
+    "title": "timely và in a timely manner",
+    "question": "Hartwell Insurance recommends submitting your claims in a _____ manner.",
+    "options": [
+      [
+        "A",
+        "timely",
+        "Đúng: timely = kịp thời, hợp nộp hồ sơ."
+      ],
+      [
+        "B",
+        "current",
+        "current = hiện tại, không mang nghĩa đúng hạn."
+      ],
+      [
+        "C",
+        "gradual",
+        "gradual = dần dần, không mô tả nộp đúng hạn."
+      ],
+      [
+        "D",
+        "momentary",
+        "momentary = thoáng qua, không hợp manner ở đây."
+      ]
+    ],
+    "diagnosis": "in a timely manner",
+    "clue": "10.4.",
+    "rule": "in a timely manner timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời.",
+    "formula": "10.4.",
+    "repeat": false
+  },
+  {
+    "id": "practice20261101-110",
+    "source": "part5_practise/part5_practice_2026-11-01.md",
+    "test": "Bài luyện 01/11/2026",
+    "q": 110,
+    "answer": "C",
+    "type": "Từ vựng",
+    "topic": "precisely — Lỗi lặp lại",
+    "title": "precisely — Lỗi lặp lại",
+    "question": "After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples _____.",
+    "options": [
+      [
+        "A",
+        "frequently",
+        "frequently chỉ tần suất."
+      ],
+      [
+        "B",
+        "recently",
+        "recently chỉ thời gian gần đây."
+      ],
+      [
+        "C",
+        "precisely",
+        "Đúng: precisely = chính xác, bổ nghĩa matched."
+      ],
+      [
+        "D",
+        "occasionally",
+        "occasionally chỉ tần suất thỉnh thoảng."
+      ]
+    ],
+    "diagnosis": "match something precisely",
+    "clue": "3.3.",
+    "rule": "match something precisely precisely diễn tả độ chính xác của sự trùng khớp.",
+    "formula": "3.3.",
+    "repeat": true
+  },
+  {
+    "id": "practice20261101-114",
+    "source": "part5_practise/part5_practice_2026-11-01.md",
+    "test": "Bài luyện 01/11/2026",
+    "q": 114,
+    "answer": "C",
+    "type": "Phân từ",
+    "topic": "Mệnh đề quan hệ rút gọn chủ động",
+    "title": "Mệnh đề quan hệ rút gọn chủ động",
+    "question": "The platform _____ all incoming orders into a single dashboard has become essential to the company's daily operations.",
+    "options": [
+      [
+        "A",
+        "consolidates",
+        "consolidates cần that/which để mở mệnh đề."
+      ],
+      [
+        "B",
+        "to consolidate",
+        "to consolidate có thể chỉ mục đích, tạo cách hiểu khác hợp ngữ pháp; đề chưa loại B chặt chẽ."
+      ],
+      [
+        "C",
+        "consolidating",
+        "Đáp án của đề: consolidating = that consolidates."
+      ],
+      [
+        "D",
+        "consolidation",
+        "consolidation là danh từ, không nhận trực tiếp orders theo cấu trúc này."
+      ]
+    ],
+    "diagnosis": "noun + V-ing + object",
+    "clue": "2.1.",
+    "rule": "noun + V-ing + object platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính.",
+    "formula": "2.1.",
+    "repeat": false
+  },
+  {
+    "id": "practice20261101-115",
+    "source": "part5_practise/part5_practice_2026-11-01.md",
+    "test": "Bài luyện 01/11/2026",
+    "q": 115,
+    "answer": "B",
+    "type": "Phân từ",
+    "topic": "Phân từ chủ động sau danh từ",
+    "title": "Phân từ chủ động sau danh từ",
+    "question": "To meet holiday demand, Delcourt Logistics operates a sorting facility ____ more than ten thousand parcels each night.",
+    "options": [
+      [
+        "A",
+        "processes",
+        "processes cần that/which trước nó."
+      ],
+      [
+        "B",
+        "processing",
+        "Đúng: processing = that processes."
+      ],
+      [
+        "C",
+        "processed",
+        "processed không diễn tả facility thực hiện xử lý parcels."
+      ],
+      [
+        "D",
+        "process",
+        "process không nối được hai vị ngữ trong câu."
+      ]
+    ],
+    "diagnosis": "facility processing parcels",
+    "clue": "2.1.",
+    "rule": "facility processing parcels Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes.",
+    "formula": "2.1.",
+    "repeat": false
+  },
+  {
+    "id": "practice20261101-119",
+    "source": "part5_practise/part5_practice_2026-11-01.md",
+    "test": "Bài luyện 01/11/2026",
+    "q": 119,
+    "answer": "B",
+    "type": "Từ vựng",
+    "topic": "obstacles — trở ngại",
+    "title": "obstacles — trở ngại",
+    "question": "Project coordinator Miriam Solberg documented the ____ that had delayed the campaign launch across several markets.",
+    "options": [
+      [
+        "A",
+        "forecasts",
+        "forecasts = dự báo, không phải từ chỉ cản trở."
+      ],
+      [
+        "B",
+        "obstacles",
+        "Đúng: obstacles gây delayed launch."
+      ],
+      [
+        "C",
+        "estimates",
+        "estimates = ước tính, không phù hợp cản trở."
+      ],
+      [
+        "D",
+        "outcomes",
+        "outcomes = kết quả, không hợp nghĩa nguyên nhân cản trở."
+      ]
+    ],
+    "diagnosis": "obstacles delay a launch",
+    "clue": "10.5.",
+    "rule": "obstacles delay a launch obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại.",
+    "formula": "10.5.",
+    "repeat": false
+  },
+  {
+    "id": "practice20261101-121",
+    "source": "part5_practise/part5_practice_2026-11-01.md",
+    "test": "Bài luyện 01/11/2026",
+    "q": 121,
+    "answer": "A",
+    "type": "So sánh",
+    "topic": "far + so sánh hơn",
+    "title": "far + so sánh hơn",
+    "question": "Fairlane Grocery's new self-checkout terminals make it far _____ for shoppers to complete their purchases.",
+    "options": [
+      [
+        "A",
+        "easier",
+        "Đúng: far easier = dễ hơn nhiều."
+      ],
+      [
+        "B",
+        "easily",
+        "easily là trạng từ, không làm bổ ngữ tính từ của it."
+      ],
+      [
+        "C",
+        "easy",
+        "easy đúng từ loại nhưng thiếu so sánh hơn sau far."
+      ],
+      [
+        "D",
+        "ease",
+        "ease là danh từ/động từ, không làm bổ ngữ tính từ ở đây."
+      ]
+    ],
+    "diagnosis": "make it far + comparative + for somebody + to V",
+    "clue": "7.",
+    "rule": "make it far + comparative + for somebody + to V it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ.",
+    "formula": "7.",
+    "repeat": false
+  },
+  {
+    "id": "practice20261101-126",
+    "source": "part5_practise/part5_practice_2026-11-01.md",
+    "test": "Bài luyện 01/11/2026",
+    "q": 126,
+    "answer": "A",
+    "type": "Từ vựng",
+    "topic": "considerable increase",
+    "title": "considerable increase",
+    "question": "The online learning platform recorded a _____ increase in enrollments last quarter after expanding its course catalog.",
+    "options": [
+      [
+        "A",
+        "considerable",
+        "Đúng: considerable = đáng kể về lượng/mức độ."
+      ],
+      [
+        "B",
+        "prolonged",
+        "prolonged nhấn kéo dài thời gian, không nói mức tăng lớn."
+      ],
+      [
+        "C",
+        "durable",
+        "durable mô tả độ bền, không phải mức tăng."
+      ],
+      [
+        "D",
+        "plenty",
+        "plenty không đứng như tính từ trước increase; dùng plenty of khi phù hợp."
+      ]
+    ],
+    "diagnosis": "a considerable increase in + noun",
+    "clue": "10.5.",
+    "rule": "a considerable increase in + noun considerable = đáng kể về mức độ; a considerable increase in enrollments.",
+    "formula": "10.5.",
+    "repeat": false
+  },
+  {
+    "id": "practice20261101-128",
+    "source": "part5_practise/part5_practice_2026-11-01.md",
+    "test": "Bài luyện 01/11/2026",
+    "q": 128,
+    "answer": "B",
+    "type": "Phân từ",
+    "topic": "best qualified to lead",
+    "title": "best qualified to lead",
+    "question": "After a thorough review, the board appointed the executive best _____ to lead the merger.",
+    "options": [
+      [
+        "A",
+        "qualifying",
+        "qualifying không mang nghĩa có đủ năng lực nhất ở đây."
+      ],
+      [
+        "B",
+        "qualified",
+        "Đúng: qualified to lead = có đủ năng lực lãnh đạo."
+      ],
+      [
+        "C",
+        "qualify",
+        "qualify là nguyên mẫu, không phù hợp best ... to lead."
+      ],
+      [
+        "D",
+        "qualification",
+        "qualification là danh từ, không đứng trong cấu trúc best ... to lead."
+      ]
+    ],
+    "diagnosis": "the executive best qualified to V",
+    "clue": "2.1.",
+    "rule": "the executive best qualified to V qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất.",
+    "formula": "2.1.",
+    "repeat": false
+  }
+]);
+
+(() => { const definitions = [
+  {
+    "id": "practice20261101-109",
+    "diagnosis": "timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời.",
+    "rule": "timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời. Không phải từ nào kết thúc -ly cũng là trạng từ; current/gradual/momentary không mang nghĩa đúng hạn."
+  },
+  {
+    "id": "practice20261101-110",
+    "diagnosis": "precisely diễn tả độ chính xác của sự trùng khớp.",
+    "rule": "precisely diễn tả độ chính xác của sự trùng khớp. frequently/occasionally chỉ tần suất, recently chỉ thời gian; không diễn tả độ khớp."
+  },
+  {
+    "id": "practice20261101-114",
+    "diagnosis": "platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính.",
+    "rule": "platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính. Đề chọn C. Tuy nhiên platform to consolidate orders cũng có cách hiểu mục đích/chức năng hợp ngữ pháp; B không sai tuyệt đối."
+  },
+  {
+    "id": "practice20261101-115",
+    "diagnosis": "Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes.",
+    "rule": "Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes. processes/process không nối với danh từ khi thiếu that/which; processed sai quan hệ với parcels."
+  },
+  {
+    "id": "practice20261101-119",
+    "diagnosis": "obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại.",
+    "rule": "obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại. forecasts dự báo, estimates ước tính, outcomes kết quả; không phù hợp nghĩa nguyên nhân cản trở."
+  },
+  {
+    "id": "practice20261101-121",
+    "diagnosis": "it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ.",
+    "rule": "it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ. far easier = dễ hơn nhiều; không dùng far easy; easily là trạng từ, ease là danh từ/động từ."
+  },
+  {
+    "id": "practice20261101-126",
+    "diagnosis": "considerable = đáng kể về mức độ; a considerable increase in enrollments.",
+    "rule": "considerable = đáng kể về mức độ; a considerable increase in enrollments. prolonged kéo dài thời gian; durable bền; plenty không làm tính từ trực tiếp ở đây, học plenty of + noun."
+  },
+  {
+    "id": "practice20261101-128",
+    "diagnosis": "qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất.",
+    "rule": "qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất. qualifying thường nói tạo điều kiện/đủ điều kiện tham dự, ví dụ qualifying round; không thay qualified to lead."
+  }
+]; definitions.forEach(values => Object.assign(window.part5Data.errors.find(e=>e.id===values.id), values)); window.part5Data.errors.find(e=>e.id==="practice20261101-115").repeat=true; })();

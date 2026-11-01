@@ -244,3 +244,771 @@ window.part5Data.flashcards.push(...[
   }
 ]);
 window.part5Data.topicQuizzes.find(item => item.id === "weak-wordclass-quiz-07").sourceTestIds.push("practice20261030");
+
+window.part5Data.flashcards.push(...[
+  {
+    "id": "weak-context-practice20261101-109",
+    "topicId": "weak-context",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "timely và in a timely manner — cần nhớ quy tắc gì?",
+    "back": {
+      "answer": "10.4.",
+      "explanation": "in a timely manner timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời.",
+      "example": "Hartwell Insurance recommends submitting your claims in a timely manner.",
+      "trap": "current = hiện tại, không mang nghĩa đúng hạn. gradual = dần dần, không mô tả nộp đúng hạn. momentary = thoáng qua, không hợp manner ở đây."
+    },
+    "tags": [
+      "Từ vựng",
+      "part5_practise/part5_practice_2026-11-01.md, câu 109"
+    ]
+  },
+  {
+    "id": "weak-context-practice20261101-110",
+    "topicId": "weak-context",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "precisely — Lỗi lặp lại — cần nhớ quy tắc gì?",
+    "back": {
+      "answer": "3.3.",
+      "explanation": "match something precisely precisely diễn tả độ chính xác của sự trùng khớp.",
+      "example": "After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples precisely.",
+      "trap": "frequently chỉ tần suất. recently chỉ thời gian gần đây. occasionally chỉ tần suất thỉnh thoảng."
+    },
+    "tags": [
+      "Từ vựng",
+      "part5_practise/part5_practice_2026-11-01.md, câu 110"
+    ]
+  },
+  {
+    "id": "weak-participles-practice20261101-114",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "Mệnh đề quan hệ rút gọn chủ động — cần nhớ quy tắc gì?",
+    "back": {
+      "answer": "2.1.",
+      "explanation": "noun + V-ing + object platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính.",
+      "example": "The platform consolidating all incoming orders into a single dashboard has become essential to the company's daily operations.",
+      "trap": "consolidates cần that/which để mở mệnh đề. to consolidate có thể chỉ mục đích, tạo cách hiểu khác hợp ngữ pháp; đề chưa loại B chặt chẽ. consolidation là danh từ, không nhận trực tiếp orders theo cấu trúc này."
+    },
+    "tags": [
+      "Phân từ",
+      "part5_practise/part5_practice_2026-11-01.md, câu 114"
+    ]
+  },
+  {
+    "id": "weak-participles-practice20261101-115",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "Phân từ chủ động sau danh từ — cần nhớ quy tắc gì?",
+    "back": {
+      "answer": "2.1.",
+      "explanation": "facility processing parcels Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes.",
+      "example": "To meet holiday demand, Delcourt Logistics operates a sorting facility processing more than ten thousand parcels each night.",
+      "trap": "processes cần that/which trước nó. processed không diễn tả facility thực hiện xử lý parcels. process không nối được hai vị ngữ trong câu."
+    },
+    "tags": [
+      "Phân từ",
+      "part5_practise/part5_practice_2026-11-01.md, câu 115"
+    ]
+  },
+  {
+    "id": "weak-context-practice20261101-119",
+    "topicId": "weak-context",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "obstacles — trở ngại — cần nhớ quy tắc gì?",
+    "back": {
+      "answer": "10.5.",
+      "explanation": "obstacles delay a launch obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại.",
+      "example": "Project coordinator Miriam Solberg documented the obstacles that had delayed the campaign launch across several markets.",
+      "trap": "forecasts = dự báo, không phải từ chỉ cản trở. estimates = ước tính, không phù hợp cản trở. outcomes = kết quả, không hợp nghĩa nguyên nhân cản trở."
+    },
+    "tags": [
+      "Từ vựng",
+      "part5_practise/part5_practice_2026-11-01.md, câu 119"
+    ]
+  },
+  {
+    "id": "weak-comparisons-practice20261101-121",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "far + so sánh hơn — cần nhớ quy tắc gì?",
+    "back": {
+      "answer": "7.",
+      "explanation": "make it far + comparative + for somebody + to V it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ.",
+      "example": "Fairlane Grocery's new self-checkout terminals make it far easier for shoppers to complete their purchases.",
+      "trap": "easily là trạng từ, không làm bổ ngữ tính từ của it. easy đúng từ loại nhưng thiếu so sánh hơn sau far. ease là danh từ/động từ, không làm bổ ngữ tính từ ở đây."
+    },
+    "tags": [
+      "So sánh",
+      "part5_practise/part5_practice_2026-11-01.md, câu 121"
+    ]
+  },
+  {
+    "id": "weak-context-practice20261101-126",
+    "topicId": "weak-context",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "considerable increase — cần nhớ quy tắc gì?",
+    "back": {
+      "answer": "10.5.",
+      "explanation": "a considerable increase in + noun considerable = đáng kể về mức độ; a considerable increase in enrollments.",
+      "example": "The online learning platform recorded a considerable increase in enrollments last quarter after expanding its course catalog.",
+      "trap": "prolonged nhấn kéo dài thời gian, không nói mức tăng lớn. durable mô tả độ bền, không phải mức tăng. plenty không đứng như tính từ trước increase; dùng plenty of khi phù hợp."
+    },
+    "tags": [
+      "Từ vựng",
+      "part5_practise/part5_practice_2026-11-01.md, câu 126"
+    ]
+  },
+  {
+    "id": "weak-participles-practice20261101-128",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "best qualified to lead — cần nhớ quy tắc gì?",
+    "back": {
+      "answer": "2.1.",
+      "explanation": "the executive best qualified to V qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất.",
+      "example": "After a thorough review, the board appointed the executive best qualified to lead the merger.",
+      "trap": "qualifying không mang nghĩa có đủ năng lực nhất ở đây. qualify là nguyên mẫu, không phù hợp best ... to lead. qualification là danh từ, không đứng trong cấu trúc best ... to lead."
+    },
+    "tags": [
+      "Phân từ",
+      "part5_practise/part5_practice_2026-11-01.md, câu 128"
+    ]
+  },
+  {
+    "id": "weak-participles-active-passive",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "front": "Phân biệt facility processing parcels với recently installed machines.",
+    "back": {
+      "answer": "V-ing: chủ động; V3: bị động.",
+      "explanation": "Facility xử lý parcels; machines được lắp đặt.",
+      "example": "a facility processing parcels; recently installed machines",
+      "trap": "Không chọn dạng chỉ theo hậu tố hoặc vị trí."
+    },
+    "tags": [
+      "Phân từ",
+      "part5_practise/part5_practice_2026-11-01.md, câu 107",
+      "part5_practise/part5_practice_2026-11-01.md, câu 115"
+    ]
+  }
+]);
+window.part5Data.topicQuizzes.push(...[
+  {
+    "id": "weak-participles-quiz-01",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The facility _____ parcels operates nightly.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-01-a",
+        "text": "processing"
+      },
+      {
+        "id": "weak-participles-quiz-01-b",
+        "text": "processes"
+      },
+      {
+        "id": "weak-participles-quiz-01-c",
+        "text": "process"
+      },
+      {
+        "id": "weak-participles-quiz-01-d",
+        "text": "to processing"
+      }
+    ],
+    "answerId": "weak-participles-quiz-01-a",
+    "explanation": "Đã có operates; facility thực hiện xử lý nên dùng processing."
+  },
+  {
+    "id": "weak-participles-quiz-02",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The machines _____ last week are ready.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-02-a",
+        "text": "installing"
+      },
+      {
+        "id": "weak-participles-quiz-02-b",
+        "text": "installed"
+      },
+      {
+        "id": "weak-participles-quiz-02-c",
+        "text": "installs"
+      },
+      {
+        "id": "weak-participles-quiz-02-d",
+        "text": "install"
+      }
+    ],
+    "answerId": "weak-participles-quiz-02-b",
+    "explanation": "Machines nhận hành động lắp đặt nên dùng V3."
+  },
+  {
+    "id": "weak-participles-quiz-03",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The manager _____ the orders works upstairs.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-03-a",
+        "text": "reviews"
+      },
+      {
+        "id": "weak-participles-quiz-03-b",
+        "text": "review"
+      },
+      {
+        "id": "weak-participles-quiz-03-c",
+        "text": "reviewing"
+      },
+      {
+        "id": "weak-participles-quiz-03-d",
+        "text": "reviewed"
+      }
+    ],
+    "answerId": "weak-participles-quiz-03-c",
+    "explanation": "Manager thực hiện review; works là vị ngữ chính."
+  },
+  {
+    "id": "weak-participles-quiz-04",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "We selected an executive fully _____ to lead.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-04-a",
+        "text": "qualify"
+      },
+      {
+        "id": "weak-participles-quiz-04-b",
+        "text": "qualification"
+      },
+      {
+        "id": "weak-participles-quiz-04-c",
+        "text": "qualifying"
+      },
+      {
+        "id": "weak-participles-quiz-04-d",
+        "text": "qualified"
+      }
+    ],
+    "answerId": "weak-participles-quiz-04-d",
+    "explanation": "qualified to V = đủ năng lực làm gì."
+  },
+  {
+    "id": "weak-participles-quiz-05",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The list _____ yesterday includes new treatments.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-05-a",
+        "text": "updating"
+      },
+      {
+        "id": "weak-participles-quiz-05-b",
+        "text": "updates"
+      },
+      {
+        "id": "weak-participles-quiz-05-c",
+        "text": "updated"
+      },
+      {
+        "id": "weak-participles-quiz-05-d",
+        "text": "update"
+      }
+    ],
+    "answerId": "weak-participles-quiz-05-c",
+    "explanation": "Danh sách được cập nhật → updated."
+  },
+  {
+    "id": "weak-participles-quiz-06",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The platform _____ orders has become essential.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-06-a",
+        "text": "consolidating"
+      },
+      {
+        "id": "weak-participles-quiz-06-b",
+        "text": "consolidates"
+      },
+      {
+        "id": "weak-participles-quiz-06-c",
+        "text": "consolidation"
+      },
+      {
+        "id": "weak-participles-quiz-06-d",
+        "text": "consolidated"
+      }
+    ],
+    "answerId": "weak-participles-quiz-06-a",
+    "explanation": "Platform thực hiện gom đơn; has become là vị ngữ."
+  },
+  {
+    "id": "weak-participles-quiz-07",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "Customers _____ at the counter may enter now.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-07-a",
+        "text": "waits"
+      },
+      {
+        "id": "weak-participles-quiz-07-b",
+        "text": "waiting"
+      },
+      {
+        "id": "weak-participles-quiz-07-c",
+        "text": "wait"
+      },
+      {
+        "id": "weak-participles-quiz-07-d",
+        "text": "waited"
+      }
+    ],
+    "answerId": "weak-participles-quiz-07-b",
+    "explanation": "Customers thực hiện hành động chờ."
+  },
+  {
+    "id": "weak-participles-quiz-08",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The parcels _____ by the facility are ready.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-08-a",
+        "text": "processing"
+      },
+      {
+        "id": "weak-participles-quiz-08-b",
+        "text": "processes"
+      },
+      {
+        "id": "weak-participles-quiz-08-c",
+        "text": "process"
+      },
+      {
+        "id": "weak-participles-quiz-08-d",
+        "text": "processed"
+      }
+    ],
+    "answerId": "weak-participles-quiz-08-d",
+    "explanation": "Parcels nhận hành động xử lý, có by chỉ tác nhân."
+  },
+  {
+    "id": "weak-participles-quiz-09",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The recently _____ equipment will be demonstrated.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-09-a",
+        "text": "install"
+      },
+      {
+        "id": "weak-participles-quiz-09-b",
+        "text": "installing"
+      },
+      {
+        "id": "weak-participles-quiz-09-c",
+        "text": "installed"
+      },
+      {
+        "id": "weak-participles-quiz-09-d",
+        "text": "installs"
+      }
+    ],
+    "answerId": "weak-participles-quiz-09-c",
+    "explanation": "Equipment được lắp; recently bổ nghĩa installed."
+  },
+  {
+    "id": "weak-participles-quiz-10",
+    "topicId": "weak-participles",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The executive best _____ for the role was appointed.",
+    "choices": [
+      {
+        "id": "weak-participles-quiz-10-a",
+        "text": "qualified"
+      },
+      {
+        "id": "weak-participles-quiz-10-b",
+        "text": "qualify"
+      },
+      {
+        "id": "weak-participles-quiz-10-c",
+        "text": "qualification"
+      },
+      {
+        "id": "weak-participles-quiz-10-d",
+        "text": "qualifies"
+      }
+    ],
+    "answerId": "weak-participles-quiz-10-a",
+    "explanation": "qualified for = đủ năng lực cho vị trí."
+  },
+  {
+    "id": "weak-comparisons-quiz-01",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The terminals make it far _____ to pay.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-01-a",
+        "text": "easy"
+      },
+      {
+        "id": "weak-comparisons-quiz-01-b",
+        "text": "easily"
+      },
+      {
+        "id": "weak-comparisons-quiz-01-c",
+        "text": "easier"
+      },
+      {
+        "id": "weak-comparisons-quiz-01-d",
+        "text": "ease"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-01-c",
+    "explanation": "Far nhấn mạnh so sánh hơn easier."
+  },
+  {
+    "id": "weak-comparisons-quiz-02",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The new process is _____ easier than before.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-02-a",
+        "text": "very"
+      },
+      {
+        "id": "weak-comparisons-quiz-02-b",
+        "text": "far"
+      },
+      {
+        "id": "weak-comparisons-quiz-02-c",
+        "text": "many"
+      },
+      {
+        "id": "weak-comparisons-quiz-02-d",
+        "text": "most"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-02-b",
+    "explanation": "Far + comparative; very không bổ nghĩa trực tiếp easier."
+  },
+  {
+    "id": "weak-comparisons-quiz-03",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "Self-checkout makes it easier _____ shoppers to pay.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-03-a",
+        "text": "for"
+      },
+      {
+        "id": "weak-comparisons-quiz-03-b",
+        "text": "of"
+      },
+      {
+        "id": "weak-comparisons-quiz-03-c",
+        "text": "with"
+      },
+      {
+        "id": "weak-comparisons-quiz-03-d",
+        "text": "by"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-03-a",
+    "explanation": "make it easier for somebody to V."
+  },
+  {
+    "id": "weak-comparisons-quiz-04",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The app makes _____ easier for users to order.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-04-a",
+        "text": "them"
+      },
+      {
+        "id": "weak-comparisons-quiz-04-b",
+        "text": "their"
+      },
+      {
+        "id": "weak-comparisons-quiz-04-c",
+        "text": "themselves"
+      },
+      {
+        "id": "weak-comparisons-quiz-04-d",
+        "text": "it"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-04-d",
+    "explanation": "It là tân ngữ giả đại diện việc to order."
+  },
+  {
+    "id": "weak-comparisons-quiz-05",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The new system is easier _____ the old one.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-05-a",
+        "text": "that"
+      },
+      {
+        "id": "weak-comparisons-quiz-05-b",
+        "text": "than"
+      },
+      {
+        "id": "weak-comparisons-quiz-05-c",
+        "text": "as"
+      },
+      {
+        "id": "weak-comparisons-quiz-05-d",
+        "text": "to"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-05-b",
+    "explanation": "So sánh hơn dùng than."
+  },
+  {
+    "id": "weak-comparisons-quiz-06",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The app makes it much _____ to complete purchases.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-06-a",
+        "text": "easily"
+      },
+      {
+        "id": "weak-comparisons-quiz-06-b",
+        "text": "ease"
+      },
+      {
+        "id": "weak-comparisons-quiz-06-c",
+        "text": "easy"
+      },
+      {
+        "id": "weak-comparisons-quiz-06-d",
+        "text": "easier"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-06-d",
+    "explanation": "Much nhấn mạnh comparative easier."
+  },
+  {
+    "id": "weak-comparisons-quiz-07",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The terminals make it easier for shoppers _____ their bills.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-07-a",
+        "text": "paying"
+      },
+      {
+        "id": "weak-comparisons-quiz-07-b",
+        "text": "paid"
+      },
+      {
+        "id": "weak-comparisons-quiz-07-c",
+        "text": "to pay"
+      },
+      {
+        "id": "weak-comparisons-quiz-07-d",
+        "text": "pays"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-07-c",
+    "explanation": "for somebody + to V."
+  },
+  {
+    "id": "weak-comparisons-quiz-08",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "This surface is more _____ than the old one.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-08-a",
+        "text": "durable"
+      },
+      {
+        "id": "weak-comparisons-quiz-08-b",
+        "text": "durably"
+      },
+      {
+        "id": "weak-comparisons-quiz-08-c",
+        "text": "durability"
+      },
+      {
+        "id": "weak-comparisons-quiz-08-d",
+        "text": "duration"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-08-a",
+    "explanation": "More + adjective + than."
+  },
+  {
+    "id": "weak-comparisons-quiz-09",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The new method is even _____ than the previous one.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-09-a",
+        "text": "easy"
+      },
+      {
+        "id": "weak-comparisons-quiz-09-b",
+        "text": "ease"
+      },
+      {
+        "id": "weak-comparisons-quiz-09-c",
+        "text": "easier"
+      },
+      {
+        "id": "weak-comparisons-quiz-09-d",
+        "text": "easily"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-09-c",
+    "explanation": "Even có thể nhấn mạnh so sánh hơn."
+  },
+  {
+    "id": "weak-comparisons-quiz-10",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "stem": "The checkout is far easier, so shoppers can pay more _____.",
+    "choices": [
+      {
+        "id": "weak-comparisons-quiz-10-a",
+        "text": "quick"
+      },
+      {
+        "id": "weak-comparisons-quiz-10-b",
+        "text": "quickly"
+      },
+      {
+        "id": "weak-comparisons-quiz-10-c",
+        "text": "quickness"
+      },
+      {
+        "id": "weak-comparisons-quiz-10-d",
+        "text": "quicker than"
+      }
+    ],
+    "answerId": "weak-comparisons-quiz-10-b",
+    "explanation": "Easier mô tả checkout; more quickly bổ nghĩa pay."
+  }
+]);
+window.part5Data.topicQuizzes.find(item => item.id === "weak-context-quiz-07").sourceTestIds.push("practice20261101");
+
+window.part5Data.flashcards.push(...[
+  {
+    "id": "weak-comparisons-intensifiers",
+    "front": "Far/much/even đi với easy hay easier?",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "back": {
+      "answer": "far/much/even + comparative: easier",
+      "explanation": "Những từ này nhấn mạnh mức độ so sánh hơn.",
+      "example": "The terminals make it far easier to pay.",
+      "trap": "Không dùng far easy hoặc far easily ở vị trí bổ ngữ tính từ."
+    },
+    "tags": [
+      "So sánh",
+      "part5_practise/part5_practice_2026-11-01.md, câu 121"
+    ]
+  },
+  {
+    "id": "weak-comparisons-dummy-it",
+    "front": "Vai trò của it trong make it easier for shoppers to pay?",
+    "topicId": "weak-comparisons",
+    "sourceTestIds": [
+      "practice20261101"
+    ],
+    "back": {
+      "answer": "It là tân ngữ giả; to pay nêu hành động được đánh giá.",
+      "explanation": "Cấu trúc make it + adjective + for somebody + to V.",
+      "example": "Self-checkout makes it easier for shoppers to pay.",
+      "trap": "Không thay it bằng them hoặc easier bằng easily."
+    },
+    "tags": [
+      "So sánh",
+      "part5_practise/part5_practice_2026-11-01.md, câu 121"
+    ]
+  }
+]);

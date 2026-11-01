@@ -95,3 +95,94 @@ window.part5Data.quiz.push(...[
     "hastily = vội vàng; briefly = trong thời gian ngắn/ngắn gọn, không tự mang nghĩa hấp tấp."
   ]
 ]);
+
+window.part5Data.quiz.push(...[
+  [
+    "Hartwell Insurance recommends submitting your claims in a _____ manner.",
+    [
+      "timely",
+      "current",
+      "gradual",
+      "momentary"
+    ],
+    0,
+    "in a timely manner timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời."
+  ],
+  [
+    "After inspecting the shipment, Delia Marsh confirmed that the delivered chairs matched the approved samples _____.",
+    [
+      "frequently",
+      "recently",
+      "precisely",
+      "occasionally"
+    ],
+    2,
+    "match something precisely precisely diễn tả độ chính xác của sự trùng khớp."
+  ],
+  [
+    "The platform _____ all incoming orders into a single dashboard has become essential to the company's daily operations.",
+    [
+      "consolidates",
+      "to consolidate",
+      "consolidating",
+      "consolidation"
+    ],
+    2,
+    "noun + V-ing + object platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính."
+  ],
+  [
+    "To meet holiday demand, Delcourt Logistics operates a sorting facility ____ more than ten thousand parcels each night.",
+    [
+      "processes",
+      "processing",
+      "processed",
+      "process"
+    ],
+    1,
+    "facility processing parcels Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes."
+  ],
+  [
+    "Project coordinator Miriam Solberg documented the ____ that had delayed the campaign launch across several markets.",
+    [
+      "forecasts",
+      "obstacles",
+      "estimates",
+      "outcomes"
+    ],
+    1,
+    "obstacles delay a launch obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại."
+  ],
+  [
+    "Fairlane Grocery's new self-checkout terminals make it far _____ for shoppers to complete their purchases.",
+    [
+      "easier",
+      "easily",
+      "easy",
+      "ease"
+    ],
+    0,
+    "make it far + comparative + for somebody + to V it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ."
+  ],
+  [
+    "The online learning platform recorded a _____ increase in enrollments last quarter after expanding its course catalog.",
+    [
+      "considerable",
+      "prolonged",
+      "durable",
+      "plenty"
+    ],
+    0,
+    "a considerable increase in + noun considerable = đáng kể về mức độ; a considerable increase in enrollments."
+  ],
+  [
+    "After a thorough review, the board appointed the executive best _____ to lead the merger.",
+    [
+      "qualifying",
+      "qualified",
+      "qualify",
+      "qualification"
+    ],
+    1,
+    "the executive best qualified to V qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất."
+  ]
+]);

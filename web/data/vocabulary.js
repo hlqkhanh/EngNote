@@ -233,3 +233,162 @@ window.part5Data.vocabGroups.push(...[
     ]
   }
 ]);
+
+window.part5Data.vocabGroups.push({
+  "title": "Cụm từ và cấu trúc · 01/11/2026",
+  "sourceTestIds": [
+    "practice20261101"
+  ],
+  "items": [
+    [
+      "feel + adjective; confident about",
+      "Sau feel dùng tính từ; phản hồi encouraging dẫn tới confident about prospects.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 101"
+    ],
+    [
+      "thanks to + noun/V-ing",
+      "thanks to chỉ nguyên nhân dẫn tới kết quả, ở đây là kết quả tích cực.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 102"
+    ],
+    [
+      "the + superlative + one",
+      "one thay danh từ đếm được số ít; ones thay danh từ số nhiều.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 103"
+    ],
+    [
+      "during + event/period",
+      "during their visit = trong thời gian chuyến thăm; while + S + V.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 104"
+    ],
+    [
+      "most + adverb + adjective + noun",
+      "consistently bổ nghĩa profitable, profitable mô tả location; superlative most profitable.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 105"
+    ],
+    [
+      "will be + V-ing",
+      "Tương lai tiếp diễn diễn tả việc sẽ diễn ra trong tuần tới: throughout the coming week.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 106"
+    ],
+    [
+      "recently + V3 + noun",
+      "installed = đã được lắp; máy nhận hành động nên chọn V3.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 107"
+    ],
+    [
+      "rise automatically; as soon as + clause",
+      "automatically = tự động; scanned ticket kích hoạt thanh chắn.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 108"
+    ],
+    [
+      "in a timely manner",
+      "timely là tính từ nghĩa kịp thời; in a timely manner = một cách kịp thời.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 109"
+    ],
+    [
+      "match something precisely",
+      "precisely diễn tả độ chính xác của sự trùng khớp.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 110"
+    ],
+    [
+      "each other vs themselves",
+      "each other = lẫn nhau, chỉ quan hệ qua lại; themselves = chính họ.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 111"
+    ],
+    [
+      "a wide range of + plural noun",
+      "a wide range of rental vehicles = nhiều loại xe cho thuê.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 112"
+    ],
+    [
+      "possess N and N; experience (in) V-ing",
+      "experience là danh từ không đếm được khi nói kinh nghiệm; hai tân ngữ song song.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 113"
+    ],
+    [
+      "noun + V-ing + object",
+      "platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 114"
+    ],
+    [
+      "facility processing parcels",
+      "Cơ sở thực hiện việc xử lý bưu kiện; processing rút gọn that processes.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 115"
+    ],
+    [
+      "durable surface; constant foot traffic",
+      "durable = bền, chịu mài mòn; foot traffic = lượng người đi bộ qua lại.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 116"
+    ],
+    [
+      "be eligible for + noun",
+      "eligible for the bonus = đủ điều kiện nhận thưởng.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 117"
+    ],
+    [
+      "make an announcement → an announcement is made",
+      "Collocation make an announcement ở dạng bị động was made.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 118"
+    ],
+    [
+      "obstacles delay a launch",
+      "obstacles = trở ngại gây trì hoãn; document obstacles = ghi nhận trở ngại.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 119"
+    ],
+    [
+      "the/its most + adjective + noun",
+      "attractive mô tả feature; its thay the trước so sánh nhất.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 120"
+    ],
+    [
+      "make it far + comparative + for somebody + to V",
+      "it là tân ngữ giả; easier là bổ ngữ so sánh hơn, far nhấn mạnh mức độ.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 121"
+    ],
+    [
+      "divide something into parts",
+      "be divided into five chapters = được chia thành năm chương.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 122"
+    ],
+    [
+      "updated + noun",
+      "updated list = danh sách đã được cập nhật, danh sách nhận tác động.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 123"
+    ],
+    [
+      "by phone / over the phone",
+      "by phone chỉ phương thức, không có the; over the phone có the.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 124"
+    ],
+    [
+      "Unfortunately, + clause; owing to + noun",
+      "Unfortunately là trạng từ đánh giá toàn câu; owing to chỉ nguyên nhân.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 125"
+    ],
+    [
+      "a considerable increase in + noun",
+      "considerable = đáng kể về mức độ; a considerable increase in enrollments.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 126"
+    ],
+    [
+      "express confidence in + noun/V-ing",
+      "confidence không đếm được khi chỉ sự tin tưởng; làm tân ngữ expressed.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 127"
+    ],
+    [
+      "the executive best qualified to V",
+      "qualified là tính từ/phân từ chỉ đủ năng lực; best qualified = đủ năng lực nhất.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 128"
+    ],
+    [
+      "his + noun",
+      "his đứng trước expectations là từ hạn định sở hữu.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 129"
+    ],
+    [
+      "the + noun + of",
+      "reliability = độ tin cậy; reliability of the delivery schedule.",
+      "part5_practise/part5_practice_2026-11-01.md, câu 130"
+    ]
+  ]
+});

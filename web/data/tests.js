@@ -32,3 +32,13 @@ window.part5Data.testCatalog = [
     "source": "part5_practise/part5_Collection1_Test 2.md"
   }
 ];
+
+window.part5Data.testCatalog.unshift({
+  "id": "practice20261101",
+  "label": "Bài luyện 01/11/2026",
+  "date": "01/11/2026",
+  "source": "part5_practise/part5_practice_2026-11-01.md",
+  "questionCount": 30,
+  "wrongCount": 8,
+  "unmarkedCount": 22
+});
