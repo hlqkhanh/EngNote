@@ -123,12 +123,12 @@ window.part5Data.quiz.push(...[
     "The platform _____ all incoming orders into a single dashboard has become essential to the company's daily operations.",
     [
       "consolidates",
-      "to consolidate",
+      "consolidated",
       "consolidating",
       "consolidation"
     ],
     2,
-    "noun + V-ing + object platform consolidating orders = platform that consolidates orders; has become là vị ngữ chính."
+    "Platform thực hiện gom orders; has become là vị ngữ chính, nên chọn consolidating. Câu luyện đã thay phương án to consolidate của bài gốc 114 vì phương án đó cũng có cách hiểu chỉ mục đích."
   ],
   [
     "To meet holiday demand, Delcourt Logistics operates a sorting facility ____ more than ten thousand parcels each night.",
